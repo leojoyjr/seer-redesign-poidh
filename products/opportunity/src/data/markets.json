@@ -1,0 +1,7 @@
+{"note":"3 REAL markets observed on opportunity.seer.pm (chain 100). Everything else a design shows for more markets must be flagged Sample data.",
+"markets":[
+{"id":"seer-ai-job-board-name","title":"Seer AI Job Board Name","status":"Active","outcomes":235,"priced":59,"floor":46,"unpriced":130,"volume":7856,"liquidity":2355,"decision":"1 winner","prize":"$1,000 in crypto (if Seer can use it)","question":"What name will be adopted for the futarchy-run AI job board?","data":"live_outcomes.json","contract":"0x8b3c...a5e8","opened":"2026-09-28","kind":"categorical, sponsor picks one name"},
+{"id":"seer-rebrand-contest","title":"Seer Rebrand Contest","status":"Finalized","outcomes":17,"volume":7197,"liquidity":1111,"decision":"1 winner","winner":"Electric Foundation","payout":"1.00 sDAI per share","prize":"$3,000 + Seer credits for the top 5 by price","data":"finalized_outcomes.json","contract":"0xe785...4b8a","opened":"2026-08-02","images":144,"kind":"multi-scalar, sponsor picks one identity"},
+{"id":"seer-merch-devcon-mumbai","title":"Seer Merch for Devcon Mumbai","status":"Finalized","outcomes":20,"outcomesShown":18,"volume":1968,"liquidity":0,"decision":"Top 5 designs","prize":"Winning designs are printed; $100 trading credits each","data":"devcon_outcomes.json","contract":"0xc2b8...6683","opened":"2026-08-03","images":18,"kind":"multicategorical, 5 winners"}
+],
+"roadmap":"Today Seer One operates it. Next anyone launches. Any decision: one shared layer."}

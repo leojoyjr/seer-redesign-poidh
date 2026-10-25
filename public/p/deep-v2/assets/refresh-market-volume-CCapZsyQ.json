@@ -1,0 +1,249 @@
+{
+ "_endpoint": "GET https://deep.seer.pm/.netlify/functions/refresh-market-volume?ids=0x5d6a571b0f663c33831e6f81dd3c3f554eca188b%2C0xe263e7febb2ccfe1ebb05f289cf858d3becec83f%2C0xf799b67f0b8da6ed75d6d31370346e2dd6be187d%2C0xc7846582934c4c1d1156ddf44d988f6857b0f743%2C0xf74142573cd11d76501dfd51d5512fc6b8ca7933%2C0xb52c7e5",
+ "_hits": 2,
+ "_complete_json": true,
+ "data": {
+  "volumes": {
+   "0x5d6a571b0f663c33831e6f81dd3c3f554eca188b": {
+    "totalVolumeMarket": "236.75735312570777 PY_ECC_R3C",
+    "totalVolumeTokens": "556.2281493895624",
+    "totalLiquidityMarket": "857.2434273558574 PY_ECC_R3C",
+    "totalLiquidityTokens": "248.50458551985668"
+   },
+   "0xe263e7febb2ccfe1ebb05f289cf858d3becec83f": {
+    "totalVolumeMarket": "286.9550580009859 BLOCKSCOUT_R3C",
+    "totalVolumeTokens": "657.452235794098",
+    "totalLiquidityMarket": "817.2206770060143 BLOCKSCOUT_R3C",
+    "totalLiquidityTokens": "345.96977103761293"
+   },
+   "0xf799b67f0b8da6ed75d6d31370346e2dd6be187d": {
+    "totalVolumeMarket": "126.88145152089237 LFDT_WEB3J_R3C",
+    "totalVolumeTokens": "285.999368743869",
+    "totalLiquidityMarket": "832.947248328376 LFDT_WEB3J_R3C",
+    "totalLiquidityTokens": "306.0050086903965"
+   },
+   "0xc7846582934c4c1d1156ddf44d988f6857b0f743": {
+    "totalVolumeMarket": "210.9874824226955 MCL_R3C",
+    "totalVolumeTokens": "582.4767111286885",
+    "totalLiquidityMarket": "851.9607792966335 MCL_R3C",
+    "totalLiquidityTokens": "370.03730878818374"
+   },
+   "0xf74142573cd11d76501dfd51d5512fc6b8ca7933": {
+    "totalVolumeMarket": "351.47742893931974 NOBLE_CURVES_R3C",
+    "totalVolumeTokens": "993.948930502072",
+    "totalLiquidityMarket": "837.4164212363225 NOBLE_CURVES_R3C",
+    "totalLiquidityTokens": "429.0679779340452"
+   },
+   "0xb52c7e58dc48250b6cb4fbe5ed251f617700bf06": {
+    "totalVolumeMarket": "198.92944446718514 ALGEBRA_R3C",
+    "totalVolumeTokens": "607.2157544641983",
+    "totalLiquidityMarket": "863.2767258897214 ALGEBRA_R3C",
+    "totalLiquidityTokens": "332.2313138051152"
+   },
+   "0xb44e4ad21d40efb87a87c0692e28c71c90d08d20": {
+    "totalVolumeMarket": "150.98451354825914 RBUILDER_R3C",
+    "totalVolumeTokens": "374.96094256673837",
+    "totalLiquidityMarket": "822.8921589670571 RBUILDER_R3C",
+    "totalLiquidityTokens": "346.459627887323"
+   },
+   "0x808055e027cada3fb6d2b84104cd46b6685c048e": {
+    "totalVolumeMarket": "363.9491279399098 SOLHINT_R3C",
+    "totalVolumeTokens": "878.8149932356449",
+    "totalLiquidityMarket": "835.5731995485809 SOLHINT_R3C",
+    "totalLiquidityTokens": "299.628341915657"
+   },
+   "0x0954b44c816f034c6c30a0b049f0ceb6bda6100a": {
+    "totalVolumeMarket": "222.30851169996603 L2BEAT_R3C",
+    "totalVolumeTokens": "576.7782490457063",
+    "totalLiquidityMarket": "807.2749239082051 L2BEAT_R3C",
+    "totalLiquidityTokens": "342.36239386308966"
+   },
+   "0x9fc615e9a9e2066d3e8dda5c1c5280461489d808": {
+    "totalVolumeMarket": "152.9425580321788 GNARK_CRYPTO_R3C",
+    "totalVolumeTokens": "370.62528565984104",
+    "totalLiquidityMarket": "871.2618822101665 GNARK_CRYPTO_R3C",
+    "totalLiquidityTokens": "322.90040860957413"
+   },
+   "0x1e405c9bcf5038770efc4e5065cd216f93658b80": {
+    "totalVolumeMarket": "67.45486012641294 SOLADY_R3C",
+    "totalVolumeTokens": "144.0150110957924",
+    "totalLiquidityMarket": "867.0525683127963 SOLADY_R3C",
+    "totalLiquidityTokens": "227.4525261458138"
+   },
+   "0x6a6a3326d701d464034d141bece8c21a06b7854b": {
+    "totalVolumeMarket": "323.7011239937771 TAIKO_MONO_R3C",
+    "totalVolumeTokens": "805.8825503493794",
+    "totalLiquidityMarket": "839.4487126563728 TAIKO_MONO_R3C",
+    "totalLiquidityTokens": "316.32403488058617"
+   },
+   "0xc53217f3ca3371921076c4e7ea9457ea3b758317": {
+    "totalVolumeMarket": "336.2333119810632 MEV_BOOST_R3C",
+    "totalVolumeTokens": "848.2301299495598",
+    "totalLiquidityMarket": "881.9140197001711 MEV_BOOST_R3C",
+    "totalLiquidityTokens": "230.90697746769695"
+   },
+   "0xfd9f5746c9451fedc03fa9d334d84099b61017ca": {
+    "totalVolumeMarket": "139.056096708761 FLASHBOTS_MEV_BOOST_RELAY_R3C",
+    "totalVolumeTokens": "380.7821345537152",
+    "totalLiquidityMarket": "845.9206102056805 FLASHBOTS_MEV_BOOST_RELAY_R3C",
+    "totalLiquidityTokens": "285.01987016049566"
+   },
+   "0x018a386a46949fbc8781b1254636b3a76e60a57c": {
+    "totalVolumeMarket": "570.1132785025673 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+    "totalVolumeTokens": "1222.7823513898873",
+    "totalLiquidityMarket": "805.5913466836328 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+    "totalLiquidityTokens": "362.4813371941561"
+   },
+   "0xde89236ae23777bdf655344858c44fa581c470a3": {
+    "totalVolumeMarket": "313.91750047451444 LIBP2P_R3C",
+    "totalVolumeTokens": "808.7538122321628",
+    "totalLiquidityMarket": "840.7827460489501 LIBP2P_R3C",
+    "totalLiquidityTokens": "315.244427025116"
+   },
+   "0x74a00a7a338f0fa8ce7afedb27279a30cf24df85": {
+    "totalVolumeMarket": "413.81146191739765 BLST_R3C",
+    "totalVolumeTokens": "1017.2655888647312",
+    "totalLiquidityMarket": "878.6568477889285 BLST_R3C",
+    "totalLiquidityTokens": "252.2796049772271"
+   },
+   "0xc8db7cdd4bc8006353dd09d87ecab65f84c620e5": {
+    "totalVolumeMarket": "332.092640085677 HARDHAT_DEPLOY_R3C",
+    "totalVolumeTokens": "768.1011563126333",
+    "totalLiquidityMarket": "804.7710974973759 HARDHAT_DEPLOY_R3C",
+    "totalLiquidityTokens": "430.59597679913287"
+   },
+   "0x9525a58d53bc9d395ef56ec4c11e39370a88a304": {
+    "totalVolumeMarket": "629.2345725945919 ETH_DOCKER_R3C",
+    "totalVolumeTokens": "1316.2925757538571",
+    "totalLiquidityMarket": "756.8943649965943 ETH_DOCKER_R3C",
+    "totalLiquidityTokens": "513.0518270037984"
+   },
+   "0xd71b2fe2ff2c91d5d822ce6399c646137723186a": {
+    "totalVolumeMarket": "252.84930517733594 DEFILLAMA_ADAPTERS_R3C",
+    "totalVolumeTokens": "640.6343626637924",
+    "totalLiquidityMarket": "830.7771309641728 DEFILLAMA_ADAPTERS_R3C",
+    "totalLiquidityTokens": "321.74410954368045"
+   },
+   "0x4b8bda295e28375ed17abc8d1472e9cccadc93aa": {
+    "totalVolumeMarket": "287.6377609302979 CHAINLIST_R3C",
+    "totalVolumeTokens": "713.8661325917491",
+    "totalLiquidityMarket": "804.1964775891367 CHAINLIST_R3C",
+    "totalLiquidityTokens": "391.3214271573137"
+   },
+   "0x45dc37854a86f647cf45890f7167c0adc19814f2": {
+    "totalVolumeMarket": "139.706618085361 CERTORAPROVER_R3C",
+    "totalVolumeTokens": "363.73382717512726",
+    "totalLiquidityMarket": "853.2467844566235 CERTORAPROVER_R3C",
+    "totalLiquidityTokens": "280.74981046888297"
+   },
+   "0x8df828fcba7ec2b014742e202cf091807df939e6": {
+    "totalVolumeMarket": "192.28597248398665 PLONKY3_R3C",
+    "totalVolumeTokens": "423.27796963797414",
+    "totalLiquidityMarket": "825.877662302344 PLONKY3_R3C",
+    "totalLiquidityTokens": "336.67198643659174"
+   },
+   "0xf8d574d0a7dc92deb6ae61adae9ad1219aac2c73": {
+    "totalVolumeMarket": "638.2414129480353 BLS_R3C",
+    "totalVolumeTokens": "1425.172753570922",
+    "totalLiquidityMarket": "795.4894882314253 BLS_R3C",
+    "totalLiquidityTokens": "463.07096894243705"
+   },
+   "0xd413f199fb40a5c85e96b3582dda718570ae7675": {
+    "totalVolumeMarket": "193.5025870092507 INTELLIJ_SOLIDITY_R3C",
+    "totalVolumeTokens": "519.361682635243",
+    "totalLiquidityMarket": "852.5242217273067 INTELLIJ_SOLIDITY_R3C",
+    "totalLiquidityTokens": "306.6879773550822"
+   },
+   "0xdd8e32840a811d26aac9112f530490ee86d89bbc": {
+    "totalVolumeMarket": "452.3412914842105 DAPPNODE_R3C",
+    "totalVolumeTokens": "1057.6785924959981",
+    "totalLiquidityMarket": "723.2122799702238 DAPPNODE_R3C",
+    "totalLiquidityTokens": "503.7204815332291"
+   },
+   "0x1773e3a7d522e80903e9914a88c815e126fb0f81": {
+    "totalVolumeMarket": "231.70107335288162 ETHDO_R3C",
+    "totalVolumeTokens": "522.363353777064",
+    "totalLiquidityMarket": "834.3254008521658 ETHDO_R3C",
+    "totalLiquidityTokens": "327.067975342252"
+   },
+   "0xd756f4a29de73f261f32185d0982c8e454db3356": {
+    "totalVolumeMarket": "140.37092231882184 LAMBDAWORKS_R3C",
+    "totalVolumeTokens": "368.9039072809798",
+    "totalLiquidityMarket": "827.9843030382655 LAMBDAWORKS_R3C",
+    "totalLiquidityTokens": "297.73539967492724"
+   },
+   "0x04f4d33c6aa72320a822bc0fcb32e097a45ae4f9": {
+    "totalVolumeMarket": "809.9767916793538 SIMPLE_OPTIMISM_NODE_R3C",
+    "totalVolumeTokens": "1798.813614989714",
+    "totalLiquidityMarket": "737.1020075683623 SIMPLE_OPTIMISM_NODE_R3C",
+    "totalLiquidityTokens": "535.4231043353423"
+   },
+   "0x5ba02d2373096140102b6d552e62f9d0f7c7c39d": {
+    "totalVolumeMarket": "253.02173000207125 LIBBLS_R3C",
+    "totalVolumeTokens": "688.4658065649802",
+    "totalLiquidityMarket": "857.6404653263628 LIBBLS_R3C",
+    "totalLiquidityTokens": "310.38851588429213"
+   },
+   "0x5449093d1b651b090120a51acf68265bbcb56df3": {
+    "totalVolumeMarket": "299.1376276818055 WHATSABI_R3C",
+    "totalVolumeTokens": "730.1436248034036",
+    "totalLiquidityMarket": "851.0959183462737 WHATSABI_R3C",
+    "totalLiquidityTokens": "265.39127036129815"
+   },
+   "0x1b3140613dc1579d5486b8eee5ff8115ce7b93de": {
+    "totalVolumeMarket": "216.4617171134221 TRUEBLOCKS_CORE_R3C",
+    "totalVolumeTokens": "600.6997087340969",
+    "totalLiquidityMarket": "840.6841390037687 TRUEBLOCKS_CORE_R3C",
+    "totalLiquidityTokens": "272.04521596918687"
+   },
+   "0x72e12907d277199d7a44fde21d7dd981150b0f1a": {
+    "totalVolumeMarket": "552.3743882513693 JELLYFISH_R3C",
+    "totalVolumeTokens": "1251.4756161555429",
+    "totalLiquidityMarket": "848.99009975045 JELLYFISH_R3C",
+    "totalLiquidityTokens": "266.29493691342014"
+   },
+   "0x293a1858e689c117708e509770b283f281bbf6cb": {
+    "totalVolumeMarket": "198.43989772918212 HALMOS_R3C",
+    "totalVolumeTokens": "476.59907525484437",
+    "totalLiquidityMarket": "865.3633733406775 HALMOS_R3C",
+    "totalLiquidityTokens": "250.1840877731666"
+   },
+   "0x48eb0ebbb9284b0d8c51747da2fc4b9f342b401f": {
+    "totalVolumeMarket": "627.0218446980641 OP_SUCCINCT_R3C",
+    "totalVolumeTokens": "1333.9417463106083",
+    "totalLiquidityMarket": "707.8474443036778 OP_SUCCINCT_R3C",
+    "totalLiquidityTokens": "511.75229344451714"
+   },
+   "0xf713fcde2dd95050ffe68965ab17c1f3fadebc21": {
+    "totalVolumeMarket": "336.6924795404842 SP1_R3C",
+    "totalVolumeTokens": "558.7674181398809",
+    "totalLiquidityMarket": "781.6574821836099 SP1_R3C",
+    "totalLiquidityTokens": "428.5717849916041"
+   },
+   "0x5457786b0f850f037496073905fd62de3572fa83": {
+    "totalVolumeMarket": "395.7616811665421 OTTERSCAN_R3C",
+    "totalVolumeTokens": "1026.1338659952175",
+    "totalLiquidityMarket": "806.4147486864894 OTTERSCAN_R3C",
+    "totalLiquidityTokens": "387.0241523070756"
+   },
+   "0x19eb4b247fe868df4ae6d94c118ca39b950a738d": {
+    "totalVolumeMarket": "344.5297799118515 ETHREX_R3C",
+    "totalVolumeTokens": "792.0198786769747",
+    "totalLiquidityMarket": "848.7669989522692 ETHREX_R3C",
+    "totalLiquidityTokens": "297.5971274628043"
+   },
+   "0x6aa9ba4a89cc1f5d854b898ed34f4370a3857585": {
+    "totalVolumeMarket": "183.35977534990758 JUNO_R3C",
+    "totalVolumeTokens": "482.8034670610103",
+    "totalLiquidityMarket": "801.36033065527 JUNO_R3C",
+    "totalLiquidityTokens": "339.1211442856539"
+   },
+   "0x93d2239a2ae25e0ed759b9caf246c3c555b55a2f": {
+    "totalVolumeMarket": "136.13658689703303 COMMIT_BOOST_CLIENT_R3C",
+    "totalVolumeTokens": "324.2426549025735",
+    "totalLiquidityMarket": "843.4683577719848 COMMIT_BOOST_CLIENT_R3C",
+    "totalLiquidityTokens": "281.10908565903185"
+   }
+  }
+ }
+}

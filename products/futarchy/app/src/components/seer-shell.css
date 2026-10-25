@@ -1,0 +1,5 @@
+.seer-footer{display:flex!important;justify-content:center!important;align-items:center;gap:6px!important;flex-wrap:wrap;padding:24px 16px!important;font:12px/1.5 'Inter Tight Variable','Inter Tight',sans-serif;color:var(--text-2,#888);border-top:1px solid var(--line, #8883)}
+.seer-footer nav{display:inline!important}.seer-footer a{color:inherit;text-decoration:none}.seer-footer a:hover{text-decoration:underline}
+.seer-footer{font-size:11px;gap:4px!important}
+.seer-footer a{display:inline!important;min-height:0!important}.seer-footer nav{padding:0!important;font:inherit!important;color:inherit!important}.seer-footer{flex-shrink:0}
+.seer-footer nav{display:flex!important;flex-wrap:wrap;align-items:center}.seer-footer nav>span{display:inline-flex;align-items:center}.seer-footer a{display:inline-flex!important;align-items:center;min-height:40px!important;padding-inline:4px}

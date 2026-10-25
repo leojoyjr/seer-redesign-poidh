@@ -1,0 +1,19 @@
+/* Futarchy overrides for the shared sub header (@seer/ef/seer-subbar.css). Loaded last. */
+:root { --header-h: 56px; }
+.site-header.sb { height: 56px; flex: 0 0 56px; top: var(--seer-header-h); background: var(--bg); backdrop-filter: none; box-shadow: 0 1px 0 var(--line); }
+.site-header.sb::after { display: none; }
+.site-header .header-inner.sb-row { height: 56px; gap: 16px; overflow: visible; padding-inline: 24px; }
+.site-header .header-nav.sb-tabs { gap: 4px; font-size: 14px; }
+.site-header .header-nav .sb-tab { min-height: 36px; padding: 0 14px; }
+.site-header .search-pill.sb-search { margin-inline: auto 0; flex: 0 0 auto; width: clamp(200px, 24vw, 380px); height: 36px; min-height: 36px; padding: 0 8px 0 12px; border-radius: 10px; justify-content: flex-start; font-size: 13px; }
+.site-header .search-pill.sb-search kbd { margin-left: auto; }
+.site-header .header-actions.sb-actions { margin-left: 0; gap: 8px; }
+.site-header .sb-btn { width: 36px; height: 36px; padding: 0; border-radius: 10px; background: var(--nested); }
+@media (max-width: 1099px) { .site-header .header-nav.sb-tabs { display: flex; } }
+@media (max-width: 600px) {
+  .site-header .header-inner.sb-row { padding-inline: 16px; overflow-x: auto; overflow-y: hidden; gap: 8px; }
+  .site-header .search-pill.sb-search { flex: 0 0 140px; width: 140px; height: 36px; min-height: 36px; font-size: 13px; gap: 8px; justify-content: flex-start; padding: 0 8px 0 12px; }
+  .site-header .search-pill.sb-search span { display: inline; }
+  .site-header .search-pill.sb-search kbd { display: none; }
+}
+@media (max-width: 600px) { .site-header .header-nav .sb-tab, .site-header .search-pill.sb-search, .site-header .sb-btn { height: 40px; min-height: 40px; } .site-header .sb-btn { width: 40px; min-width: 40px; } }

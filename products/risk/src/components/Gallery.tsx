@@ -1,0 +1,26 @@
+import {useState} from 'react';
+import {assets,groups,names,pct,quarter,band,type Asset} from '../math/model';
+import {useRisk} from '../store';
+import {Icon} from './icons';
+import {Select} from './Menu';
+import {groupShape} from './Picker';
+import {Tile,curve} from './AssetTile';
+type Sort='PD'|'Name'|'Grade'|'Category'|'Quarter'|'Market'|'Estimate';
+const grades=['A+','A','A-','B+','B','B-','C+','C','C-','D'];
+export function Gallery(){
+ const s=useRisk(),[view,setView]=useState('table'),[sort,setSort]=useState<Sort>('PD'),[ascending,setAscending]=useState(false);
+ const value=(a:Asset)=>s.estimates[a.id]??a.m;
+ const rank=(a:Asset)=>{const i=grades.indexOf(a.grade??'');return i<0?99:i};
+ const list=assets.filter(a=>(s.assetGroup==='all'||a.group===s.assetGroup)&&`${a.ticker} ${a.category}`.toLowerCase().includes(s.assetSearch.toLowerCase())).sort((a,b)=>{const n=sort==='Name'?a.ticker.localeCompare(b.ticker):sort==='Grade'?rank(a)-rank(b):sort==='Category'?(a.category??'').localeCompare(b.category??''):sort==='Market'?a.m-b.m:sort==='Quarter'?quarter(value(a))-quarter(value(b)):value(a)-value(b);return (ascending?1:-1)*n});
+ const order=(key:Sort)=>{setAscending(sort===key?!ascending:key==='Name'||key==='Grade'||key==='Category');setSort(key)};
+ const headers:[string,Sort][]=[['Asset','Name'],['Grade','Grade'],['Category','Category'],['PD (Ann.)','PD'],['PD (Quart.)','Quarter'],['Market PD','Market']];
+ return <section id="assets" data-align data-testid="section-assets" className="gallery rating-assets">
+  <div className="gallery-head"><h2>Assets <span className="rv-chip">{list.length}</span></h2><div className="rv-seg">{['table','tiles'].map(v=><button className="rv-seg__item" key={v} aria-pressed={view===v} onClick={()=>setView(v)}><Icon name={v==='table'?'table':'tiles'} size={16}/>{v==='table'?'Table':'Tiles'}</button>)}</div></div>
+  <div className="table-filters"><input className="rv-input" aria-label="Search assets table" placeholder="Search assets…" value={s.assetSearch} onChange={e=>s.setAssetSearch(e.target.value)}/><div className="rv-seg">{groups.map(g=><button className="rv-seg__item" key={g} aria-pressed={s.assetGroup===g} data-testid={`assets-filter-${g}`} onClick={()=>{s.setAssetGroup(g);s.setSelected(assets.filter(a=>g==='all'||a.group===g).map(a=>a.id))}}>{names[g]}</button>)}</div><Select testid="assets-sort" label="Sort assets" icon="sort" prefix="Sort" value={sort} onChange={v=>{setSort(v as Sort);setAscending(v!=='PD')}} options={[['PD','PD (Ann.)'],['Name','Name'],['Grade','Grade'],['Category','Category'],['Quarter','PD (Quart.)'],['Market','Market PD'],['Estimate','Your estimate']].map(([value,label])=>({value,label}))}/></div>
+  {!list.length?<div className="table-empty">No assets found</div>:view==='tiles'?<div className="asset-grid">{list.map(a=><Tile key={a.id} a={a}/>)}</div>:<div className="asset-table-wrap rv-card"><table className="asset-table"><thead><tr>{headers.map(([label,key])=><th key={key} aria-sort={sort===key?(ascending?'ascending':'descending'):'none'}><button className="rv-btn rv-btn--ghost" onClick={()=>order(key)}>{label}<Icon name={sort===key?(ascending?'arrow-up':'arrow-down'):'sort'} size={12}/></button></th>)}<th>Survival</th><th>Band</th>{s.edited.length>0&&<th><button className="rv-btn rv-btn--ghost" onClick={()=>order('Estimate')}>Your estimate / delta</button></th>}<th>Actions</th></tr></thead><tbody>{list.map(a=>{const p=value(a),edited=s.edited.some(e=>e.id===a.id);return <tr key={a.id} data-selected={s.selected.includes(a.id)} data-testid={`asset-tile-${a.id}`} tabIndex={0} onClick={()=>s.setDrawer(a)} onKeyDown={e=>{if(e.target===e.currentTarget&&(e.key==='Enter'||e.key===' ')){e.preventDefault();s.setDrawer(a)}}}>
+   <td data-label="Asset"><span className="table-ticker"><Icon name={groupShape[a.group]} size={14}/>{a.ticker}</span></td><td data-label="Grade"><span className="rv-chip grade-chip">{a.grade||'No rating'}</span></td><td data-label="Category">{a.category||'—'}</td><td data-label="PD (Ann.)" className="numeric">{pct(p)}</td><td data-label="PD (Quart.)" className="numeric">{pct(quarter(p))}</td><td data-label="Market PD" className="numeric">{pct(a.m,3)}</td>
+   <td data-label="Survival"><svg className="table-spark" viewBox="0 0 64 28" role="img" aria-label={`${a.ticker} survival curve`}><path d={curve(p,64,28)} pathLength="1"/></svg></td><td data-label="Band"><span className={`rv-chip band-chip rv-band--${band(p).toLowerCase()}`}>{band(p)}</span></td>{s.edited.length>0&&<td data-label="Your estimate / delta" className="numeric">{edited?<span className="rv-chip rv-chip--user"><Icon name="diamond" size={12}/>{pct(p)} / {p>=a.m?'+':'−'}{(Math.abs(p-a.m)*100).toFixed(2)}pp</span>:'—'}</td>}
+   <td data-label="Actions"><div className="table-actions"><button className="rv-btn rv-btn--ghost" onClick={e=>{e.stopPropagation();s.setDrawer(a)}}>Details</button><button className="rv-btn rv-btn--icon rv-btn--secondary rv-check-btn" role="checkbox" aria-label={`Select ${a.ticker}`} aria-checked={s.selected.includes(a.id)} onClick={e=>{e.stopPropagation();s.toggle(a.id)}}>{s.selected.includes(a.id)?<Icon name="check" size={16}/>:<Icon name="plus" size={16}/>}</button></div></td>
+  </tr>})}</tbody></table></div>}
+ </section>
+}

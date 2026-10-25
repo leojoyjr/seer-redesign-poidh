@@ -1,0 +1,43 @@
+/* EF violet/ink ridges carry history; lime appears only as a graph line colour. */
+.gallery-curve{fill:none;stroke:var(--violet-text);stroke-width:2}
+.tk{transition:transform 140ms var(--ease-out),background-color 140ms var(--ease-out),color 140ms var(--ease-out);animation:picker-enter 420ms var(--ease-out) both;animation-delay:var(--entry,0ms)}
+.tk .bx{width:12px;height:12px;background:transparent!important;border:0;overflow:visible}
+.tk .bx path{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:14;stroke-dashoffset:14;transition:stroke-dashoffset 140ms var(--ease-out)}
+.tk[aria-pressed=true] .bx path{stroke-dashoffset:0}
+.gc:hover{transform:translateY(-2px)}
+button:active{transform:scale(.97)}
+@keyframes picker-enter{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+.time-scroll svg{height:auto;min-width:660px;min-height:0}
+.time-scroll{scrollbar-width:thin;scrollbar-color:var(--raise) transparent}
+.time-scroll text{paint-order:stroke;stroke:var(--nested);stroke-width:4px;stroke-linejoin:round}
+.menu{max-height:calc(100dvh - 120px);overflow:auto;max-width:calc(100vw - 32px)}
+[data-theme=light] .stage{background:var(--nested)}
+[data-theme=light]{--text-3:var(--text-2);--green:#087647;--red:#bc233f;--up:var(--green);--dn:var(--red);--b-low:#B9A0FF;--b-mod:#8F5CFF;--b-high:#6A2DE6;--b-crit:#4B1AB8}
+.empty.on{inset:150px 16px 24px}
+@media(max-width:700px){
+ button,a,input,select{touch-action:manipulation}
+ input[type=range]{min-height:40px}
+ .rw{height:40px}
+ .link,.dlcsv,.hz button,.menu a{min-height:40px}
+ .hz input{min-height:40px}
+ .acts .two{height:auto}
+ .help-wrap .menu{position:fixed;top:64px;right:16px}
+ .top .tb{height:40px}
+ .kleros{display:none}
+}
+@media(max-width:550px){
+ .top{flex-wrap:nowrap;gap:4px;padding-inline:8px}
+ .top .sp{display:none}
+ .brand{margin-right:auto}
+ .top .btn{padding-inline:8px;font-size:12px}
+ .top .tb{min-width:40px}
+ .stage{min-height:380px}
+ .time-scroll{padding-top:136px}
+ .time-scroll svg{margin-top:-136px}
+ .hero{overflow:hidden}
+ .gallery{margin-top:24px}
+ .row{grid-template-columns:96px minmax(0,1fr) 64px;gap:4px}
+ .toolbar .hz{margin-left:0}
+ .toolbar .seg{margin-left:auto}
+}
+@media(prefers-reduced-motion:reduce){.tk{animation:none}.gc:hover{transform:none}}

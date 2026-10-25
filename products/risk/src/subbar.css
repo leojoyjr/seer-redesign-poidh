@@ -1,0 +1,23 @@
+/* Risk overrides for the shared sub header (@seer/ef/seer-subbar.css). Loaded last. */
+:root{--risk-bar-h:56px}
+.hero{height:clamp(600px,calc(100vh - 271px),900px)}
+.top.sb{background:var(--bg);border-bottom:0;box-shadow:0 1px 0 var(--line);gap:16px!important;padding:0 24px!important;overflow:visible}
+.top.sb .tabs.sb-tabs{gap:4px;height:100%;margin:0;align-items:center}
+.top.sb .tab.sb-tab{height:36px;min-height:36px;padding:0 14px;border-radius:10px;font-weight:500}
+.top.sb .tab.sb-tab:first-child{padding-left:14px}
+.top.sb .tab.sb-tab:after{left:14px;right:14px;bottom:3px;background:var(--violet)}
+.top.sb .tab.sb-tab:first-child:after{left:14px}
+.top.sb .tb.sb-btn{height:36px;border-radius:10px;padding:0 12px;background:var(--nested);color:var(--text-2)}
+.top.sb .tb.sb-btn.icon{padding:0;width:36px}
+.top.sb .tb.sb-btn:hover{color:var(--text)}
+.top.sb .sp{display:block!important;flex:1 0 8px}
+.top.sb .sb-btn+.sb-btn,.top.sb .sb-btn+.help-wrap{margin-left:0}
+@media(max-width:700px){
+ .top.sb{padding:0 40px 0 16px!important;gap:8px!important;overflow-x:auto;overflow-y:hidden}
+ .top.sb .tb.sb-btn{height:36px}
+ .top.sb .tab.sb-tab{min-height:36px;height:36px}
+ .top.sb .tb[data-testid=btn-guide]{order:0;margin-right:0}
+ .top.sb .tb.sb-btn span{display:none}
+ .top.sb .tb[data-testid=btn-guide]{padding:0;width:36px}
+}
+@media(max-width:700px){.top.sb .tab.sb-tab,.top.sb .tb.sb-btn{height:40px;min-height:40px}.top.sb .tb.sb-btn.icon,.top.sb .tb[data-testid=btn-guide]{width:40px;min-width:40px}}

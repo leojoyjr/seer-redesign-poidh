@@ -1,0 +1,38 @@
+/* Electric Foundation tokens. Source: kit/color-palette.png. Do not invent colors outside this file. */
+:root {
+  --font-ui: "Inter Tight", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --bg: #101013;
+  --card: #1a1a1e;
+  --nested: #1f1f24;
+  --text: #ededf2;
+  --text-2: #a8a8b3;
+  --text-3: #67676f;
+  --violet: #7b3aff;
+  --violet-hover: #8a52ff;
+  --violet-press: #6a2de6;
+  --violet-soft: #241e33;   /* secondary button surface */
+  --violet-text: #9c6fff;   /* secondary button text */
+  --line: rgba(255, 255, 255, 0.06);
+  --green: #3ddc97;
+  --red: #ff5c72;
+  --amber: #f5b84a;
+  --blue: #5b9dff;
+
+  --r-card: 16px;
+  --r-nested: 12px;
+  --r-chip: 8px;
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-6: 24px; --s-8: 32px; --s-12: 48px;
+  --gutter: clamp(16px, 3vw, 40px);
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: linear(0, 0.18 4%, 0.58 10%, 0.9 17%, 1.04 24%, 1.06 30%, 1.02 40%, 0.995 55%, 1);
+  --t-press: 90ms; --t-hover: 140ms; --t-enter: 420ms;
+}
+[data-theme="light"] {
+  --bg: #f7f7f9; --card: #ffffff; --nested: #f0f0f3;
+  --text: #17171c; --text-2: #5c5c66; --text-3: #8e8e99;
+  --violet-soft: #efe9fc; --violet-text: #6c2bd9;
+  --line: rgba(0, 0, 0, 0.07);
+}

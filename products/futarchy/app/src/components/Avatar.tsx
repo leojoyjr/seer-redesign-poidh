@@ -1,0 +1,6 @@
+import type { AvatarKey } from '../data/avatars';
+export function Avatar({ avatar, size = 44, chain }: { avatar: AvatarKey; size?: 16 | 20 | 24 | 32 | 44; chain?: string }) {
+  return <span data-avatar={avatar} className={`avatar${chain === 'Gnosis' ? ' avatar--chain' : ''}`} style={{ width: size, height: size }}><svg viewBox="0 0 28 28" fill="none" aria-hidden="true">
+    {avatar === 'ETH' ? <><path d="m14 2 8 12-8 5-8-5Z" fill="var(--text-2)" /><path d="m6 16 8 10 8-10-8 5Z" fill="currentColor" /><path d="M14 2v17l8-5Z" fill="var(--text-3)" /></> : avatar === 'GNO' ? <><circle cx="14" cy="14" r="10" stroke="currentColor" strokeWidth="2" /><path d="m6 9 5 7m11-7-5 7M10 19h8" stroke="currentColor" strokeWidth="2" /></> : avatar === 'PNK' ? <><path d="m14 3 10 6v11l-10 6-10-6V9Z" stroke="currentColor" strokeWidth="2" /><path d="M10 21V8h6a4 4 0 0 1 0 8h-6" stroke="currentColor" strokeWidth="2" /></> : avatar === 'AAVE' ? <><path d="m5 23 7-18h4l7 18M8 17h12" stroke="currentColor" strokeWidth="2.5" /><circle cx="11" cy="12" r="1" fill="currentColor" /><circle cx="17" cy="12" r="1" fill="currentColor" /></> : <path d="m3 6 8 17h6L25 6h-6l-5 11L9 6Z" fill="currentColor" />}
+  </svg></span>;
+}

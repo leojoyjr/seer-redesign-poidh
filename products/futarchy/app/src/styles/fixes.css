@@ -1,0 +1,75 @@
+/* Final production fixes: layout balance, status colour, contrast, light-mode affordance. Imported last. */
+:root {
+  --st-include: #3DDC97;
+  --st-exclude: #FF5C72;
+  --st-neutral: #A8A8B3;
+}
+:root[data-theme='light'] {
+  --st-include: #0E8F5A;
+  --st-exclude: #C42A45;
+  --st-neutral: #5C5C66;
+}
+
+/* 1. Detail layout: chart + activity in the left column, sidebar on the right spanning both rows. No sticky, no overlap. */
+.signature-grid { align-items: start; }
+.signature-grid > .chart-card { grid-column: 1 / span 8; grid-row: 1; }
+.signature-grid > .dt-activity-section { grid-column: 1 / span 8; grid-row: 2; width: 100%; overflow: hidden; }
+.signature-grid > .detail-sidebar { grid-column: 9 / span 4; grid-row: 1 / span 2; position: static; align-self: start; }
+.dt-activity-table { contain: layout paint; max-height: 440px; overflow: auto; }
+@media (max-width: 1100px) {
+  .signature-grid > .chart-card, .signature-grid > .dt-activity-section, .signature-grid > .detail-sidebar { grid-column: 1 / -1; grid-row: auto; }
+}
+
+/* 2. Kill dead vertical space: the app shell must not stretch past its content */
+.app-shell { min-height: 0; }
+.landing-main, .foundation-main { padding-bottom: 32px; }
+
+/* 3. Footer: Futarchy only. Other products live in the Apps menu. */
+.site-footer nav, .s-footer nav, footer nav { display: none; }
+
+/* 4. Crucial things get colour: verdicts, gaps, impact */
+.f6-lane--include .f6-lane__verdict, .f6-lane--include .f6-lane__verdict-copy, .f6-lane--include .f6-lane__verdict-icon { color: var(--st-include); }
+.f6-lane--exclude .f6-lane__verdict, .f6-lane--exclude .f6-lane__verdict-copy, .f6-lane--exclude .f6-lane__verdict-icon { color: var(--st-exclude); }
+.f6-lane--neutral .f6-lane__verdict, .f6-lane--neutral .f6-lane__verdict-copy, .f6-lane--neutral .f6-lane__verdict-icon { color: var(--st-neutral); }
+.f6-lane--include { box-shadow: inset 3px 0 0 var(--st-include); }
+.f6-lane--exclude { box-shadow: inset 3px 0 0 var(--st-exclude); }
+.f6-lane--neutral { box-shadow: inset 3px 0 0 var(--st-neutral); }
+.f6-lane__gap-value { font-weight: 700; }
+.f6-lane--include .f6-lane__gap-value { color: var(--st-include); }
+.f6-lane--exclude .f6-lane__gap-value { color: var(--st-exclude); }
+.dt-tone--include, .dt-tone--positive { color: var(--st-include) !important; }
+.dt-tone--exclude, .dt-tone--negative { color: var(--st-exclude) !important; }
+.dt-gauge-needle { background: var(--st-neutral); }
+
+/* 5. Primary actions must be unmistakable: Open market, Create market, Trade, Confirm, Connect */
+.f6-preview__open, .f6-cta--secondary.f6-preview__open {
+  background: var(--violet, #7B3AFF); color: #fff; box-shadow: none; font-weight: 600; min-height: 40px; padding: 0 16px; border-radius: 20px;
+}
+.f6-preview__open:hover { background: #8F5BFF; }
+.f6-preview__open svg { color: #fff; }
+
+/* 6. Light mode: every control must read as a control (fill + hairline border) and text must be dark enough */
+:root[data-theme='light'] .c-btn--secondary,
+:root[data-theme='light'] .c-btn--ghost,
+:root[data-theme='light'] .c-icon-btn,
+:root[data-theme='light'] .c-chip,
+:root[data-theme='light'] .c-field,
+:root[data-theme='light'] .c-seg,
+:root[data-theme='light'] .dt-action--secondary,
+:root[data-theme='light'] .dt-action--ghost,
+:root[data-theme='light'] .f6-cta--secondary {
+  background: #EFE9FC; color: #4B1FB0; box-shadow: inset 0 0 0 1px #CBB8F5;
+}
+:root[data-theme='light'] .c-btn--ghost, :root[data-theme='light'] .dt-action--ghost { background: #FFFFFF; color: #17171C; box-shadow: inset 0 0 0 1px #C9C9D3; }
+:root[data-theme='light'] .c-seg { background: #E6E6EC; box-shadow: inset 0 0 0 1px #D2D2DB; }
+:root[data-theme='light'] .c-seg [aria-checked='true'], :root[data-theme='light'] .c-seg [aria-pressed='true'], :root[data-theme='light'] .c-seg [aria-selected='true'] { background: #FFFFFF; color: #17171C; box-shadow: 0 1px 2px rgba(23,23,28,.18); }
+:root[data-theme='light'] .f6-lane { box-shadow: inset 0 0 0 1px #E1E1E8; background: #FFFFFF; }
+:root[data-theme='light'] .f6-preview__open { background: #6C2BD9; color: #fff; box-shadow: none; }
+:root[data-theme='light'] .f6-lane--include { box-shadow: inset 0 0 0 1px #E1E1E8, inset 3px 0 0 var(--st-include); }
+:root[data-theme='light'] .f6-lane--exclude { box-shadow: inset 0 0 0 1px #E1E1E8, inset 3px 0 0 var(--st-exclude); }
+:root[data-theme='light'] .f6-lane--neutral { box-shadow: inset 0 0 0 1px #E1E1E8, inset 3px 0 0 var(--st-neutral); }
+
+/* Chart card sizes to its content (toolbar + canvas + scrubber); nothing is clipped */
+.chart-card, .ap-chart-card { height: auto; min-height: 0; overflow: visible; }
+.chart-card > .ch-root, .ap-chart-card > .ch-root { height: auto; }
+.ch-field.fork-canvas, .ch-field { min-height: 400px; }

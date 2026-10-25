@@ -1,0 +1,8 @@
+{
+ "_endpoint": "GET https://deep.seer.pm/.netlify/functions/get-profiles?addresses=0x000000000000000000000000000000000000dead",
+ "_hits": 2,
+ "_complete_json": true,
+ "data": {
+  "profiles": {}
+ }
+}

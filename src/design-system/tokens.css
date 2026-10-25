@@ -1,0 +1,148 @@
+/* ==========================================================================
+   SEER ELECTRIC FOUNDATION (EF) - OFFICIAL DESIGN TOKENS (PASS 2 REFINED)
+   Source: https://www.figma.com/design/cB6ZFMUkBwMBhHadLdiSmh/Seer-Branding
+   Verified against poidh2/assets/ef_kit/color-palette.png & dark/light boards
+   ========================================================================== */
+
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Official EF Surface Hierarchy (Tonal steps, borderless by default) */
+  --ef-bg-page: #101013;
+  --ef-bg-card: #1A1A1E;
+  --ef-bg-nested: #1F1F24;
+  --ef-bg-elevated: #26262D;
+  --ef-bg-glass: rgba(26, 26, 30, 0.88);
+
+  /* Official EF Text Hierarchy
+     Note: Kit swatch #67676F is preserved as --ef-kit-muted-raw (3.09:1 on #1A1A1E);
+     --ef-text-muted is calibrated to #8E8E9A (5.04:1 on #1A1A1E) for WCAG 2.2 AA 12px labels */
+  --ef-text-primary: #EDEDF2;
+  --ef-text-secondary: #A8A8B3;
+  --ef-text-muted: #8E8E9A;
+  --ef-kit-muted-raw: #67676F;
+
+  /* Official EF Brand & Action Accents */
+  --ef-primary: #7A3CFF;
+  --ef-primary-hover: #8C57FF;
+  --ef-primary-active: #682AE8;
+  --ef-on-primary: #FFFFFF;
+
+  --ef-secondary-bg: #241E33;
+  --ef-secondary-bg-hover: #2F2644;
+  --ef-secondary-text: #9C6FF2;
+
+  /* Reversed EF Fan-Out Line Motif Ramp */
+  --ef-line-core: #7B3AFF;
+  --ef-line-mid: #9C6FF2;
+  --ef-line-outer: #4B2399;
+  --ef-line-faint: rgba(122, 60, 255, 0.18);
+
+  /* Controlled Semantic Data Tokens (Strictly for Market/Risk/Verdict data) */
+  --ef-sem-positive: #3DDC97;
+  --ef-sem-positive-bg: rgba(61, 220, 151, 0.12);
+  --ef-sem-warning: #F5B84A;
+  --ef-sem-warning-bg: rgba(245, 184, 74, 0.12);
+  --ef-sem-orange: #FF8A4C;
+  --ef-sem-danger: #FF5C72;
+  --ef-sem-danger-bg: rgba(255, 92, 114, 0.12);
+  --ef-sem-agent: #5B9DFF;
+  --ef-sem-agent-bg: rgba(91, 157, 255, 0.12);
+
+  /* Hairlines & Focus */
+  --ef-hairline: rgba(237, 237, 242, 0.08);
+  --ef-hairline-strong: rgba(156, 111, 242, 0.28);
+  --ef-focus-ring: #9C6FF2;
+  --ef-shadow-float: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* Official EF Light Mode Surface Hierarchy */
+  --ef-bg-page: #F7F7F9;
+  --ef-bg-card: #FFFFFF;
+  --ef-bg-nested: #F1F1F4;
+  --ef-bg-elevated: #E8E8EE;
+  --ef-bg-glass: rgba(255, 255, 255, 0.92);
+
+  /* Official EF Light Mode Text Hierarchy
+     Note: Kit swatch #8E8E99 is preserved as --ef-kit-muted-raw;
+     --ef-text-muted is calibrated to #666672 (5.62:1 on #FFFFFF) for WCAG 2.2 AA 12px labels */
+  --ef-text-primary: #17171C;
+  --ef-text-secondary: #5C5C66;
+  --ef-text-muted: #666672;
+  --ef-kit-muted-raw: #8E8E99;
+
+  /* Official EF Light Mode Actions */
+  --ef-primary: #7A3CFF;
+  --ef-primary-hover: #682AE8;
+  --ef-primary-active: #581FD1;
+  --ef-on-primary: #FFFFFF;
+
+  --ef-secondary-bg: #EFE9FC;
+  --ef-secondary-bg-hover: #E3D7FA;
+  --ef-secondary-text: #6C2BD9;
+
+  /* Reversed EF Fan-Out Line Motif Ramp (Light Mode) */
+  --ef-line-core: #7A3CFF;
+  --ef-line-mid: #6C2BD9;
+  --ef-line-outer: #B794F6;
+  --ef-line-faint: rgba(108, 43, 217, 0.14);
+
+  /* Controlled Semantic Data Tokens (Light Mode WCAG AA Contrast) */
+  --ef-sem-positive: #12915F;
+  --ef-sem-positive-bg: rgba(18, 145, 95, 0.10);
+  --ef-sem-warning: #B9770E;
+  --ef-sem-warning-bg: rgba(185, 119, 14, 0.10);
+  --ef-sem-orange: #C2551A;
+  --ef-sem-danger: #D1334A;
+  --ef-sem-danger-bg: rgba(209, 51, 74, 0.10);
+  --ef-sem-agent: #2F6FD6;
+  --ef-sem-agent-bg: rgba(47, 111, 214, 0.10);
+
+  /* Hairlines & Focus */
+  --ef-hairline: rgba(23, 23, 28, 0.08);
+  --ef-hairline-strong: rgba(108, 43, 217, 0.25);
+  --ef-focus-ring: #6C2BD9;
+  --ef-shadow-float: 0 12px 32px rgba(23, 23, 28, 0.10);
+}
+
+/* Spatial Grid (4px base), Concentric Radii, and Motion Tokens */
+:root {
+  --ef-space-1: 4px;
+  --ef-space-2: 8px;
+  --ef-space-3: 12px;
+  --ef-space-4: 16px;
+  --ef-space-5: 20px;
+  --ef-space-6: 24px;
+  --ef-space-8: 32px;
+  --ef-space-10: 40px;
+  --ef-space-12: 48px;
+  --ef-space-16: 64px;
+
+  --ef-radius-xs: 6px;
+  --ef-radius-sm: 8px;
+  --ef-radius-md: 12px;
+  --ef-radius-lg: 16px;
+  --ef-radius-xl: 20px;
+  --ef-radius-pill: 999px;
+
+  --ef-container-max: 1440px;
+  --ef-container-wide: 1680px;
+  --ef-page-gutter: clamp(16px, 3.5vw, 56px);
+
+  --ef-duration-fast: 120ms;
+  --ef-duration-normal: 200ms;
+  --ef-duration-slow: 380ms;
+  --ef-ease-out: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ef-duration-fast: 0ms;
+    --ef-duration-normal: 0ms;
+    --ef-duration-slow: 0ms;
+  }
+}

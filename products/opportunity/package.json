@@ -1,0 +1,35 @@
+{
+  "name": "opportunity-v2-dev",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "e2e": "node e2e/run.mjs",
+    "test:colors": "node tests/ef-colors.mjs && node tests/chart-colors.mjs",
+    "test:filters": "node tests/market-filters.mjs"
+  },
+  "dependencies": {
+    "d3-array": "^3.2.4",
+    "d3-random": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "d3-shape": "^3.2.0",
+    "motion": "^12.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.2.1",
+    "@types/d3-random": "^3.0.3",
+    "@types/d3-scale": "^4.0.8",
+    "@types/d3-shape": "^3.1.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "playwright-core": "^1.64.1",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}

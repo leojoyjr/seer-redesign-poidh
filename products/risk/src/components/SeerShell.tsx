@@ -1,0 +1,5 @@
+import {Icon} from './icons';
+import {telegram} from './links';
+import './seer-shell.css';
+const products = ['Explorer', 'Deep', 'Futarchy', 'Opportunity', 'Risk'];
+export function SeerFooter({risk=false}:{risk?:boolean}) { return <footer className="seer-footer" data-testid="footer"><span>Seer. Information Finance.</span><nav aria-label="Seer products">{products.map((name,i)=><span key={name}><a href={`/${name.toLowerCase()}/`}>{name}</a>{i<products.length-1?', ':''}</span>)}</nav>{risk&&<nav aria-label="Risk community"><a data-testid="link-kleros" href="https://kleros.io" target="_blank" rel="noopener noreferrer"><Icon name="shield" size={16}/>Secured by Kleros</a><a data-testid="link-telegram" href={telegram} target="_blank" rel="noopener noreferrer">Telegram<Icon name="external" size={16}/></a><a data-testid="link-x" href="https://x.com/Seer_pm" target="_blank" rel="noopener noreferrer">X<Icon name="external" size={16}/></a><a data-testid="link-github" href="https://github.com/kleros/futarchy-ui" target="_blank" rel="noopener noreferrer">GitHub<Icon name="external" size={16}/></a></nav>}</footer>; }

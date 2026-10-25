@@ -1,0 +1,25 @@
+import {Explainer} from './components/Explainer';
+import {MarketSheet} from './components/MarketSheet';
+import {Tour} from './components/Tour';
+import {useEffect,useState} from 'react';
+import {useRoute} from './router';
+import {useMarkets,selectMarket,tickOdds} from './data/markets';
+import {Header,Marquee,Rail,NavRail} from './components/Shell';
+import {Explore} from './components/Explore';
+import {Stage} from './components/Stage';
+import {Dialog,SearchDialog,Wallet,Review} from './components/Dialogs';
+const PROTOCOL:[string,string][]=[['TODAY','Seer One operates it. Reviewers decide, sponsors pick.'],['NEXT','Anyone can launch their own opportunity market.'],['ANY DECISION','One shared layer that prices any selection.']];
+export default function App(){const hash=useRoute(),route=hash.split('?')[0],s=useMarkets(),[theme,setTheme]=useState(()=>{try{return localStorage.getItem('opportunity.v9.theme')==='dark'?'dark':'light';}catch{return 'light';}}),[dialog,setDialog]=useState(''),[proto,setProto]=useState('TODAY');
+useEffect(()=>{(window as unknown as {seerShell?:{setConnected?:(a:string|null)=>void}}).seerShell?.setConnected?.(s.connected?'0x1234...abcd':null);},[s.connected]);
+useEffect(()=>{const timer=setInterval(tickOdds,2000);return()=>clearInterval(timer);},[]);
+const closeExplainer=()=>setDialog('');
+const closeTour=()=>setDialog('');
+useEffect(()=>{const open=(event:Event)=>{const mode=(event as CustomEvent<string>).detail??'Buy';if(innerWidth<=900)window.dispatchEvent(new CustomEvent('opp:mobile-ticket',{detail:mode}));else window.dispatchEvent(new CustomEvent('opp:trade',{detail:mode}));};window.addEventListener('opp:open-ticket',open);return()=>window.removeEventListener('opp:open-ticket',open);},[]);
+useEffect(()=>{const connect=(e:Event)=>{(e as Event & {seerHandled?:boolean}).seerHandled=true;setDialog('wallet');};const changeTheme=(event:Event)=>{const value=(event as CustomEvent<{theme:string}>).detail.theme;if(value==='dark'||value==='light')setTheme(value);};window.addEventListener('seer:connect',connect);window.addEventListener('seer:theme',changeTheme);return()=>{window.removeEventListener('seer:connect',connect);window.removeEventListener('seer:theme',changeTheme);};},[]);
+useEffect(()=>{document.documentElement.dataset.theme=theme;try{localStorage.setItem('opportunity.v9.theme',theme);}catch{/* Storage is optional. */}},[theme]);
+useEffect(()=>{const id=route.startsWith('#/m/')?decodeURIComponent(route.slice(4)):null;if(id&&s.markets.some(m=>m.id===id))selectMarket(id);},[route,s.markets.length]);
+useEffect(()=>{const key=(e:KeyboardEvent)=>{if((e.key==='/'&&!(e.target instanceof HTMLElement&&e.target.closest('input,textarea')))||(e.key.toLowerCase()==='k'&&(e.ctrlKey||e.metaKey))){e.preventDefault();setDialog('search');}if(e.key==='Escape'&&!document.querySelector('dialog[open]')&&location.hash!=='#/')location.hash='/';};const protocol=(e:Event)=>{const d=(e as CustomEvent<string>).detail;setProto(d==='NEXT'||d==='ANY DECISION'?d:'TODAY');setDialog('protocol');};window.addEventListener('keydown',key);window.addEventListener('opp:protocol',protocol);return()=>{window.removeEventListener('keydown',key);window.removeEventListener('opp:protocol',protocol);};},[]);
+const openId=new URLSearchParams(hash.split('?')[1]).get('open'),sheetMarket=s.markets.find(m=>m.id===openId);
+const closeSheet=()=>{const [path,search]=location.hash.split('?');const q=new URLSearchParams(search);q.delete('open');location.hash=path+(q.size?'?'+q:'');};
+const shellActions={theme,toggleTheme:()=>setTheme(t=>t==='dark'?'light':'dark'),wallet:()=>setDialog('wallet'),search:()=>setDialog('search'),help:()=>setDialog('explainer')};
+return <><NavRail {...shellActions}/><Header theme={theme} toggleTheme={()=>setTheme(t=>t==='dark'?'light':'dark')} wallet={()=>setDialog('wallet')} search={()=>setDialog('search')} help={()=>{if(route==='#/markets')location.hash=`/m/${s.selectedId}`;setDialog('explainer');}}/><main className={`workspace page ${route==='#/markets'?'exploring':''}`} data-align><Rail/>{route==='#/markets'?<Explore/>:<Stage wallet={()=>setDialog('wallet')} review={()=>setDialog('review')}/>}</main><Marquee/>{sheetMarket&&<MarketSheet key={sheetMarket.id} market={sheetMarket} close={closeSheet} wallet={()=>setDialog('wallet')}/ >}{dialog==='explainer'&&<Explainer close={closeExplainer} guide={()=>{closeExplainer();if(route==='#/markets')location.hash=`/m/${s.selectedId}`;setDialog('help');}}/>}{dialog==='help'&&<Tour close={closeTour}/ >}{dialog==='search'&&<SearchDialog close={()=>setDialog('')}/ >}{dialog==='wallet'&&<Wallet close={()=>setDialog('')}/ >}{dialog==='review'&&<Review close={()=>setDialog('')}/ >}{['protocol','sample'].includes(dialog)&&<Dialog title={dialog==='protocol'?'The protocol':'Sample data'} close={()=>setDialog('')}>{dialog==='protocol'?<div className="roadmap">{PROTOCOL.map(([k,body])=><p key={k} className={k===proto?'on':''} aria-current={k===proto||undefined}><b>{k}</b><span>{body}</span></p>)}</div>:<p>Real submissions and odds. Sample price history and simulated trades.</p>}</Dialog>}</>;}

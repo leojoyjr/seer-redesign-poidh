@@ -1,0 +1,15 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/p/:path*", "destination": "/p/:path*" },
+    { "source": "/fonts/:path*", "destination": "/fonts/:path*" },
+    { "source": "/img/:path*", "destination": "/img/:path*" },
+    { "source": "/((?!p/|fonts/|img/|assets/|data/).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/p/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }] },
+    { "source": "/(img|fonts|assets)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+  ]
+}

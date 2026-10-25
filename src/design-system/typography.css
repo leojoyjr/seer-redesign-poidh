@@ -1,0 +1,142 @@
+/* ==========================================================================
+   SEER ELECTRIC FOUNDATION (EF) - TYPOGRAPHY SYSTEM
+   Loads local Inter Tight Variable + Instrument Serif Display + Tabular Mono
+   ========================================================================== */
+
+@font-face {
+  font-family: "Inter Tight Local";
+  src: url("/fonts/inter-tight.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instrument Serif Local";
+  src: url("/fonts/instrument-serif.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instrument Serif Local";
+  src: url("/fonts/instrument-serif-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --ef-font-sans: "Inter Tight Local", "Inter Tight Variable", "Inter Tight", -apple-system, BlinkMacSystemFont, sans-serif;
+  --ef-font-serif: "Instrument Serif Local", "Instrument Serif", Georgia, serif;
+  --ef-font-mono: "SF Mono", "JetBrains Mono", "IBM Plex Mono", Menlo, Consolas, ui-monospace, monospace;
+
+  --ef-text-xs: 0.75rem;
+  --ef-text-sm: 0.84375rem;
+  --ef-text-base: 0.96875rem;
+  --ef-text-md: 1.09375rem;
+  --ef-text-lg: 1.3125rem;
+  --ef-text-xl: 1.625rem;
+  --ef-text-2xl: clamp(2.125rem, 3.6vw, 3.5rem);
+  --ef-text-display: clamp(2.85rem, 5.6vw, 5.5rem);
+
+  --ef-leading-display: 0.98;
+  --ef-leading-tight: 1.08;
+  --ef-leading-snug: 1.32;
+  --ef-leading-body: 1.55;
+
+  --ef-tracking-display: -0.042em;
+  --ef-tracking-tight: -0.028em;
+  --ef-tracking-normal: -0.008em;
+  --ef-tracking-mono: 0.04em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--ef-bg-page);
+  color: var(--ef-text-primary);
+  font-family: var(--ef-font-sans);
+  font-size: 16px;
+  line-height: var(--ef-leading-body);
+  letter-spacing: var(--ef-tracking-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.ef-tabular,
+table,
+td,
+th,
+time,
+[data-numeric="true"] {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+.ef-mono {
+  font-family: var(--ef-font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: var(--ef-tracking-mono);
+}
+
+.ef-serif {
+  font-family: var(--ef-font-serif);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.ef-display {
+  font-size: var(--ef-text-display);
+  line-height: var(--ef-leading-display);
+  letter-spacing: var(--ef-tracking-display);
+  font-weight: 600;
+  margin: 0;
+}
+
+.ef-h2 {
+  font-size: var(--ef-text-2xl);
+  line-height: var(--ef-leading-tight);
+  letter-spacing: var(--ef-tracking-tight);
+  font-weight: 600;
+  margin: 0;
+}
+
+.ef-h3 {
+  font-size: var(--ef-text-lg);
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.ef-eyebrow {
+  font-family: var(--ef-font-sans);
+  font-size: 11.5px;
+  line-height: 1.3;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ef-secondary-text);
+  font-weight: 600;
+}
+
+.ef-lead {
+  font-size: var(--ef-text-md);
+  line-height: var(--ef-leading-body);
+  color: var(--ef-text-secondary);
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ef-focus-ring);
+  outline-offset: 3px;
+}

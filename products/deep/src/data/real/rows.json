@@ -1,0 +1,982 @@
+[
+{
+"name": "ethereum/consensus-specs",
+"id": "0x7Cae39D3c40B0Db913ba38f61F18173Be8105852",
+"up": 0.8480702873922807,
+"down": 0.15350743122360624,
+"vol": "64.51665009770511 CONSENSUS_SPECS_R3C",
+"liq": "917.3416812388838 CONSENSUS_SPECS_R3C",
+"upPts": 60,
+"downPts": 36
+},
+{
+"name": "ethers-io/ethers.js",
+"id": "0x7Fa95B23093b66D4b4FD0E89717B7e7883c888bC",
+"up": 0.8274632938240752,
+"down": 0.18240698161588062,
+"vol": "113.6080042235742 ETHERS_JS_R3C",
+"liq": "900.7390466936673 ETHERS_JS_R3C",
+"upPts": 50,
+"downPts": 67
+},
+{
+"name": "sigp/lighthouse",
+"id": "0x6a8c24D317ca7EdCC0C996d41950E0Cf2E622E6C",
+"up": 0.8274632938240752,
+"down": 0.18598004506764113,
+"vol": "163.8662701263722 LIGHTHOUSE_R3C",
+"liq": "899.0577474386736 LIGHTHOUSE_R3C",
+"upPts": 54,
+"downPts": 60
+},
+{
+"name": "status-im/nimbus-eth2",
+"id": "0xE48392583E40D8194c8019f4Fa4C6BB60536c8B8",
+"up": 0.8262230912768698,
+"down": 0.15154000093793887,
+"vol": "116.75852939110305 NIMBUS_ETH2_R3C",
+"liq": "901.3766525443701 NIMBUS_ETH2_R3C",
+"upPts": 38,
+"downPts": 69
+},
+{
+"name": "Consensys/gnark-crypto",
+"id": "0x9FC615e9A9E2066D3E8DDA5c1c5280461489d808",
+"up": 0.806711428053922,
+"down": 0.09430868981270099,
+"vol": "152.9425580321788 GNARK_CRYPTO_R3C",
+"liq": "871.2618822101665 GNARK_CRYPTO_R3C",
+"upPts": 65,
+"downPts": 57
+},
+{
+"name": "foundry-rs/foundry",
+"id": "0xA1Cc3bd62AEa7b21547f327eD20e18d8B92d89D4",
+"up": 0.8034108470396122,
+"down": 0.20706526092208927,
+"vol": "224.63771007458436 FOUNDRY_R3C",
+"liq": "878.1095257629214 FOUNDRY_R3C",
+"upPts": 65,
+"downPts": 65
+},
+{
+"name": "supranational/blst",
+"id": "0x74a00A7a338f0fA8cE7aFEdb27279A30CF24DF85",
+"up": 0.8032501889693164,
+"down": 0.20189248003739052,
+"vol": "413.81146191739765 BLST_R3C",
+"liq": "878.6568477889285 BLST_R3C",
+"upPts": 66,
+"downPts": 76
+},
+{
+"name": "flashbots/mev-boost",
+"id": "0xc53217f3Ca3371921076c4e7Ea9457Ea3b758317",
+"up": 0.8028486843342519,
+"down": 0.20369725219633766,
+"vol": "336.2333119810632 MEV_BOOST_R3C",
+"liq": "881.9140197001711 MEV_BOOST_R3C",
+"upPts": 63,
+"downPts": 77
+},
+{
+"name": "consensys/teku",
+"id": "0xE1e506f60e6caAA6521b65231A293053b39494CD",
+"up": 0.8020462770401248,
+"down": 0.1954954075861425,
+"vol": "70.04780993268197 TEKU_R3C",
+"liq": "879.2917969187528 TEKU_R3C",
+"upPts": 60,
+"downPts": 41
+},
+{
+"name": "ethereum/go-ethereum",
+"id": "0xECbf7BA97AcC47E030AB623fA78F983892254309",
+"up": 0.7974081042408719,
+"down": 0.2012273661498822,
+"vol": "18.021906509901008 GO_ETHEREUM_R3C",
+"liq": "878.6144428912329 GO_ETHEREUM_R3C",
+"upPts": 23,
+"downPts": 21
+},
+{
+"name": "arkworks-rs/algebra",
+"id": "0xb52C7e58DC48250B6CB4fBe5Ed251F617700BF06",
+"up": 0.7954171732258216,
+"down": 0.10337557818562605,
+"vol": "198.92944446718514 ALGEBRA_R3C",
+"liq": "863.2767258897214 ALGEBRA_R3C",
+"upPts": 58,
+"downPts": 53
+},
+{
+"name": "argotorg/solidity",
+"id": "0x38A9dC84c9F940262b548856c1869F992EE80ba4",
+"up": 0.7954171732258216,
+"down": 0.2021146728396146,
+"vol": "92.2013634199409 SOLIDITY_R3C",
+"liq": "874.7597393734719 SOLIDITY_R3C",
+"upPts": 63,
+"downPts": 56
+},
+{
+"name": "ethereum/eips",
+"id": "0x238910D606c68D7198A51377c079812be40F4d99",
+"up": 0.7946221933571062,
+"down": 0.19874767663842233,
+"vol": "76.17089383402592 EIPS_R3C",
+"liq": "881.2561958779656 EIPS_R3C",
+"upPts": 62,
+"downPts": 74
+},
+{
+"name": "herumi/mcl",
+"id": "0xC7846582934c4c1d1156DDf44d988F6857B0f743",
+"up": 0.7903430116569738,
+"down": 0.1362995343504933,
+"vol": "210.9874824226955 MCL_R3C",
+"liq": "851.9607792966335 MCL_R3C",
+"upPts": 40,
+"downPts": 72
+},
+{
+"name": "nethereum/nethereum",
+"id": "0x49837e744Bb14FaB9b256785ab050352C3340AfF",
+"up": 0.7903430116569738,
+"down": 0.19732190359606847,
+"vol": "185.46631074157966 NETHEREUM_R3C",
+"liq": "873.351333816375 NETHEREUM_R3C",
+"upPts": 43,
+"downPts": 69
+},
+{
+"name": "chainsafe/lodestar",
+"id": "0x7c3b8Fa85D532F7ED1FD8F32054b0497541dB623",
+"up": 0.7901849667617719,
+"down": 0.20981650305862518,
+"vol": "58.7968152743403 LODESTAR_R3C",
+"liq": "872.5229596792987 LODESTAR_R3C",
+"upPts": 22,
+"downPts": 20
+},
+{
+"name": "argotorg/act",
+"id": "0x0d91d33Dc1bbE47469F5AEf3Dc113Ed706eBaBcB",
+"up": 0.7883697204324833,
+"down": 0.21670386386967522,
+"vol": "209.2684145906826 ACT_R3C",
+"liq": "870.4787670138695 ACT_R3C",
+"upPts": 51,
+"downPts": 74
+},
+{
+"name": "skalenetwork/libBLS",
+"id": "0x5Ba02d2373096140102B6d552e62f9d0f7c7c39D",
+"up": 0.7827923972045998,
+"down": 0.22044117603440386,
+"vol": "253.02173000207125 LIBBLS_R3C",
+"liq": "857.6404653263628 LIBBLS_R3C",
+"upPts": 53,
+"downPts": 80
+},
+{
+"name": "wevm/viem",
+"id": "0xeb72792576d123Fee15f8974784fd9026ab8D050",
+"up": 0.7776432357601056,
+"down": 0.2505915879771283,
+"vol": "348.1324629142125 VIEM_R3C",
+"liq": "869.8644557032187 VIEM_R3C",
+"upPts": 68,
+"downPts": 76
+},
+{
+"name": "a16z/halmos",
+"id": "0x293a1858e689c117708e509770b283f281bBf6CB",
+"up": 0.7740744697653303,
+"down": 0.24117586297028124,
+"vol": "198.43989772918212 HALMOS_R3C",
+"liq": "865.3633733406775 HALMOS_R3C",
+"upPts": 62,
+"downPts": 65
+},
+{
+"name": "Vectorized/solady",
+"id": "0x1E405C9bcf5038770EFC4E5065Cd216f93658B80",
+"up": 0.7733781509483689,
+"down": 0.22660977923370146,
+"vol": "67.45486012641294 SOLADY_R3C",
+"liq": "867.0525683127963 SOLADY_R3C",
+"upPts": 31,
+"downPts": 41
+},
+{
+"name": "paradigmxyz/reth",
+"id": "0xd2652335a8576ff1e61C10Aa531aEe08d2533CDE",
+"up": 0.7729915778525546,
+"down": 0.21607636435295588,
+"vol": "74.11873205461964 RETH_R3C",
+"liq": "863.457841863878 RETH_R3C",
+"upPts": 46,
+"downPts": 58
+},
+{
+"name": "argotorg/hevm",
+"id": "0xdFb022190820D74baBd62379Fe53B45f0Ac1cC67",
+"up": 0.7724507001207845,
+"down": 0.20237757962157016,
+"vol": "161.69554011305604 HEVM_R3C",
+"liq": "852.908999523547 HEVM_R3C",
+"upPts": 37,
+"downPts": 69
+},
+{
+"name": "ethereum/web3.py",
+"id": "0x9aB54e515c12E14048B009A366A4845570C5ee6d",
+"up": 0.7719102008520263,
+"down": 0.20766659162083118,
+"vol": "118.88516126146247 WEB3_PY_R3C",
+"liq": "843.5173998916704 WEB3_PY_R3C",
+"upPts": 41,
+"downPts": 62
+},
+{
+"name": "openzeppelin/openzeppelin-contracts",
+"id": "0xdE4c752ED72F51de6D57085728a564A08866e97c",
+"up": 0.7698289583118393,
+"down": 0.2123705760253788,
+"vol": "103.47557907181643 OPENZEPPELIN_CONTRACTS_R3C",
+"liq": "859.9212642583657 OPENZEPPELIN_CONTRACTS_R3C",
+"upPts": 36,
+"downPts": 72
+},
+{
+"name": "vyperlang/titanoboa",
+"id": "0x7942645C35fa3a7f84fF1c731c81087f375C1eAa",
+"up": 0.7695211036960166,
+"down": 0.23407179490714203,
+"vol": "366.96168647730764 TITANOBOA_R3C",
+"liq": "853.9940154105044 TITANOBOA_R3C",
+"upPts": 60,
+"downPts": 66
+},
+{
+"name": "paulmillr/noble-curves",
+"id": "0xF74142573cd11D76501dFD51D5512fC6B8ca7933",
+"up": 0.7692133721912607,
+"down": 0.08221848833216236,
+"vol": "351.47742893931974 NOBLE_CURVES_R3C",
+"liq": "837.4164212363225 NOBLE_CURVES_R3C",
+"upPts": 66,
+"downPts": 65
+},
+{
+"name": "OffchainLabs/prysm",
+"id": "0x1Ac42DDE2f605435771a0a4b6928B8C802388285",
+"up": 0.7689057637483399,
+"down": 0.2370633130629586,
+"vol": "107.0684068154523 PRYSM_R3C",
+"liq": "862.048967211732 PRYSM_R3C",
+"upPts": 42,
+"downPts": 69
+},
+{
+"name": "intellij-solidity/intellij-solidity",
+"id": "0xD413F199FB40A5C85E96b3582DdA718570Ae7675",
+"up": 0.768367744942758,
+"down": 0.23515095136382494,
+"vol": "193.5025870092507 INTELLIJ_SOLIDITY_R3C",
+"liq": "852.5242217273067 INTELLIJ_SOLIDITY_R3C",
+"upPts": 41,
+"downPts": 67
+},
+{
+"name": "vyperlang/vyper",
+"id": "0x845468B87b4821faE1D42F250C382B7a3a85Bdb1",
+"up": 0.7666026180582679,
+"down": 0.17744163416187894,
+"vol": "161.47227063104586 VYPER_R3C",
+"liq": "857.5868361116536 VYPER_R3C",
+"upPts": 63,
+"downPts": 21
+},
+{
+"name": "ethereum/execution-apis",
+"id": "0x526F501d8A0a9426140D3C710262E11c3849A474",
+"up": 0.7662960536559771,
+"down": 0.2336975981820198,
+"vol": "199.68826946132083 EXECUTION_APIS_R3C",
+"liq": "865.512698231358 EXECUTION_APIS_R3C",
+"upPts": 71,
+"downPts": 82
+},
+{
+"name": "nomicfoundation/hardhat",
+"id": "0xEc73B19D493bB773eAeD4dF6b0C8f18842e77C26",
+"up": 0.7654536335332669,
+"down": 0.23160386043538822,
+"vol": "212.4606105268669 HARDHAT_R3C",
+"liq": "859.8047369363192 HARDHAT_R3C",
+"upPts": 59,
+"downPts": 56
+},
+{
+"name": "erigontech/erigon",
+"id": "0x87A54A3ad188DfEa96aA128922351fdc12da80E3",
+"up": 0.7652240433627716,
+"down": 0.23162702082143174,
+"vol": "154.4089849936407 ERIGON_R3C",
+"liq": "849.1445000558687 ERIGON_R3C",
+"upPts": 43,
+"downPts": 40
+},
+{
+"name": "argotorg/sourcify",
+"id": "0x5C4a21e1A101C3AFF192D2D307AD9Bbe3D761b1E",
+"up": 0.762855640168086,
+"down": 0.23987708809592756,
+"vol": "236.82013837101783 SOURCIFY_R3C",
+"liq": "844.1537059975993 SOURCIFY_R3C",
+"upPts": 52,
+"downPts": 69
+},
+{
+"name": "swiss-knife-xyz/swiss-knife",
+"id": "0x2109380E3Dee45109D635c9968733c1f43568125",
+"up": 0.7618646216875395,
+"down": 0.24313722217561265,
+"vol": "423.6379010102215 SWISS_KNIFE_R3C",
+"liq": "855.5716759315286 SWISS_KNIFE_R3C",
+"upPts": 44,
+"downPts": 79
+},
+{
+"name": "ethereum/py_ecc",
+"id": "0x5D6A571b0f663C33831E6f81DD3C3f554eca188B",
+"up": 0.7614076628634427,
+"down": 0.2065895818461479,
+"vol": "236.75735312570777 PY_ECC_R3C",
+"liq": "857.2434273558574 PY_ECC_R3C",
+"upPts": 64,
+"downPts": 79
+},
+{
+"name": "evmts/tevm-monorepo",
+"id": "0x4a4feB5f866310c4B538AbDa903e53677b5956C9",
+"up": 0.7611031759238381,
+"down": 0.24342914736629223,
+"vol": "449.5268724527848 TEVM_MONOREPO_R3C",
+"liq": "853.7005932407643 TEVM_MONOREPO_R3C",
+"upPts": 52,
+"downPts": 84
+},
+{
+"name": "argotorg/fe",
+"id": "0xB533d9B1bECB3EE98820eE2342fBC9A062c296ca",
+"up": 0.760190445496269,
+"down": 0.24587552804088053,
+"vol": "156.204887410835 FE_R3C",
+"liq": "857.2174401044227 FE_R3C",
+"upPts": 69,
+"downPts": 75
+},
+{
+"name": "Certora/CertoraProver",
+"id": "0x45dc37854A86F647cf45890f7167C0adc19814F2",
+"up": 0.7595066160556291,
+"down": 0.23901512613855724,
+"vol": "139.706618085361 CERTORAPROVER_R3C",
+"liq": "853.2467844566235 CERTORAPROVER_R3C",
+"upPts": 56,
+"downPts": 61
+},
+{
+"name": "alloy-rs/alloy",
+"id": "0x107af2F9DaacaD63256aDC9C54ddbD630B2b87D6",
+"up": 0.7594306729883302,
+"down": 0.2341654376703489,
+"vol": "283.00255423762854 ALLOY_R3C",
+"liq": "856.2623054350689 ALLOY_R3C",
+"upPts": 54,
+"downPts": 54
+},
+{
+"name": "lambdaclass/ethrex",
+"id": "0x19EB4b247FE868df4AE6d94c118Ca39B950a738D",
+"up": 0.7587475270011751,
+"down": 0.2100054134629463,
+"vol": "344.5297799118515 ETHREX_R3C",
+"liq": "848.7669989522692 ETHREX_R3C",
+"upPts": 62,
+"downPts": 69
+},
+{
+"name": "apeworx/ape",
+"id": "0x34e4762227C29Fb484C79Cdc0A2a305fDd39BA56",
+"up": 0.7585199482603401,
+"down": 0.23104870538016078,
+"vol": "201.76365628161875 APE_R3C",
+"liq": "844.4963138531066 APE_R3C",
+"upPts": 37,
+"downPts": 73
+},
+{
+"name": "ipsilon/evmone",
+"id": "0xd8825BF53Db973DfF16759f750C7cC86c9D45297",
+"up": 0.7585199482603401,
+"down": 0.24469821218947177,
+"vol": "177.00193584203578 EVMONE_R3C",
+"liq": "845.6256373975273 EVMONE_R3C",
+"upPts": 47,
+"downPts": 57
+},
+{
+"name": "grandinetech/grandine",
+"id": "0xB2453e9A21Cc82280FA95E6bbe6ca34e78B722D4",
+"up": 0.7573073473115948,
+"down": 0.21590358102304266,
+"vol": "129.1413720637314 GRANDINE_R3C",
+"liq": "846.983569689524 GRANDINE_R3C",
+"upPts": 24,
+"downPts": 59
+},
+{
+"name": "shazow/whatsabi",
+"id": "0x5449093d1b651b090120a51Acf68265BBCb56df3",
+"up": 0.7511231262264705,
+"down": 0.23715815261293086,
+"vol": "299.1376276818055 WHATSABI_R3C",
+"liq": "851.0959183462737 WHATSABI_R3C",
+"upPts": 72,
+"downPts": 77
+},
+{
+"name": "lambdaclass/lambda_ethereum_consensus",
+"id": "0x5285cd403845C358140c87F75488AEC1AAF1A1F2",
+"up": 0.7491728400815583,
+"down": 0.24367268608599146,
+"vol": "138.9510676959368 LAMBDA_ETHEREUM_CONSENSUS_R3C",
+"liq": "845.3692377531154 LAMBDA_ETHEREUM_CONSENSUS_R3C",
+"upPts": 49,
+"downPts": 51
+},
+{
+"name": "flashbots/mev-boost-relay",
+"id": "0xFd9f5746c9451FeDc03FA9D334d84099b61017CA",
+"up": 0.7479003917622793,
+"down": 0.21822603619734063,
+"vol": "139.056096708761 FLASHBOTS_MEV_BOOST_RELAY_R3C",
+"liq": "845.9206102056805 FLASHBOTS_MEV_BOOST_RELAY_R3C",
+"upPts": 55,
+"downPts": 68
+},
+{
+"name": "erigontech/silkworm",
+"id": "0xBcB9981CDb1b7ED0B01505EB9c87Aa4e25A9cCC0",
+"up": 0.7473770708373475,
+"down": 0.23123360905104276,
+"vol": "168.63933880450966 SILKWORM_R3C",
+"liq": "844.3835223966055 SILKWORM_R3C",
+"upPts": 55,
+"downPts": 69
+},
+{
+"name": "ethstaker/ethstaker-deposit-cli",
+"id": "0x36B1A703d790770EF14b875d3a0d2e0ded6234C1",
+"up": 0.7473023406032872,
+"down": 0.21588199282376028,
+"vol": "398.8160454442562 ETHSTAKER_DEPOSIT_CLI_R3C",
+"liq": "815.5405393771975 ETHSTAKER_DEPOSIT_CLI_R3C",
+"upPts": 50,
+"downPts": 71
+},
+{
+"name": "EspressoSystems/jellyfish",
+"id": "0x72e12907d277199d7a44fde21d7dd981150B0F1a",
+"up": 0.7467794381467625,
+"down": 0.24389207924610742,
+"vol": "552.3743882513693 JELLYFISH_R3C",
+"liq": "848.99009975045 JELLYFISH_R3C",
+"upPts": 71,
+"downPts": 82
+},
+{
+"name": "hyperledger/besu",
+"id": "0x5a56eCb388369c2A92b51CA1e08C32f233bAF178",
+"up": 0.7449894058932081,
+"down": 0.23573953473623338,
+"vol": "226.40080375151157 BESU_R3C",
+"liq": "842.5480868912455 BESU_R3C",
+"upPts": 75,
+"downPts": 51
+},
+{
+"name": "libp2p/libp2p",
+"id": "0xdE89236aE23777BDf655344858c44fa581C470A3",
+"up": 0.744840430358732,
+"down": 0.258688047115895,
+"vol": "313.91750047451444 LIBP2P_R3C",
+"liq": "840.7827460489501 LIBP2P_R3C",
+"upPts": 57,
+"downPts": 88
+},
+{
+"name": "hyperledger-web3j/web3j",
+"id": "0x15607f6d09dd27d174d6d76EBBcc708dA5A56646",
+"up": 0.7446914846148942,
+"down": 0.258688047115895,
+"vol": "143.95721287898724 HYPERLEDGER_WEB3J_R3C",
+"liq": "840.1320390930977 HYPERLEDGER_WEB3J_R3C",
+"upPts": 45,
+"downPts": 70
+},
+{
+"name": "taikoxyz/taiko-mono",
+"id": "0x6a6a3326D701D464034D141BeCe8C21a06b7854b",
+"up": 0.7432036643516163,
+"down": 0.24911752407434073,
+"vol": "323.7011239937771 TAIKO_MONO_R3C",
+"liq": "839.4487126563728 TAIKO_MONO_R3C",
+"upPts": 63,
+"downPts": 69
+},
+{
+"name": "Commit-Boost/commit-boost-client",
+"id": "0x93d2239A2aE25e0ed759b9CaF246C3c555b55A2f",
+"up": 0.7421639591693544,
+"down": 0.21960513085885924,
+"vol": "136.13658689703303 COMMIT_BOOST_CLIENT_R3C",
+"liq": "843.4683577719848 COMMIT_BOOST_CLIENT_R3C",
+"upPts": 50,
+"downPts": 52
+},
+{
+"name": "OffchainLabs/stylus-sdk-rs",
+"id": "0x86B3B071bd6C383E4544B18353cdE9cA203158Ce",
+"up": 0.7392753007043075,
+"down": 0.2757844782278012,
+"vol": "395.0542513411362 STYLUS_SDK_RS_R3C",
+"liq": "841.6340928059661 STYLUS_SDK_RS_R3C",
+"upPts": 74,
+"downPts": 83
+},
+{
+"name": "Cyfrin/aderyn",
+"id": "0x8717E0E2733AcB24AC964667E2252bC118Fb2249",
+"up": 0.7383887467092015,
+"down": 0.23395479411226683,
+"vol": "159.5812897900743 ADERYN_R3C",
+"liq": "837.368102072151 ADERYN_R3C",
+"upPts": 33,
+"downPts": 72
+},
+{
+"name": "nethermindeth/nethermind",
+"id": "0x84E989E3dd24b2D8448d2A90E72eAB1202083F59",
+"up": 0.7383149152176798,
+"down": 0.26462712232635466,
+"vol": "128.2915572181892 NETHERMIND_R3C",
+"liq": "834.152443167912 NETHERMIND_R3C",
+"upPts": 44,
+"downPts": 50
+},
+{
+"name": "TrueBlocks/trueblocks-core",
+"id": "0x1B3140613DC1579D5486b8eee5fF8115Ce7B93DE",
+"up": 0.7369135186956861,
+"down": 0.18217001844717123,
+"vol": "216.4617171134221 TRUEBLOCKS_CORE_R3C",
+"liq": "840.6841390037687 TRUEBLOCKS_CORE_R3C",
+"upPts": 58,
+"downPts": 79
+},
+{
+"name": "wealdtech/ethdo",
+"id": "0x1773e3A7d522E80903E9914a88c815e126fB0F81",
+"up": 0.7361033999773596,
+"down": 0.2545821781905855,
+"vol": "231.70107335288162 ETHDO_R3C",
+"liq": "834.3254008521658 ETHDO_R3C",
+"upPts": 41,
+"downPts": 68
+},
+{
+"name": "holiman/goevmlab",
+"id": "0xdBdcdAF2aa3D75E1818029c26FEF7FDD12dCE893",
+"up": 0.7355883336445103,
+"down": 0.2644155158625111,
+"vol": "333.5731815387221 GOEVMLAB_R3C",
+"liq": "843.5544431355947 GOEVMLAB_R3C",
+"upPts": 63,
+"downPts": 74
+},
+{
+"name": "DefiLlama/DefiLlama-Adapters",
+"id": "0xd71B2FE2ff2C91d5D822Ce6399C646137723186A",
+"up": 0.7314807563020308,
+"down": 0.18920640770985925,
+"vol": "252.84930517733594 DEFILLAMA_ADAPTERS_R3C",
+"liq": "830.7771309641728 DEFILLAMA_ADAPTERS_R3C",
+"upPts": 50,
+"downPts": 76
+},
+{
+"name": "ethdebug/format",
+"id": "0x4b2b2D4e947c9e33e3aE18979562E752606127ac",
+"up": 0.7313344820922675,
+"down": 0.2348454690074668,
+"vol": "179.89114721538493 FORMAT_R3C",
+"liq": "831.9562398254367 FORMAT_R3C",
+"upPts": 46,
+"downPts": 66
+},
+{
+"name": "wighawag/hardhat-deploy",
+"id": "0xC8db7Cdd4bc8006353Dd09D87ECab65f84c620E5",
+"up": 0.7298733478048876,
+"down": 0.226655103455646,
+"vol": "332.092640085677 HARDHAT_DEPLOY_R3C",
+"liq": "804.7710974973759 HARDHAT_DEPLOY_R3C",
+"upPts": 64,
+"downPts": 87
+},
+{
+"name": "LFDT-web3j/web3j",
+"id": "0xf799b67f0b8dA6eD75D6D31370346e2Dd6BE187D",
+"up": 0.729435577028744,
+"down": 0.21200987076743272,
+"vol": "126.88145152089237 LFDT_WEB3J_R3C",
+"liq": "832.947248328376 LFDT_WEB3J_R3C",
+"upPts": 65,
+"downPts": 52
+},
+{
+"name": "ChainSafe/bls",
+"id": "0xF8d574d0A7Dc92Deb6AE61aDAE9ad1219aaC2C73",
+"up": 0.7283422984901001,
+"down": 0.271108887651369,
+"vol": "638.2414129480353 BLS_R3C",
+"liq": "795.4894882314253 BLS_R3C",
+"upPts": 79,
+"downPts": 65
+},
+{
+"name": "ethereum-lists/chains",
+"id": "0xddD9d1a6AcE5dca0432719B05691bb2Cc7E0B9Dd",
+"up": 0.7271052302409727,
+"down": 0.2543023057460284,
+"vol": "315.3330629873136 CHAINS_R3C",
+"liq": "815.3209250789519 CHAINS_R3C",
+"upPts": 43,
+"downPts": 73
+},
+{
+"name": "protofire/solhint",
+"id": "0x808055e027caDa3FB6D2b84104cD46B6685C048e",
+"up": 0.7252898281320737,
+"down": 0.28899729980816674,
+"vol": "363.9491279399098 SOLHINT_R3C",
+"liq": "835.5731995485809 SOLHINT_R3C",
+"upPts": 67,
+"downPts": 79
+},
+{
+"name": "remix-project-org/remix-project",
+"id": "0x9dE9aaA9C3BeB5226a0acEDFA3515C5A3C658b1D",
+"up": 0.7249272919861018,
+"down": 0.18447976604768138,
+"vol": "330.92071801234255 REMIX_PROJECT_R3C",
+"liq": "822.0045688173526 REMIX_PROJECT_R3C",
+"upPts": 57,
+"downPts": 69
+},
+{
+"name": "Plonky3/Plonky3",
+"id": "0x8dF828fcBA7Ec2B014742e202CF091807dF939E6",
+"up": 0.7244924878050546,
+"down": 0.22433265316098291,
+"vol": "192.28597248398665 PLONKY3_R3C",
+"liq": "825.877662302344 PLONKY3_R3C",
+"upPts": 55,
+"downPts": 54
+},
+{
+"name": "0xMiden/miden-vm",
+"id": "0x6eA039fBa3c1A54ED6c5EF04c394DD2a9C26C52A",
+"up": 0.721816952167844,
+"down": 0.2388240000544179,
+"vol": "233.3095965919004 MIDEN_VM_R3C",
+"liq": "831.6128467068294 MIDEN_VM_R3C",
+"upPts": 56,
+"downPts": 74
+},
+{
+"name": "powdr-labs/powdr",
+"id": "0x572F1F68c236460581Ad720E1B262A604D92E703",
+"up": 0.720879246655157,
+"down": 0.24238470142206034,
+"vol": "226.0111206827204 POWDR_R3C",
+"liq": "823.2824966323476 POWDR_R3C",
+"upPts": 43,
+"downPts": 58
+},
+{
+"name": "flashbots/rbuilder",
+"id": "0xb44e4aD21D40EFb87A87C0692e28c71c90D08d20",
+"up": 0.7180016326115537,
+"down": 0.27755507021136844,
+"vol": "150.98451354825914 RBUILDER_R3C",
+"liq": "822.8921589670571 RBUILDER_R3C",
+"upPts": 60,
+"downPts": 58
+},
+{
+"name": "edb-rs/edb",
+"id": "0x73918952494d08ed3Eb5C2bF82EB056f51274639",
+"up": 0.7166387927582766,
+"down": 0.28632221708618194,
+"vol": "232.4276181177973 EDB_R3C",
+"liq": "823.6725342958057 EDB_R3C",
+"upPts": 60,
+"downPts": 61
+},
+{
+"name": "lambdaclass/lambdaworks",
+"id": "0xD756F4a29dE73f261F32185d0982c8e454Db3356",
+"up": 0.7163522088907223,
+"down": 0.23425911789627998,
+"vol": "140.37092231882184 LAMBDAWORKS_R3C",
+"liq": "827.9843030382655 LAMBDAWORKS_R3C",
+"upPts": 51,
+"downPts": 59
+},
+{
+"name": "otterscan/otterscan",
+"id": "0x5457786B0f850f037496073905Fd62dE3572fa83",
+"up": 0.7105734803743929,
+"down": 0.22103714160340213,
+"vol": "395.7616811665421 OTTERSCAN_R3C",
+"liq": "806.4147486864894 OTTERSCAN_R3C",
+"upPts": 43,
+"downPts": 80
+},
+{
+"name": "eth-infinitism/account-abstraction",
+"id": "0xCB8AB4238Ae037096e274486c4892D843E769DDe",
+"up": 0.7092956623807418,
+"down": 0.2488934303644676,
+"vol": "289.2313390013028 ACCOUNT_ABSTRACTION_R3C",
+"liq": "799.5429658547654 ACCOUNT_ABSTRACTION_R3C",
+"upPts": 71,
+"downPts": 55
+},
+{
+"name": "dl-solarity/solidity-lib",
+"id": "0x4B62AF2F270B59ec49230D3A06B63752964a4311",
+"up": 0.7088702338956908,
+"down": 0.22536690861751718,
+"vol": "187.12647196344324 SOLIDITY_LIB_R3C",
+"liq": "811.2956555818628 SOLIDITY_LIB_R3C",
+"upPts": 50,
+"downPts": 61
+},
+{
+"name": "a16z/helios",
+"id": "0x842Cf887862213513895E1aA1714723009512932",
+"up": 0.7044186113336328,
+"down": 0.2467622307146549,
+"vol": "253.85482928092227 HELIOS_R3C",
+"liq": "808.8413274168836 HELIOS_R3C",
+"upPts": 72,
+"downPts": 37
+},
+{
+"name": "blockscout/blockscout",
+"id": "0xe263E7FEBB2ccFe1Ebb05f289CF858D3BEcEc83F",
+"up": 0.7026598521068026,
+"down": 0.29601678089336775,
+"vol": "286.9550580009859 BLOCKSCOUT_R3C",
+"liq": "817.2206770060143 BLOCKSCOUT_R3C",
+"upPts": 73,
+"downPts": 64
+},
+{
+"name": "aestus-relay/mev-boost-relay",
+"id": "0xD264f08e1871926d45f08ba8c19927BA909Ed495",
+"up": 0.6997849879524962,
+"down": 0.1935309394541117,
+"vol": "222.0280401226894 AESTUS_MEV_BOOST_RELAY_R3C",
+"liq": "818.2916685404185 AESTUS_MEV_BOOST_RELAY_R3C",
+"upPts": 48,
+"downPts": 78
+},
+{
+"name": "DefiLlama/chainlist",
+"id": "0x4B8Bda295e28375ed17ABc8D1472E9cCCaDc93aA",
+"up": 0.6962253472918221,
+"down": 0.2716516208427538,
+"vol": "287.6377609302979 CHAINLIST_R3C",
+"liq": "804.1964775891367 CHAINLIST_R3C",
+"upPts": 45,
+"downPts": 76
+},
+{
+"name": "ethereum/js-ethereum-cryptography",
+"id": "0x018A386A46949FBc8781b1254636b3A76E60A57C",
+"up": 0.69150731033306,
+"down": 0.23644777976516707,
+"vol": "570.1132785025673 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+"liq": "805.5913466836328 JS_ETHEREUM_CRYPTOGRAPHY_R3C",
+"upPts": 71,
+"downPts": 87
+},
+{
+"name": "l2beat/l2beat",
+"id": "0x0954B44c816f034C6c30A0B049F0Ceb6BDa6100a",
+"up": 0.6898497655134855,
+"down": 0.23281127670156304,
+"vol": "222.30851169996603 L2BEAT_R3C",
+"liq": "807.2749239082051 L2BEAT_R3C",
+"upPts": 47,
+"downPts": 73
+},
+{
+"name": "scaffold-eth/scaffold-eth-2",
+"id": "0x09790FB4115E57367f47c82244cCE088583e503f",
+"up": 0.6888846997978687,
+"down": 0.268572530476993,
+"vol": "325.9449345863308 SCAFFOLD_ETH_2_R3C",
+"liq": "780.211593938856 SCAFFOLD_ETH_2_R3C",
+"upPts": 43,
+"downPts": 73
+},
+{
+"name": "axiom-crypto/snark-verifier",
+"id": "0x52634d6c3fB85d5F4566550e0A85BeD365524c39",
+"up": 0.6819623272669426,
+"down": 0.2543023057460284,
+"vol": "312.9337790892277 SNARK_VERIFIER_R3C",
+"liq": "794.9914084141813 SNARK_VERIFIER_R3C",
+"upPts": 47,
+"downPts": 78
+},
+{
+"name": "NethermindEth/juno",
+"id": "0x6Aa9ba4A89CC1f5D854b898eD34f4370A3857585",
+"up": 0.6785611955988612,
+"down": 0.22366069723656457,
+"vol": "183.35977534990758 JUNO_R3C",
+"liq": "801.36033065527 JUNO_R3C",
+"upPts": 45,
+"downPts": 73
+},
+{
+"name": "safe-global/safe-smart-account",
+"id": "0xaD30e4cC2f96E533a92cEf4FcD9c57D4a4E5188c",
+"up": 0.6666569212422967,
+"down": 0.33415671359917304,
+"vol": "465.7456862404851 SAFE_SMART_ACCOUNT_R3C",
+"liq": "777.9705104668574 SAFE_SMART_ACCOUNT_R3C",
+"upPts": 68,
+"downPts": 80
+},
+{
+"name": "succinctlabs/sp1",
+"id": "0xf713FcdE2dD95050fFE68965aB17C1f3FaDebc21",
+"up": 0.6606842250275455,
+"down": 0.2944815654116472,
+"vol": "336.6924795404842 SP1_R3C",
+"liq": "781.6574821836099 SP1_R3C",
+"upPts": 59,
+"downPts": 37
+},
+{
+"name": "ethstaker/eth-docker",
+"id": "0x9525A58D53Bc9D395eF56Ec4c11E39370a88a304",
+"up": 0.6570606170233368,
+"down": 0.343232735223391,
+"vol": "629.2345725945919 ETH_DOCKER_R3C",
+"liq": "756.8943649965943 ETH_DOCKER_R3C",
+"upPts": 68,
+"downPts": 87
+},
+{
+"name": "risc0/risc0-ethereum",
+"id": "0x1c3486feC53Da0D19a4b0253b83748dF31e10178",
+"up": 0.6534568831654612,
+"down": 0.27121734747404724,
+"vol": "350.7135318171754 RISC0_ETHEREUM_R3C",
+"liq": "773.1028394507179 RISC0_ETHEREUM_R3C",
+"upPts": 77,
+"downPts": 56
+},
+{
+"name": "succinctlabs/rsp",
+"id": "0xfC80E4C59c72Ab78D73886cf98139A0e4726deEE",
+"up": 0.6416721237116164,
+"down": 0.2527811360411627,
+"vol": "338.39804890288195 RSP_R3C",
+"liq": "774.807297307388 RSP_R3C",
+"upPts": 66,
+"downPts": 66
+},
+{
+"name": "ethpandaops/ethereum-helm-charts",
+"id": "0xfd03f01A33EB653B75F59aB8E17C2F9eAD376354",
+"up": 0.6361776781437032,
+"down": 0.36482058895212505,
+"vol": "498.8562771227626 ETHEREUM_HELM_CHARTS_R3C",
+"liq": "771.9984013074185 ETHEREUM_HELM_CHARTS_R3C",
+"upPts": 55,
+"downPts": 88
+},
+{
+"name": "smartcontracts/simple-optimism-node",
+"id": "0x04F4D33c6aa72320a822bC0fCb32e097A45ae4F9",
+"up": 0.6249544595835074,
+"down": 0.3054892439674863,
+"vol": "809.9767916793538 SIMPLE_OPTIMISM_NODE_R3C",
+"liq": "737.1020075683623 SIMPLE_OPTIMISM_NODE_R3C",
+"upPts": 75,
+"downPts": 89
+},
+{
+"name": "ethpandaops/ethereum-package",
+"id": "0x08dAfcA21F736AEC39D0A45ADf779CB8e437A61e",
+"up": 0.6187982417957523,
+"down": 0.22815589927851565,
+"vol": "812.9516756145174 ETHEREUM_PACKAGE_R3C",
+"liq": "745.7808737641576 ETHEREUM_PACKAGE_R3C",
+"upPts": 52,
+"downPts": 93
+},
+{
+"name": "dappnode/DAppNode",
+"id": "0xdD8e32840A811d26AaC9112F530490EE86d89BBC",
+"up": 0.5665037454950466,
+"down": 0.28353010266785084,
+"vol": "452.3412914842105 DAPPNODE_R3C",
+"liq": "723.2122799702238 DAPPNODE_R3C",
+"upPts": 50,
+"downPts": 92
+},
+{
+"name": "succinctlabs/op-succinct",
+"id": "0x48eb0ebBb9284B0d8c51747Da2FC4B9F342B401F",
+"up": 0.5450544085920305,
+"down": 0.26712621968026085,
+"vol": "627.0218446980641 OP_SUCCINCT_R3C",
+"liq": "707.8474443036778 OP_SUCCINCT_R3C",
+"upPts": 52,
+"downPts": 91
+},
+{
+"name": "ethpandaops/checkpointz",
+"id": "0x3eA9dA5b674276D48D843B7e07daF95AC89CeFfA",
+"up": 0.5445641048088745,
+"down": 0.3743175160764035,
+"vol": "427.6802470455538 CHECKPOINTZ_R3C",
+"liq": "712.7756931318094 CHECKPOINTZ_R3C",
+"upPts": 61,
+"downPts": 71
+}
+]

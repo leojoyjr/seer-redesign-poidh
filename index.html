@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seer | Where information becomes a market</title>
+    <meta
+      name="description"
+      content="Collective forecasts, capital-backed conviction, and actionable signals. Information Finance infrastructure for decisions made by people and agents."
+    />
+    <script>
+      (() => {
+        try {
+          const preference = localStorage.getItem('seer-theme-preference') || 'system';
+          const resolved = preference === 'light' || preference === 'dark'
+            ? preference
+            : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.dataset.theme = resolved;
+          localStorage.setItem('seer-theme', resolved);
+        } catch {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

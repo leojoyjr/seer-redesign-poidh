@@ -1,0 +1,1177 @@
+[
+{
+"rank": 1,
+"name": "delegateyourjob.ai",
+"odds": 5.9
+},
+{
+"rank": 2,
+"name": "Zetsu.AI",
+"odds": 4.1
+},
+{
+"rank": 3,
+"name": "Wageware",
+"odds": 3.6
+},
+{
+"rank": 4,
+"name": "Workmesh",
+"odds": 3.5
+},
+{
+"rank": 5,
+"name": "CW",
+"odds": 3.3
+},
+{
+"rank": 6,
+"name": "Foreguild",
+"odds": 3.1
+},
+{
+"rank": 7,
+"name": "Synergent",
+"odds": 3.1
+},
+{
+"rank": 8,
+"name": "Auspex",
+"odds": 3.1
+},
+{
+"rank": 9,
+"name": "WorkX",
+"odds": 2.8
+},
+{
+"rank": 10,
+"name": "Agentarchy",
+"odds": 2.5
+},
+{
+"rank": 11,
+"name": "AgenticGigs",
+"odds": 2.3
+},
+{
+"rank": 12,
+"name": "Vantage",
+"odds": 2.2
+},
+{
+"rank": 13,
+"name": "Seek",
+"odds": 2.2
+},
+{
+"rank": 14,
+"name": "Agora",
+"odds": 1.9
+},
+{
+"rank": 15,
+"name": "Syntask",
+"odds": 1.8
+},
+{
+"rank": 16,
+"name": "Agenticjobs",
+"odds": 1.6
+},
+{
+"rank": 17,
+"name": "Taskweave",
+"odds": 1.5
+},
+{
+"rank": 18,
+"name": "Horizance",
+"odds": 1.4
+},
+{
+"rank": 19,
+"name": "Agentlier",
+"odds": 1.4
+},
+{
+"rank": 20,
+"name": "Agentra",
+"odds": 1.3
+},
+{
+"rank": 21,
+"name": "Worklume",
+"odds": 1.3
+},
+{
+"rank": 22,
+"name": "Fleet",
+"odds": 1.2
+},
+{
+"rank": 23,
+"name": "ForeSeer",
+"odds": 1.1
+},
+{
+"rank": 24,
+"name": "Mintellect",
+"odds": 1.1
+},
+{
+"rank": 25,
+"name": "SAI",
+"odds": 1.1
+},
+{
+"rank": 26,
+"name": "Earnode",
+"odds": 1.1
+},
+{
+"rank": 27,
+"name": "Symbiont",
+"odds": 0.9
+},
+{
+"rank": 28,
+"name": "AgentVerSeer",
+"odds": 0.9
+},
+{
+"rank": 29,
+"name": "AgentForge",
+"odds": 0.9
+},
+{
+"rank": 30,
+"name": "Aigenseer",
+"odds": 0.8
+},
+{
+"rank": 31,
+"name": "WorkOracle",
+"odds": 0.8
+},
+{
+"rank": 32,
+"name": "Workhere Agent",
+"odds": 0.7
+},
+{
+"rank": 33,
+"name": "Jobhere Agent",
+"odds": 0.7
+},
+{
+"rank": 34,
+"name": "Piecework",
+"odds": 0.7
+},
+{
+"rank": 35,
+"name": "quest-board",
+"odds": 0.7
+},
+{
+"rank": 36,
+"name": "BountyMesh",
+"odds": 0.7
+},
+{
+"rank": 37,
+"name": "Task-GPT",
+"odds": 0.7
+},
+{
+"rank": 38,
+"name": "GigAI",
+"odds": 0.7
+},
+{
+"rank": 39,
+"name": "hoodseer",
+"odds": 0.7
+},
+{
+"rank": 40,
+"name": "delegatobs.ai",
+"odds": 0.6
+},
+{
+"rank": 41,
+"name": "R7",
+"odds": 0.6
+},
+{
+"rank": 42,
+"name": "Triojan",
+"odds": 0.6
+},
+{
+"rank": 43,
+"name": "Odyseer",
+"odds": 0.6
+},
+{
+"rank": 44,
+"name": "Serana",
+"odds": 0.6
+},
+{
+"rank": 45,
+"name": "Majestic",
+"odds": 0.6
+},
+{
+"rank": 46,
+"name": "CryptoLabor",
+"odds": 0.6
+},
+{
+"rank": 47,
+"name": "Ergora",
+"odds": 0.6
+},
+{
+"rank": 48,
+"name": "AgentGuild",
+"odds": 0.6
+},
+{
+"rank": 49,
+"name": "AgentHub",
+"odds": 0.6
+},
+{
+"rank": 50,
+"name": "AgentMint",
+"odds": 0.6
+},
+{
+"rank": 51,
+"name": "Taskonomy",
+"odds": 0.6
+},
+{
+"rank": 52,
+"name": "TaskpayAI",
+"odds": 0.5
+},
+{
+"rank": 53,
+"name": "Co-Exist",
+"odds": 0.5
+},
+{
+"rank": 54,
+"name": "SwarmBounty",
+"odds": 0.5
+},
+{
+"rank": 55,
+"name": "Seer Knows",
+"odds": 0.5
+},
+{
+"rank": 56,
+"name": "WorkLoop",
+"odds": 0.5
+},
+{
+"rank": 57,
+"name": "WORKFORGE",
+"odds": 0.5
+},
+{
+"rank": 58,
+"name": "Hireloop",
+"odds": 0.5
+},
+{
+"rank": 59,
+"name": "Augury",
+"odds": 0.5
+},
+{
+"rank": 60,
+"name": "Synerget",
+"odds": 0.4
+},
+{
+"rank": 61,
+"name": "TASKARCHY",
+"odds": 0.4
+},
+{
+"rank": 62,
+"name": "0xwork",
+"odds": 0.4
+},
+{
+"rank": 63,
+"name": "TaskaskAI",
+"odds": 0.4
+},
+{
+"rank": 64,
+"name": "Taskora",
+"odds": 0.4
+},
+{
+"rank": 65,
+"name": "Cryptoagents",
+"odds": 0.4
+},
+{
+"rank": 66,
+"name": "borgcorp",
+"odds": 0.4
+},
+{
+"rank": 67,
+"name": "Gigarchy",
+"odds": 0.4
+},
+{
+"rank": 68,
+"name": "Taskseer",
+"odds": 0.4
+},
+{
+"rank": 69,
+"name": "Futask",
+"odds": 0.4
+},
+{
+"rank": 70,
+"name": "Laboracle",
+"odds": 0.4
+},
+{
+"rank": 71,
+"name": "TaskNet",
+"odds": 0.4
+},
+{
+"rank": 72,
+"name": "KORRA",
+"odds": 0.4
+},
+{
+"rank": 73,
+"name": "Hive",
+"odds": 0.4
+},
+{
+"rank": 74,
+"name": "Errand",
+"odds": 0.4
+},
+{
+"rank": 75,
+"name": "Drexseer",
+"odds": 0.4
+},
+{
+"rank": 76,
+"name": "SEERAAI",
+"odds": 0.4
+},
+{
+"rank": 77,
+"name": "SEERA",
+"odds": 0.4
+},
+{
+"rank": 78,
+"name": "SeerAgentFi",
+"odds": 0.4
+},
+{
+"rank": 79,
+"name": "NEMESIS",
+"odds": 0.4
+},
+{
+"rank": 80,
+"name": "Zethro",
+"odds": 0.4
+},
+{
+"rank": 81,
+"name": "OracleBoard",
+"odds": 0.4
+},
+{
+"rank": 82,
+"name": "PRONOA",
+"odds": 0.4
+},
+{
+"rank": 83,
+"name": "AEVUM",
+"odds": 0.4
+},
+{
+"rank": 84,
+"name": "synthlabor",
+"odds": 0.4
+},
+{
+"rank": 85,
+"name": "PayAgents",
+"odds": 0.4
+},
+{
+"rank": 86,
+"name": "Aeer",
+"odds": 0.4
+},
+{
+"rank": 87,
+"name": "Seertra",
+"odds": 0.4
+},
+{
+"rank": 88,
+"name": "consigliere",
+"odds": 0.4
+},
+{
+"rank": 89,
+"name": "kuywork",
+"odds": 0.4
+},
+{
+"rank": 90,
+"name": "Sevia",
+"odds": 0.4
+},
+{
+"rank": 91,
+"name": "Jobency",
+"odds": 0.4
+},
+{
+"rank": 92,
+"name": "AgentsForce",
+"odds": 0.4
+},
+{
+"rank": 93,
+"name": "Telemetry",
+"odds": 0.4
+},
+{
+"rank": 94,
+"name": "Quivora",
+"odds": 0.4
+},
+{
+"rank": 95,
+"name": "Abc",
+"odds": 0.4
+},
+{
+"rank": 96,
+"name": "Fluffy",
+"odds": 0.4
+},
+{
+"rank": 97,
+"name": "TaskForge AI",
+"odds": 0.4
+},
+{
+"rank": 98,
+"name": "BotBoard",
+"odds": 0.4
+},
+{
+"rank": 99,
+"name": "PromptPay",
+"odds": 0.4
+},
+{
+"rank": 100,
+"name": "HA collective",
+"odds": 0.4
+},
+{
+"rank": 101,
+"name": "Zenwork",
+"odds": 0.4
+},
+{
+"rank": 102,
+"name": "Vibraz",
+"odds": 0.4
+},
+{
+"rank": 103,
+"name": "HandsOn",
+"odds": 0.4
+},
+{
+"rank": 104,
+"name": "FutarchAI",
+"odds": 0.4
+},
+{
+"rank": 105,
+"name": "None of the listed names",
+"odds": 0.4
+},
+{
+"rank": 106,
+"name": "TaskMesh",
+"odds": null
+},
+{
+"rank": 107,
+"name": "Predfupay",
+"odds": null
+},
+{
+"rank": 108,
+"name": "Seervant",
+"odds": null
+},
+{
+"rank": 109,
+"name": "Taskorama",
+"odds": null
+},
+{
+"rank": 110,
+"name": "Praxis",
+"odds": null
+},
+{
+"rank": 111,
+"name": "agentbounty",
+"odds": null
+},
+{
+"rank": 112,
+"name": "Aetherwork",
+"odds": null
+},
+{
+"rank": 113,
+"name": "TaskIT",
+"odds": null
+},
+{
+"rank": 114,
+"name": "AgentGemini",
+"odds": null
+},
+{
+"rank": 115,
+"name": "AgentSeerX",
+"odds": null
+},
+{
+"rank": 116,
+"name": "Aether",
+"odds": null
+},
+{
+"rank": 117,
+"name": "AgentFutarchy",
+"odds": null
+},
+{
+"rank": 118,
+"name": "AIora",
+"odds": null
+},
+{
+"rank": 119,
+"name": "AgentSent",
+"odds": null
+},
+{
+"rank": 120,
+"name": "PHRONEX",
+"odds": null
+},
+{
+"rank": 121,
+"name": "Skynet",
+"odds": null
+},
+{
+"rank": 122,
+"name": "Seerchy",
+"odds": null
+},
+{
+"rank": 123,
+"name": "Seerarchy",
+"odds": null
+},
+{
+"rank": 124,
+"name": "seerMarket",
+"odds": null
+},
+{
+"rank": 125,
+"name": "AgentMarket",
+"odds": null
+},
+{
+"rank": 126,
+"name": "TaskForge",
+"odds": null
+},
+{
+"rank": 127,
+"name": "SeerGent",
+"odds": null
+},
+{
+"rank": 128,
+"name": "GOVERMANCE",
+"odds": null
+},
+{
+"rank": 129,
+"name": "Bountara",
+"odds": null
+},
+{
+"rank": 130,
+"name": "Garcon",
+"odds": null
+},
+{
+"rank": 131,
+"name": "AgentBazaar",
+"odds": null
+},
+{
+"rank": 132,
+"name": "TaskChain",
+"odds": null
+},
+{
+"rank": 133,
+"name": "Versatile agent",
+"odds": null
+},
+{
+"rank": 134,
+"name": "Yumari",
+"odds": null
+},
+{
+"rank": 135,
+"name": "Marium",
+"odds": null
+},
+{
+"rank": 136,
+"name": "Aethel",
+"odds": null
+},
+{
+"rank": 137,
+"name": "EtherGig",
+"odds": null
+},
+{
+"rank": 138,
+"name": "Zorvi",
+"odds": null
+},
+{
+"rank": 139,
+"name": "Zuno",
+"odds": null
+},
+{
+"rank": 140,
+"name": "Seegency",
+"odds": null
+},
+{
+"rank": 141,
+"name": "Seergency",
+"odds": null
+},
+{
+"rank": 142,
+"name": "Taskware",
+"odds": null
+},
+{
+"rank": 143,
+"name": "MachGig",
+"odds": null
+},
+{
+"rank": 144,
+"name": "Workware",
+"odds": null
+},
+{
+"rank": 145,
+"name": "Cogtract",
+"odds": null
+},
+{
+"rank": 146,
+"name": "Luno",
+"odds": null
+},
+{
+"rank": 147,
+"name": "Viora",
+"odds": null
+},
+{
+"rank": 148,
+"name": "Jasmine",
+"odds": null
+},
+{
+"rank": 149,
+"name": "Juna",
+"odds": null
+},
+{
+"rank": 150,
+"name": "SeerAgent",
+"odds": null
+},
+{
+"rank": 151,
+"name": "Orvyn",
+"odds": null
+},
+{
+"rank": 152,
+"name": "Zeta7",
+"odds": null
+},
+{
+"rank": 153,
+"name": "Lum62",
+"odds": null
+},
+{
+"rank": 154,
+"name": "Zen40",
+"odds": null
+},
+{
+"rank": 155,
+"name": "Qx62",
+"odds": null
+},
+{
+"rank": 156,
+"name": "Viola",
+"odds": null
+},
+{
+"rank": 157,
+"name": "AgayabaB",
+"odds": null
+},
+{
+"rank": 158,
+"name": "Agent 99",
+"odds": null
+},
+{
+"rank": 159,
+"name": "2PUTRI",
+"odds": null
+},
+{
+"rank": 160,
+"name": "Tazz",
+"odds": null
+},
+{
+"rank": 161,
+"name": "Oura",
+"odds": null
+},
+{
+"rank": 162,
+"name": "Clayy",
+"odds": null
+},
+{
+"rank": 163,
+"name": "Alexx",
+"odds": null
+},
+{
+"rank": 164,
+"name": "Kelra",
+"odds": null
+},
+{
+"rank": 165,
+"name": "Aran",
+"odds": null
+},
+{
+"rank": 166,
+"name": "Moreno",
+"odds": null
+},
+{
+"rank": 167,
+"name": "Lj",
+"odds": null
+},
+{
+"rank": 168,
+"name": "SeerNet",
+"odds": null
+},
+{
+"rank": 169,
+"name": "SynapseGigs",
+"odds": null
+},
+{
+"rank": 170,
+"name": "FuturaWork",
+"odds": null
+},
+{
+"rank": 171,
+"name": "AgorAI",
+"odds": null
+},
+{
+"rank": 172,
+"name": "SeerMesh",
+"odds": null
+},
+{
+"rank": 173,
+"name": "Futark",
+"odds": null
+},
+{
+"rank": 174,
+"name": "Operative",
+"odds": null
+},
+{
+"rank": 175,
+"name": "Actora",
+"odds": null
+},
+{
+"rank": 176,
+"name": "Agenzia",
+"odds": null
+},
+{
+"rank": 177,
+"name": "Ergon",
+"odds": null
+},
+{
+"rank": 178,
+"name": "Aidra",
+"odds": null
+},
+{
+"rank": 179,
+"name": "Yeseer",
+"odds": null
+},
+{
+"rank": 180,
+"name": "SEERmeta.ai",
+"odds": null
+},
+{
+"rank": 181,
+"name": "Xanax",
+"odds": null
+},
+{
+"rank": 182,
+"name": "Seer402",
+"odds": null
+},
+{
+"rank": 183,
+"name": "Apiseer.com",
+"odds": null
+},
+{
+"rank": 184,
+"name": "CONEX",
+"odds": null
+},
+{
+"rank": 185,
+"name": "SeerTask",
+"odds": null
+},
+{
+"rank": 186,
+"name": "WorkMint",
+"odds": null
+},
+{
+"rank": 187,
+"name": "AI_land",
+"odds": null
+},
+{
+"rank": 188,
+"name": "AIzon",
+"odds": null
+},
+{
+"rank": 189,
+"name": "Humai",
+"odds": null
+},
+{
+"rank": 190,
+"name": "Stackyard",
+"odds": null
+},
+{
+"rank": 191,
+"name": "QuantSeer",
+"odds": null
+},
+{
+"rank": 192,
+"name": "BotLancer",
+"odds": null
+},
+{
+"rank": 193,
+"name": "Synthex",
+"odds": null
+},
+{
+"rank": 194,
+"name": "Vektarchy",
+"odds": null
+},
+{
+"rank": 195,
+"name": "SynthWork",
+"odds": null
+},
+{
+"rank": 196,
+"name": "Autonoma",
+"odds": null
+},
+{
+"rank": 197,
+"name": "Stochast",
+"odds": null
+},
+{
+"rank": 198,
+"name": "Monard",
+"odds": null
+},
+{
+"rank": 199,
+"name": "Bounty",
+"odds": null
+},
+{
+"rank": 200,
+"name": "futairchy",
+"odds": null
+},
+{
+"rank": 201,
+"name": "Satoin",
+"odds": null
+},
+{
+"rank": 202,
+"name": "PredicTask",
+"odds": null
+},
+{
+"rank": 203,
+"name": "FuturAgent",
+"odds": null
+},
+{
+"rank": 204,
+"name": "Aidens",
+"odds": null
+},
+{
+"rank": 205,
+"name": "Nexora",
+"odds": null
+},
+{
+"rank": 206,
+"name": "Workchain",
+"odds": null
+},
+{
+"rank": 207,
+"name": "SpeculAI",
+"odds": null
+},
+{
+"rank": 208,
+"name": "TaskOracle",
+"odds": null
+},
+{
+"rank": 209,
+"name": "Topicktea",
+"odds": null
+},
+{
+"rank": 210,
+"name": "Seerpants",
+"odds": null
+},
+{
+"rank": 211,
+"name": "TaskMint",
+"odds": null
+},
+{
+"rank": 212,
+"name": "Genztask",
+"odds": null
+},
+{
+"rank": 213,
+"name": "Workseer",
+"odds": null
+},
+{
+"rank": 214,
+"name": "AgentWprk",
+"odds": null
+},
+{
+"rank": 215,
+"name": "aiprediseer",
+"odds": null
+},
+{
+"rank": 216,
+"name": "prediaiseer",
+"odds": null
+},
+{
+"rank": 217,
+"name": "TaskNest",
+"odds": null
+},
+{
+"rank": 218,
+"name": "TaskProtocol",
+"odds": null
+},
+{
+"rank": 219,
+"name": "BountyAgent",
+"odds": null
+},
+{
+"rank": 220,
+"name": "Worksyndicate",
+"odds": null
+},
+{
+"rank": 221,
+"name": "Playveda",
+"odds": null
+},
+{
+"rank": 222,
+"name": "ProofWork",
+"odds": null
+},
+{
+"rank": 223,
+"name": "Artseer",
+"odds": null
+},
+{
+"rank": 224,
+"name": "Artask",
+"odds": null
+},
+{
+"rank": 225,
+"name": "LaborOS",
+"odds": null
+},
+{
+"rank": 226,
+"name": "INTERSECT",
+"odds": null
+},
+{
+"rank": 227,
+"name": "AetherForge",
+"odds": null
+},
+{
+"rank": 228,
+"name": "PrediWork",
+"odds": null
+},
+{
+"rank": 229,
+"name": "AgentLoom",
+"odds": null
+},
+{
+"rank": 230,
+"name": "Gigverse",
+"odds": null
+},
+{
+"rank": 231,
+"name": "PrediGig",
+"odds": null
+},
+{
+"rank": 232,
+"name": "Bidloom",
+"odds": null
+},
+{
+"rank": 233,
+"name": "Presyze",
+"odds": null
+},
+{
+"rank": 234,
+"name": "MeritMesh",
+"odds": null
+},
+{
+"rank": 235,
+"name": "AgentFoundry",
+"odds": null
+}
+]

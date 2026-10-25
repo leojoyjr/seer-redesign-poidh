@@ -1,0 +1,1 @@
+{ "name": "@seer/ef", "version": "0.1.0", "private": true, "type": "module", "exports": { "./tokens.css": "./tokens.css", "./seer-shell.css": "./seer-shell.css", "./seer-shell.js": "./seer-shell.js", "./seer-subbar.css": "./seer-subbar.css" } }

@@ -1,0 +1,35 @@
+import {Tabs} from './Controls';
+import {Dialog} from './Dialogs';
+import {Tooltip} from './Tooltip';
+import {useEffect,useState} from 'react';
+import {useReducedMotion} from './useMotionPreference';
+import {useMarkets,ranked,odds,updateMarkets} from '../data/markets';
+import {coverage,reviewCut} from '../math/coverage';
+import {Glyph} from './Explore';
+import {Ticket} from './Ticket';
+import {PriceChart} from './PriceChart';
+import {Field,isWinner} from './Field';
+import {RankedLadder} from './RankedLadder';
+import {useOddsColours} from './useOddsColours';
+import {MarketLabels} from './MarketLabels';
+import {openMarketSheet} from '../router';
+export function Stage({wallet,review}:{wallet:()=>void;review:()=>void}){
+ const colours=useOddsColours();
+ const [previewId,setPreviewId]=useState<string|null>(null);
+ const s=useMarkets(),m=s.markets.find(m=>m.id===s.selectedId)!,rows=ranked(m),o=m.rows.find(o=>o.id===(previewId??s.submissionId))??rows[0];
+ const [variant,setVariant]=useState<'Ranked'|'Heatmap'|'Bubbles'>(()=>{try{const saved=localStorage.getItem('opportunity.v8.field');return saved==='Ranked'||saved==='Bubbles'?saved:'Heatmap';}catch{return 'Heatmap';}});
+ const [mobileOpen,setMobileOpen]=useState(false),[mobileMode,setMobileMode]=useState('Buy');
+ useEffect(()=>{const open=(e:Event)=>{setMobileMode((e as CustomEvent<string>).detail??'Buy');setMobileOpen(true);};window.addEventListener('opp:mobile-ticket',open);return()=>window.removeEventListener('opp:mobile-ticket',open);},[]);
+ const reduced=!!useReducedMotion(),[scrollRequest,setScrollRequest]=useState(0),[reviewing,setReviewing]=useState(false),[cut,setCut]=useState(27);
+ useEffect(()=>{setPreviewId(null);setCut(reviewCut(m));setReviewing(false);},[m.id]);
+ const priced=rows.filter(o=>o.odds!==null&&o.odds!==.4),noPool=rows.filter(o=>o.odds===null),k=Math.min(cut,rows.length-noPool.length);
+
+ const select=(id:string)=>{setPreviewId(null);updateMarkets({submissionId:id});};
+ const winners=rows.filter(r=>isWinner(m,r));
+ const rightContent=<><section className="selection" data-testid="selected-submission"><h2 className="selection-label">Selected submission</h2><div className="selected-top"><Glyph name={o.name}/><h2 data-testid="selected-submission-name" title={o.name}>{o.name}</h2></div><button className="soft" onClick={()=>{setMobileOpen(false);review();}}>Review submission →</button><div className="big-odds">{odds(o.odds)}<small><Tooltip text="Traders’ estimate of selection; the sponsor makes the final decision.">Odds</Tooltip></small></div><div className="data-line"><Tooltip text="Price per share in sDAI; 5.9% odds corresponds to 0.059 sDAI.">Price</Tooltip><b>{o.odds===null?'No pool':`${(o.odds/100).toFixed(3)} sDAI`}</b></div><div className="data-line"><span>Rank</span><b>{rows.findIndex(r=>r.id===o.id)+1} of {m.outcomes}</b></div><PriceChart submission={o}/></section> <div className="decision-card" data-testid="decision-card" aria-label="Decision"><h2>Decision</h2><div className="cut-row"><label htmlFor="review-cut"><Tooltip text="Choose how many top-ranked submissions to review; this does not select winners.">Review cut</Tooltip></label><input data-testid="review-cut" id="review-cut" type="range" min="1" max={Math.max(1,rows.length-noPool.length)} value={k} aria-valuetext={`Top ${k} · ${Math.min(100,coverage(k,rows)).toFixed(1)}% of odds`} onChange={e=>{setCut(Number(e.target.value));setReviewing(true);}}/><output><Tooltip text="The combined odds of the top-ranked submissions inside your review cut.">Top {k} · {Math.min(100,coverage(k,rows)).toFixed(1)}% of odds</Tooltip></output></div>
+ <div className="sponsor-lane" data-testid="sponsor-decision"><span className="sponsor-title"><svg width="12" height="14" viewBox="0 0 12 14" fill="none" stroke="currentColor" aria-hidden="true"><rect x="2" y="6" width="8" height="7" rx="1"/><path d="M4 6V3a2 2 0 0 1 4 0v3"/></svg>Sponsor decision</span><span className={`decision-status chip ${m.status==='Finalized'?'winner':'pending'}`} title={winners.map(w=>w.name).join(', ')}>{m.status==='Finalized'?'Winner':'Pending'}</span><small className="decision-pick">Pick {m.decision==='Top 5'?5:1}</small><button className="shortlist-button" onClick={()=>{setVariant('Ranked');setScrollRequest(v=>v+1);try{localStorage.setItem('opportunity.v8.field','Ranked');}catch{/* Storage optional. */}setMobileOpen(false);}}>View shortlist</button></div></div><Ticket initialMode={mobileMode} wallet={()=>{setMobileOpen(false);wallet();}}/></>;
+ return <><section className="stage-column" data-testid="market-board"><div className="stage-heading"><div className="title-line"><div className="title-identity"><Glyph name={m.title}/><div className="stage-title"><h1 title={m.title}>{m.title}</h1></div></div></div><div className="market-status-row"><span className="status label-chip">{m.status}</span><span className="chip market-data">{m.sample?'Sample':'Live data'}</span><Tooltip text="Selection markets turn any selection process into a market. How to use: Odds guide review; sponsor decides."><button className="icon market-info" aria-label="About selection markets">i</button></Tooltip><button className="expanded-trigger soft" aria-label="Open expanded view" onClick={()=>openMarketSheet(m.id)}><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" aria-hidden="true"><path d="M6 2H2v4m8-4h4v4M2 10v4h4m8-4v4h-4"/></svg><span>Expanded view</span></button></div><MarketLabels market={m}/></div>
+ <div className="stage-card"><div className="stage-toolbar"><div data-testid="board-views"><Tabs items={['Heatmap','Bubbles','Ranked']} selected={variant} label="Markets view" onSelect={v=>{if(v==='Ranked'||v==='Bubbles'||v==='Heatmap'){setVariant(v);setPreviewId(null);setReviewing(false);try{localStorage.setItem('opportunity.v8.field',v);}catch{/* Storage optional. */}}}}/></div><div className="toolbar-legend">{variant==='Ranked'?'Odds · Cumulative':variant==='Heatmap'?<><i className="ramp-key" style={{background:`linear-gradient(90deg,${Array.from({length:65},(_,i)=>colours(i/64).background).join(',')})`}}/>Odds {priced.length?odds(Math.min(...priced.map(r=>r.odds??0))):'—'} to {priced.length?odds(Math.max(...priced.map(r=>r.odds??0))):'—'}</>:<><i className="size-key"/>Size · Odds</>}</div></div>
+ {variant==='Ranked'?<RankedLadder rows={rows} cut={k} selected={s.submissionId} onPreview={setPreviewId} positions={s.positions} winnerIds={winners.map(w=>w.id)} scrollRequest={scrollRequest} onCut={value=>{setCut(value);setReviewing(true);}} onSelect={select} onOpen={review}/>:<Field variant={variant} market={m} rows={rows} reviewing={reviewing} cut={k} selected={o.id} reduced={reduced} onSelect={select} onOpen={review}/>}
+
+ </div></section><aside className="right-panel">{!mobileOpen&&rightContent}</aside><button className="mobile-ticket-trigger primary btn-bubbles" onClick={()=>setMobileOpen(true)}>Buy · {o.name}</button>{mobileOpen&&<Dialog className="ticket-sheet mobile-trading" title="Selected submission" close={()=>setMobileOpen(false)}>{rightContent}</Dialog>}</>;}

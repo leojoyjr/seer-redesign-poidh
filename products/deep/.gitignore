@@ -1,0 +1,10 @@
+node_modules/
+dist*/
+after/
+baseline/
+e2e/out/
+e2e/test-results/
+reports/**/*.png
+reports/**/*.html
+reports/**/*.zip
+*.log

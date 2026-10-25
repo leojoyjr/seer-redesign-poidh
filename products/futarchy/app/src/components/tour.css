@@ -1,0 +1,158 @@
+.guided-tour[open] {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+}
+
+.guided-tour::backdrop {
+  background: transparent;
+}
+
+.tour-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.tour-dim {
+  fill: var(--bg);
+  fill-opacity: .88;
+}
+
+.tour-coach.card {
+  position: absolute;
+  display: flex;
+  width: min(360px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  min-height: 208px;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  overflow: visible;
+  background: var(--card);
+  box-shadow:
+    0 24px 64px color-mix(in srgb, var(--bg) 72%, transparent),
+    inset 0 1px 0 var(--line);
+  animation: tour-coach-enter 220ms var(--ease-spring) both;
+}
+
+.tour-coach p {
+  min-height: 48px;
+  margin: 0;
+  color: var(--text);
+  font-size: var(--fs-16);
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.tour-progress {
+  display: flex;
+  min-height: 24px;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-2);
+  font-size: var(--fs-12);
+  font-variant-numeric: tabular-nums;
+}
+
+.tour-progress > div {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  gap: 4px;
+}
+
+.tour-progress i {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--text-3);
+}
+
+.tour-progress i.current {
+  background: var(--violet);
+}
+
+.tour-progress kbd {
+  flex: 0 0 auto;
+}
+
+.tour-actions {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tour-actions .button {
+  min-height: 40px;
+  padding-inline: 16px;
+}
+
+.tour-actions .button:first-child {
+  margin-right: auto;
+}
+
+.tour-coach::before {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: var(--card);
+  content: '';
+  transform: rotate(45deg);
+}
+
+.coach-below::before {
+  top: -8px;
+  left: 24px;
+}
+
+.coach-above::before {
+  bottom: -8px;
+  left: 24px;
+}
+
+.coach-left::before {
+  top: 24px;
+  right: -8px;
+}
+
+@keyframes tour-coach-enter {
+  from {
+    opacity: 0;
+    transform: scale(.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 639px) {
+  .tour-coach.card {
+    width: calc(100vw - 32px);
+    padding: 16px;
+  }
+
+  .tour-actions .button {
+    padding-inline: 8px;
+    font-size: var(--fs-12);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tour-coach.card {
+    animation: none;
+  }
+}

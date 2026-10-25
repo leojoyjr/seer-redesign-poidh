@@ -1,0 +1,2 @@
+{ "name": "futarchy-dev", "private": true, "workspaces": ["app", "packages/*"],
+  "scripts": { "dev": "npm run dev -w app", "build": "npm run build -w app", "e2e": "npm run e2e -w app" } }

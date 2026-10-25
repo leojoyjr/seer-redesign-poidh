@@ -1,0 +1,76 @@
+.lv-scene { position: relative; width: 100%; max-width: 460px; height: 220px; min-width: 0; justify-self: end; }
+.lv-scene svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.lv-scene text { fill: var(--color-text-secondary); font-family: var(--font-ui); font-size: 14px; font-variant-numeric: tabular-nums; }
+.lv-caption { position: absolute; bottom: 8px; left: 8px; color: var(--color-text-secondary); font-size: 11px; line-height: 16px; }
+.lv-pass, .lv-fail, .lv-bracket path, .lv-needle path, .lv-verdict-track { fill: none; stroke-width: 2; }
+.lv-pass { stroke: var(--color-pass-line); }
+.lv-fail { stroke: var(--color-fail-line); stroke-dasharray: 6 4; }
+.lv-scene .lv-pass-label, .lv-scene .lv-gap-label { fill: var(--color-pass-text); }
+.lv-proposal { fill: var(--color-surface-raised); stroke: var(--color-text-secondary); }
+.lv-dot--pass { fill: var(--color-pass-line); }
+.lv-dot--fail { fill: var(--color-fail-line); }
+.lv-dot { opacity: 0; }
+.lv-bracket { transition: transform 600ms var(--ease-out-quart); }
+.lv-bracket path, .lv-needle path { stroke: var(--color-violet-text); }
+.lv-verdict-track { stroke: var(--color-rule); }
+.lv-needle { transition: transform 600ms var(--ease-out-quart); }
+.lv-price { display: inline-flex; position: relative; color: var(--color-text); font-size: 16px; line-height: 24px; font-variant-numeric: tabular-nums; }
+.lv-price-flash { position: absolute; inset: 0; background: var(--color-violet-soft); pointer-events: none; animation: lv-flash 600ms ease-out both; }
+.lv-tk { min-height: 0; min-width: 0; overflow: hidden; font-variant-numeric: tabular-nums; }
+.lv-tk-list { margin: 0; padding: 0; list-style: none; }
+.lv-tk-row { display: grid; grid-template-columns: 16px 56px minmax(88px, 1fr) minmax(40px, auto) 48px; align-items: center; gap: 8px; height: 32px; color: var(--color-text-secondary); font-size: 11px; white-space: nowrap; animation: lv-row 240ms ease-out both; }
+.lv-tk-row > span:nth-last-child(2), .lv-tk-row time { text-align: right; }
+.lv-tk-row[data-oldest='true'] { animation: lv-oldest 240ms ease-out both; }
+.lv-tk-arrow { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.75; }
+.lv-tk-tag { display: flex; align-items: center; gap: 4px; color: var(--color-fail-text); }
+.lv-tk-tag i { width: 12px; border-top: 2px dashed var(--color-fail-line); }
+.lv-tk-tag--pass { color: var(--color-pass-text); }
+.lv-tk-tag--pass i { border-top: 2px solid var(--color-pass-line); }
+.f6-lane[aria-current='true'] .f6-lane__track--pass .f6-lane__rail,
+.f6-lane--selected .f6-lane__track--pass .f6-lane__rail { overflow: hidden; }
+.f6-lane--selected .f6-lane__track--pass .f6-lane__rail::after { position: absolute; width: 16%; height: 2px; top: 3px; background: var(--color-violet-tint); content: ''; animation: lv-travel 4s linear infinite; }
+.f6-lane--selected .f6-lane__gap-fill::after { position: absolute; inset: 0; background: var(--color-violet-text); opacity: .32; content: ''; transform-origin: right; animation: lv-breathe 3s ease-in-out infinite alternate; }
+@keyframes lv-row { from { transform: translateY(-16px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes lv-oldest { from { opacity: 1; } to { opacity: 0; } }
+@keyframes lv-flash { from { opacity: .6; } to { opacity: 0; } }
+@keyframes lv-travel { from { transform: translateX(-100%); opacity: 0; } 25%, 75% { opacity: 1; } to { transform: translateX(625%); opacity: 0; } }
+@keyframes lv-breathe { from { transform: scaleX(.98); } to { transform: scaleX(1); } }
+@media (max-width: 1023px) { .lv-scene { max-width: none; height: 180px; } }
+@media (prefers-reduced-motion: reduce) {
+  .lv-scene *, .lv-tk *, .lv-price-flash, .f6-lane--selected .f6-lane__rail::after, .f6-lane--selected .f6-lane__gap-fill::after { animation: none !important; transition: none !important; }
+  .lv-price-flash { opacity: 0; }
+}
+
+.lv-price[data-direction='down'] .lv-price-flash { background: var(--color-fail-fill); }
+.lv-node-pulse { fill: none; stroke: var(--color-violet-text); animation: lv-node 600ms ease-out both; }
+@keyframes lv-node { from { transform: scale(.5); opacity: 1; } to { transform: scale(1.8); opacity: 0; } }
+
+.f6-hero[data-live-running='false'] .f6-lane__rail::after,
+.f6-hero[data-live-running='false'] .f6-lane__gap-fill::after,
+.lv-scene[data-running='false'] .lv-node-pulse { animation-play-state: paused; }
+@media (max-width: 479px) {
+  .lv-scene text { font-size: 18px; }
+  .lv-price { font-size: 18px; }
+  .lv-tk-row { grid-template-columns: 16px 48px minmax(80px, 1fr) minmax(32px, auto) 40px; gap: 4px; }
+}
+
+.lv-scene[data-running='true'] .lv-bracket path { transform-origin: right center; animation: lv-breathe 3s ease-in-out infinite alternate; }
+@media (prefers-reduced-motion: reduce) {
+  .lv-node-pulse { opacity: 0; }
+}
+
+.lv-feeder { fill: none; stroke: var(--color-rule); stroke-width: 2; }
+.lv-scene .lv-proposal { fill: var(--color-surface-raised); stroke: var(--color-violet-text); stroke-width: 1; }
+.lv-proposal-ring { fill: none; stroke: var(--color-violet-text); transform-origin: 88px 252px; animation: lv-proposal-breathe 3s ease-out infinite; }
+.lv-logo-crossfade { display: block; animation: lv-logo-enter 240ms ease-out both; }
+.lv-feeder-token { animation: lv-feeder-flow 6s linear infinite; }
+.lv-coin-level { transition: transform 240ms var(--ease-out-quart); }
+.lv-receipt { display: inline-flex; align-items: center; min-height: 24px; padding: 0 8px; border-radius: 8px; background: var(--color-surface-raised); color: var(--color-text); font-size: 12px; line-height: 24px; font-variant-numeric: tabular-nums; animation: lv-receipt-enter 240ms ease-out both; }
+.lv-scene[data-running='false'] *, .lv-scene[data-running='false'] *::after { animation-play-state: paused !important; }
+@keyframes lv-proposal-breathe { from { transform: scale(1); opacity: .8; } to { transform: scale(1.18); opacity: 0; } }
+@keyframes lv-logo-enter { from { opacity: 0; } to { opacity: 1; } }
+@keyframes lv-feeder-flow { from { transform: translateX(-16px) scale(1); opacity: 0; } 20%, 65% { opacity: 1; } to { transform: translateX(64px) scale(.7); opacity: 0; } }
+@keyframes lv-receipt-enter { from { transform: translateY(8px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .lv-feeder-token, .lv-proposal-ring { opacity: 0; } }
+.lv-logo-stage { position: relative; display: block; width: 44px; height: 44px; }
+.lv-logo-stage .lv-logo-crossfade { position: absolute; inset: 0; animation: none; }

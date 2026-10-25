@@ -1,0 +1,672 @@
+{
+  "capturedAt": "2026-10-24T09:31:45.302Z",
+  "images": [
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTzCDnRV3RiUFgYTyauoCpKSjGY5zpu7aq5YpEz85Kuzp/seer_0xfe414db77da686f2050877565b7223b7da4b7c36_0.jpg",
+      "path": "assets/markets/1e1031de3a1f4bc2.jpg",
+      "bytes": 17556,
+      "sha256": "4d3905525d57257dcd686eb3f7ba95f043b7ca1da1fbd9b2eb3883dbd1df44ba",
+      "originalSha256": "42a05e635f5b922099a0530b6207e13490c57d0c977cd3f2ff27297fa0370755",
+      "originalBytes": 17276,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmQ4s8dgGfsUDZWvgKWdEKk1YDAC2W4DmwkQY6q5PGWZkg/seer_0xabe35cf0953169d9384f5953633f02996b4802f9_0.png",
+      "path": "assets/markets/a6c9e751865c6e91.png",
+      "bytes": 503425,
+      "sha256": "1cd3c6b96525a5673bad65dc2912549eae443cf0e7781d4c7bba515759ff663b",
+      "originalSha256": "3b5eea0903f8c4698749e7ed72a5baeee1cf8419b9f3e8c3476a8e641814f1b3",
+      "originalBytes": 503137,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/Qmc67B5n3rEpssrkwsGhbPmt65CNSgJGArQYkdyHEUpmF3/seer_0xe1793927eb763864967426fe7750ab0dc6f019f3_0.png",
+      "path": "assets/markets/d460e0d2764422eb.png",
+      "bytes": 445899,
+      "sha256": "8b7ace21a5e340d24389e7aa2bca047f555d5863cb72595bd55180d91e9f0754",
+      "originalSha256": "069e4c79eb7f1fb38a8745ed6aedc3f01eba9997bf541e1bd47d72367d291cb2",
+      "originalBytes": 445611,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmYi4igXEn7G9Y3TGPz3y4yHi6m1RKrK9nKDGNKog2DBBb",
+      "path": "assets/markets/c0e3253c45579fb6.png",
+      "bytes": 41725,
+      "sha256": "005f6b8d9d8097cedbd458664b867d3cb66847ce62a51966ee69d4c8e65ad5d1",
+      "originalSha256": "1f2c43eed23b708104812e3589042d3d5a3da6c0d1d2ccb0b22961d61cd3e070",
+      "originalBytes": 41491,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVTNJafqsxGzzV8cQqHJW6VxrQR93vWWpuRjM7H8KKazj/seer_0xbbf8f7e40a9234d965f59802c1b3720b21bcc32e_0.jpg",
+      "path": "assets/markets/a5ec0512eeedae20.jpg",
+      "bytes": 17556,
+      "sha256": "0ecca97d5cb5139ba883652db86c47599124c01dccf8e897deb47ebdcf3030d1",
+      "originalSha256": "42a05e635f5b922099a0530b6207e13490c57d0c977cd3f2ff27297fa0370755",
+      "originalBytes": 17276,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmRJwx22WbdzShDbqQpnBcA5zXDhH3JYAsVTYjg8dwDagD",
+      "path": "assets/markets/720631e8462c055c.png",
+      "bytes": 15451,
+      "sha256": "73d1a9e269a47a6d1335c61a89479fe7fde1dc5af936c298943d66eb537e033e",
+      "originalSha256": "cf19e0f5011624076bab78bd17470bf99255e721bcad3f030085d2e4fde55c4e",
+      "originalBytes": 15217,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmYqrCkcomtEjvDHYvQSMeLihatfBW9HEqtEmGWa1D6WQs",
+      "path": "assets/markets/4c9418ab1aaf8017.png",
+      "bytes": 65212,
+      "sha256": "50513001148b4f97f16aa907a2d22fe6e9285d17d97a57ea0b56a4e089a87379",
+      "originalSha256": "66e81f3401d6c89ed2201bde53d16f679688a944bbead1989365224074017cee",
+      "originalBytes": 64978,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmaUkkkX21HDcCHCANhpz3sELTkSFdYGakjADtmE4aHLTW",
+      "path": "assets/markets/742e09a291d67a92.jpg",
+      "bytes": 159510,
+      "sha256": "8c8a1beb3ef48062e3c37691cd15709e2e5fc3a6daa5e4abe3996bc033321f4e",
+      "originalSha256": "b3ca47921607946fe4ec2cfc5e666bd1f3cc30ba209783744c2e823f7ee658b4",
+      "originalBytes": 159284,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmStAaA7Y5vS9kxNnrdFhDLRrbaibD44XhTNbZqaT3B39P",
+      "path": "assets/markets/1ea4cfea4c9b3091.png",
+      "bytes": 5676,
+      "sha256": "ac364d9169219f6720ecaa2a5b2fbb15d875a7a319dc7cd40d54ad04f2c0003e",
+      "originalSha256": "e2f123c473e118e2063376f30533aa96731eb4e3b1435a71325f11d8f62423c2",
+      "originalBytes": 5442,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmPt7gFzK3XJ87CbQ6wk5SE21yB4vm9hKpge9DKiLEqLHu",
+      "path": "assets/markets/92e1b23e644f354e.jpg",
+      "bytes": 382077,
+      "sha256": "dc34e7dafe7136439c40490970e6e97921103bfe5e9b3a76b2fa156e37176c01",
+      "originalSha256": "7c498e297704d58f6a604c783dac36f933d0b6a141dbe401c0057f563cfcb1c4",
+      "originalBytes": 381851,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmXwtYgq5uwS83h3UtW3U7aPUpsdmqSWQ4X4MtTmLAKbm8",
+      "path": "assets/markets/9a96a836b9fc1684.jpg",
+      "bytes": 345288,
+      "sha256": "3ebf9da7188bf70576e288d7ba3bd35543e161983451ee8e0ab4fca2b3712c9d",
+      "originalSha256": "6b3858853412f255bb224ab60964ed0941cce0f4ae2cfadd111dad185231f9b8",
+      "originalBytes": 345062,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmcwZgSyhcVMvwaEN8j3uJJjb9Wtpdo1e64NFftE4ULtFG",
+      "path": "assets/markets/04e63447c22beff5.png",
+      "bytes": 44064,
+      "sha256": "b880a34485c86f6e4010c0474535ddf9c277b8cfcb4e7f35c57c15d4ff6ab463",
+      "originalSha256": "ab0e7a31382c8183f9cc02615e690fc553882c7d3f256f82414f4d657e5e8f69",
+      "originalBytes": 43830,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmWZvKFSTNTjJvpcDjsTgjmCX7i5AjtPJjCnQAWpPzQ1Me",
+      "path": "assets/markets/fdc855fd06a2f0c2.png",
+      "bytes": 33623,
+      "sha256": "27af55bd98572349ee1dead9c29270c41c917eb34ad69205f80ce0f16fab425f",
+      "originalSha256": "6a65802591d9caf119c5d487b9867b6ceec7c3539cb2f649e22db12ed8d7bb2a",
+      "originalBytes": 33389,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTLA5ierW1oU3SYtR9ZuSJUMQBMkRs7AXJQtDfXo2xbaj",
+      "path": "assets/markets/540db3dc6ddafa47.png",
+      "bytes": 334416,
+      "sha256": "5ccde56620c1edb72750844d72209970c0f203b4a0131f01eee6d8bd3665c2e2",
+      "originalSha256": "6aec00bf2f63016424538c8e5beae5f7fb9612de0572da60498b1ceaf27d4aa3",
+      "originalBytes": 334182,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmaTxPpxSXvwH91mK7TyyFuneJR1jNHUQKE8Cp2cYkWcZQ",
+      "path": "assets/markets/9576ec8a8f31ff51.jpg",
+      "bytes": 428611,
+      "sha256": "9e374ee6bc6d612b76d3fcfe5667a6bb08507f25d16b94c3fb5d50e54c208aa2",
+      "originalSha256": "c5f05dd90edb606827082468672718f542dc6a7ad8367eecee59108ae47f57b5",
+      "originalBytes": 428385,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmYSMJYEiFwJPvzRYwqUkErJX9JzWj1ZYoxCqLZe5ZTy5Z",
+      "path": "assets/markets/6506621b3b78d8d7.jpg",
+      "bytes": 168453,
+      "sha256": "eb7e34a3a25195e5203ab677aeaa7661e335cb4f7158987e1e0311418ffc4199",
+      "originalSha256": "ed5b032b035906a3aadda6e22a7ac1f3c45f5c6b98cf997af9618344f29e65da",
+      "originalBytes": 168227,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmW1vQntXv67h3DMaZ7rxBcGd1cFtXZWMbTTeNkzxE4rjz",
+      "path": "assets/markets/30f689113fc6dab4.png",
+      "bytes": 92737,
+      "sha256": "13b38ccbefdbe128b3bb63320f7829aa775989f06a950c73362fa84ad1ffde92",
+      "originalSha256": "7aba04d6388c708b15047c6d53d571f220476ea38c72ba6d0b443a807526b979",
+      "originalBytes": 92503,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmRjnp2Lr1SZTV4PckA8mcfexRwNpdxk7ZKdDxroKfuMbz",
+      "path": "assets/markets/fcac91b35a4d41fa.jpg",
+      "bytes": 419821,
+      "sha256": "184cdf3feb05e675cad2a918a941ddf5f3e29a768e282e580cd6dc31733e3892",
+      "originalSha256": "9485a0ec6081a94b6d8c65e626478ef154ae46450b7e99fb46976bb02b79d041",
+      "originalBytes": 419595,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmaoT7mToLbVbRoNma1Y5dSRC6cpi2ZdKwZLzvQY514DQ2",
+      "path": "assets/markets/e7456ec159bd3266.png",
+      "bytes": 21698,
+      "sha256": "bc6eb2f47a0b5d069e9c6cc3efd0e421903ab539f3fb5e27da99c45b148b7955",
+      "originalSha256": "c2ea8146b69ee97eaa2b8d25cb2b8aefa246a93456fe35b05eb02f071bde0248",
+      "originalBytes": 21464,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmbkpH8xpr5oV3hv2PbWN8NgqTSAmH4eVBwoKB93dE53RK",
+      "path": "assets/markets/cca99bc7a35a7cda.png",
+      "bytes": 179842,
+      "sha256": "202a83e3139748b6071f22b6dca78ab2efcfb445df91b167ff504e03cd5d142e",
+      "originalSha256": "8912b49124dec235181de95ca1bbaf0391ad7d7b23eb7ddee6b402557d458dea",
+      "originalBytes": 179608,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVb2zzLi1rZNdX8fnkRTRXxz1dzbC8Eu7EFvpu7NCaGvu",
+      "path": "assets/markets/57a95513ea920ceb.png",
+      "bytes": 10210,
+      "sha256": "d56161e907de2d180679994f1f92e810d01fe10f7262fdb089a5cb3bda6de0be",
+      "originalSha256": "7dc2d70a8e9825f0bc04cfabb7d2edfa437fdc9dab00dc9c2c8d9f535bd29a9b",
+      "originalBytes": 9976,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVfSofW2FAhFhjFWxe8EvpT9epKpgYvWkaZtPCELkQpZF",
+      "path": "assets/markets/aa53caf63be0d18e.png",
+      "bytes": 743,
+      "sha256": "6f395276faede7a468ca202212d7ca86fe60239b905488ad2ea351ab39cb7501",
+      "originalSha256": "09ab1646220c1f910d06a5de6ede422efada1d4590fcc81c557629c0e2a265a5",
+      "originalBytes": 509,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmZHHDtzXf1La59mMpwFKFc4forstVqV7HaqLHRjjkLcqj",
+      "path": "assets/markets/04b390c87637486a.png",
+      "bytes": 43382,
+      "sha256": "b768b39a412394f0c4a57f90479cab4699f358a27c6efed0a7ac603a373dfec0",
+      "originalSha256": "30af247f4428d019fa25f75e73f0118eed6887e6acfc5a678c7fcb918a56f32a",
+      "originalBytes": 43148,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmaZtWTudauHDGZEp6WgwaxpNwcEqXRgovJm2Btvv4FbP7",
+      "path": "assets/markets/be121c4e15a63ee1.jpg",
+      "bytes": 267829,
+      "sha256": "aa00a1da845be06991b06a804db974bc17eca9a22c0ea8ddde6cc2d28939d268",
+      "originalSha256": "575f699b9b4aba7ff21e15522055c75c93a124d21443eb99fc648c40ed508be9",
+      "originalBytes": 267603,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmPKqoAWKPRt6CaBUj76unvdvyWrUe5c81wqxjiTi9JLpU",
+      "path": "assets/markets/121178bb11ddc186.png",
+      "bytes": 99604,
+      "sha256": "7845af9e762536bc59758757a2e7ff0bb4e5ea48ee9a05b43410534e10ad2be0",
+      "originalSha256": "600c1e046cf6be621d06f4c705b66dcfe62b70813d6fa41af6ea9f1b9e9f20e7",
+      "originalBytes": 99370,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmdbLgZXj5HEg22UogGTE9SJNyFrUDvw49Er4ZxxU1niNn",
+      "path": "assets/markets/24b2e2542291deed.jpg",
+      "bytes": 13807,
+      "sha256": "eca29be435ef25b185544e8ebd2d6390c1bca90aeba46a49ef9977bde1c8ca6d",
+      "originalSha256": "d8a4843281515872ef364fd9c4d969c4047810bc4bd8a3577acafa25e20f54cf",
+      "originalBytes": 13581,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmcypGXTEMoa3TfpyH9xz73TbdLPay4acbRLKrcv4MwTJq",
+      "path": "assets/markets/ee7825dfc8d37b9f.png",
+      "bytes": 19711,
+      "sha256": "5b50ca11f9cdb231a72df87d1decc2f579e8ef83c1bd86e4eb25cc680f85aa78",
+      "originalSha256": "861a02f9c4027e02b62aab74e857d17f40c06997370f66b318ca44aa51a16266",
+      "originalBytes": 19477,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmSoUDZKymkB48qvjABhhKezpnwke3AqJY2TxfHpCEtLay",
+      "path": "assets/markets/73c3c1e699ab8fdc.png",
+      "bytes": 20666,
+      "sha256": "74a625f9c2cf479feeced3f671337028073e1f933b2a939a27802d326774c5c1",
+      "originalSha256": "2b4bf5e33903b2a8eb21994761f8622e188bec7bb303bf4db3c7650b08a6355c",
+      "originalBytes": 20432,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVskT8P3ckvzTJ9mkXJVvMJciDhX413RceyVqCnDcv2En",
+      "path": "assets/markets/f8e8108273604fac.png",
+      "bytes": 120044,
+      "sha256": "6bdaa2cf0f633ed7f74b8fad0b250104adcf064e6276466d3364c147c5bcffc0",
+      "originalSha256": "bec46b33d25d24d4d376622e68bae7931fbf7927a341ccd84445d14621a73733",
+      "originalBytes": 119810,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmZo7gsostaUdrV1peFz4cX6Z2TgriFJJP4VahG5knVm29",
+      "path": "assets/markets/1314d829f5cfcac0.png",
+      "bytes": 157240,
+      "sha256": "ceb04895638775d06a23833ef7966e6dd48215f8308d4444ad3b7994d28cb1a6",
+      "originalSha256": "106c85eb541b76bdee4c38e37f7a3b3fddfd26db55a4fe9c44b50d28edc05561",
+      "originalBytes": 157006,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/Qmadt4vCoPtL87dU48yCy2KHsCPpmN4CdKTkkoJJd4nZWP",
+      "path": "assets/markets/635924006c6805f0.jpg",
+      "bytes": 65134,
+      "sha256": "bf024e6a8d72f429db48502aea7b80c0a28603f45b06ff4aff33f2e739dc95a3",
+      "originalSha256": "dd620a0964125cf8092b5dc4bb6cc2b0789ed56b67df953b8c8d50d3e531b6e7",
+      "originalBytes": 64908,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmXQUQS9oMf8xvBdwmBSu3psxHLfRQawZwaadM5w5Qfxg8/seer_0xae20e3646b2081851a2af7d17bb45976a6415f44_0.png",
+      "path": "assets/markets/7b7b421f266e859a.png",
+      "bytes": 25192,
+      "sha256": "30084c6d99ee26361f304195eaf42d1cb39b15034ef695c5c6c213c712635f6e",
+      "originalSha256": "9a4b943381179a6a87ed219431a9ed993ee380b7d7f6a03d69681eb780bd7049",
+      "originalBytes": 24904,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/Qmd6ygMyFk1LSAjZjRp8qKR2iVrcv7VHTzxbkczYYnzLwr/seer_0x1dec048b1619f7ca4db2bd231fa39f264677939c_0.png",
+      "path": "assets/markets/9bc2f9bb5b27bf06.png",
+      "bytes": 108959,
+      "sha256": "7d2c829c31082820905832344b7b6753cbb2fa3501b71d1142eb3186ecfdc3d9",
+      "originalSha256": "51e3fe09fab9feaa3b3e82a7fd76f750801360e023f9381adb878266c71f0650",
+      "originalBytes": 108671,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmSoHRH7sbJpwBPAdsLDBTmy5zyoSdx1qxLAgimkSpBnSp/seer_0xece1897ac6e0b96e411aada679e97ac55185f2ab_0.png",
+      "path": "assets/markets/3c31a172ea73b625.png",
+      "bytes": 449481,
+      "sha256": "0228e3153747303d2caa88dbd934ba23240f1071f56c1c7b7ca4e5ecd2caefa6",
+      "originalSha256": "67ed2e9680dc4f388405588436bc39b0e3a588a6f19c4cde431e256deb93a14f",
+      "originalBytes": 449193,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmSsJBxMZe4t7fjkaFu7m4KpvdriApfaF4EZifKscFzPAG/seer_0x3ce7467Fc67A0540190010C7F5d930438a7b705f_0.png",
+      "path": "assets/markets/05542e2c57a71dc6.png",
+      "bytes": 511096,
+      "sha256": "92663bba097ab14a8156f6e65395c7eb73d657e642af173cd2b439770d89bc98",
+      "originalSha256": "a9f36fc3e19d05b440d7e978a29bf17c5e6c240d35df90432ab9a4d9030c5418",
+      "originalBytes": 510808,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmfSVxGX4ac9df3qFBgbWu3eZPRVK9Bhob9kXxs1YMntzY/seer_0x000ee42357e8ad71dfe70b5a15bf0316efc7da6f_0.png",
+      "path": "assets/markets/08ebe738f5b9d98e.png",
+      "bytes": 6363,
+      "sha256": "84f11db338bcb2e51c916b919f294357109d8c4f8b6def30960f0a3f630e3018",
+      "originalSha256": "5281d64f785a3edcc27283fad85a8eb7b7484d69b9f972e45cfe4565bc5200f2",
+      "originalBytes": 6075,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmQYj9GxhdsSfv4DCXH7bdqGa8rD5BNavGCx3Srfdt2RbG/seer_0x8b262573b6eFBd53c46bb11BA9DA681504c5c8bB_0.png",
+      "path": "assets/markets/953f972938e8a1a9.png",
+      "bytes": 6363,
+      "sha256": "182f81dccc9ebff9fefb06a3976f8274a723062fa2ba7bbf5a498ebc6ae8bd7f",
+      "originalSha256": "5281d64f785a3edcc27283fad85a8eb7b7484d69b9f972e45cfe4565bc5200f2",
+      "originalBytes": 6075,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmNhN7Kw7GUAD9WdkVoHPeJjXQdgUcKZPY8dU5YNEFV5pn/seer_0x15Ec42a1c640312b729550Ad0C6f369F9A88B1EC_0.png",
+      "path": "assets/markets/99eeedfb87377492.png",
+      "bytes": 64385,
+      "sha256": "971aecc3bb7b93c6a40b8d6fd04e4ab67c6940509c471d93f0857ecb116e4a70",
+      "originalSha256": "c39a3feada4259fc723757cc2b18cb4bde01268053af05868981673439ab02c8",
+      "originalBytes": 64097,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmfNPZsJxH2PxA9YUn3mtLfvRkeH6s284JrAt6RQ3CeUo7/seer_0x11e959370b35de43F29768AB527Ab92401B4AB53_0.png",
+      "path": "assets/markets/5ce828a22bb403af.png",
+      "bytes": 64385,
+      "sha256": "bebc8ffb9343182d14888f0a3734d83b2781c8375ae52b72a645381435c93e68",
+      "originalSha256": "c39a3feada4259fc723757cc2b18cb4bde01268053af05868981673439ab02c8",
+      "originalBytes": 64097,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmUq8gq2GiN2K9bWGZQsQGCFQb9p6vkocr5GijKHbQ4tG1/seer_0xbfd02ef554c5f99a2a1632961cf694455c766bae_0.png",
+      "path": "assets/markets/0babd080773f2f13.png",
+      "bytes": 500745,
+      "sha256": "ba9651be61c52c504b5b63aae47350e9b75dc6cf46e3291f858cf9f2e6f300b9",
+      "originalSha256": "f5a15df40768dbad0963c4aa7e636580b0d76aac641de99a9ff2c440b42b732b",
+      "originalBytes": 500457,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmayFPMBpe8m6tSuCQWUg1pNsNTm8Q29igwwLcbdGgkne3/seer_0xd6fd00a764072facd8111d9df42d158fb7e02b9f_0.png",
+      "path": "assets/markets/8645528e6bfd0a19.png",
+      "bytes": 16419,
+      "sha256": "179e1b3dec3d0d589c474e95b4e6a4ddaeff13706bd82f27f94bb85fa4259236",
+      "originalSha256": "14791dc4cb094bb478bf6df8746eb2ec77a0f21b47ddce02481963f640b493e1",
+      "originalBytes": 16131,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmRLGj57f8WdtFpU9peYwXZA4HCWPAvDkjs1csMwzEFrCZ/seer_0xe67815db4c0abc988cbb295b07cd86288d25030a_0.png",
+      "path": "assets/markets/c58b998503435f0c.png",
+      "bytes": 6363,
+      "sha256": "f2c5dbe945d3c746eab8f104e158505f60fb1827710b15730265e7088fa57f5d",
+      "originalSha256": "5281d64f785a3edcc27283fad85a8eb7b7484d69b9f972e45cfe4565bc5200f2",
+      "originalBytes": 6075,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmcozQ4cApvK4sXLDgGLNgFoiGDemAuA5uD4THyTYNWQ91/seer_0xd8cf0b411828164925791d20a8c66a28432c8e55_0.png",
+      "path": "assets/markets/7689f8f433787023.png",
+      "bytes": 6363,
+      "sha256": "3a447da6fe1c953132310a6b1baef8b458533032c6efdfc178287b61476e2649",
+      "originalSha256": "5281d64f785a3edcc27283fad85a8eb7b7484d69b9f972e45cfe4565bc5200f2",
+      "originalBytes": 6075,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmZRLieBLBaiREgRragKVkGgY8Grxo74XgNJK7LTMPZ93x/seer_0x1eD581Ba4780495467dF2421DD98f7f2A11338C2_0.png",
+      "path": "assets/markets/75ebcc6106439ef0.png",
+      "bytes": 33974,
+      "sha256": "bcf1130797974b8c346856f005b9d14b1f766cedfb8f03e398b34a4a87ebba78",
+      "originalSha256": "e718de8f1fc531feb8664b8b3fc8255c982679d8aba3dfbf35726347a016b939",
+      "originalBytes": 33686,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVUA7gvPaCy2GxoKUczUmpdLxa9qpqHY5EiCydgDi7biH/seer_0xda907c794041c8e42d2ad5c3669fd4b9887b554a_0.png",
+      "path": "assets/markets/816e0fd79d24a58e.png",
+      "bytes": 511096,
+      "sha256": "a25a5518cab3ea8fe884d3191ddebcc07ed994cc9acb25fb2023c9ec83181a67",
+      "originalSha256": "a9f36fc3e19d05b440d7e978a29bf17c5e6c240d35df90432ab9a4d9030c5418",
+      "originalBytes": 510808,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmaHr7k3mSW6HxnLeGAquctqojG86NcHBHB4xJ5zVP8iVf",
+      "path": "assets/markets/45578aca5c3963ce.png",
+      "bytes": 21604,
+      "sha256": "9dd3945a8548f18e06a0263e53be8f61e3034abf1a8d503edc26153f87a2c451",
+      "originalSha256": "7b5f585566807bc4bf2c669a837349e2376fbb5a8a07c53ba7e5ca66e48b30d1",
+      "originalBytes": 21370,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmUArggtmw4Y9hnHLczzR8XUciGNehrRtG85ep13uEVJyX",
+      "path": "assets/markets/f0552b65e980ac5e.png",
+      "bytes": 10864,
+      "sha256": "874314f2acbdde434a93f8aba0ca8f62510ba5a7a6bc7d7f8cb760b4d9359593",
+      "originalSha256": "7f0964cc315368fa3670f1278cac5ad9872c39db540b9ae945766caa80005481",
+      "originalBytes": 10630,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmdDgAmzKkSJdjB7bPrxNfSX1rd9X32r4jnsrx4ViFQGHq",
+      "path": "assets/markets/66c0958c36a6da6b.png",
+      "bytes": 10261,
+      "sha256": "91ad6cdc3a4f14507225c73a6866cf71765af27b71aedf1304f2e8dfbf0a7876",
+      "originalSha256": "f0b7e77efb0ebfe4cd60620900068982393db8cb158adaac6c3fd664cdffafe7",
+      "originalBytes": 10027,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmV8By9JJiqhmPSUsjorpJ3UjNbnzRNwn3gWMVMLQ1uPep",
+      "path": "assets/markets/73b0738ef49c8d72.png",
+      "bytes": 208776,
+      "sha256": "25dfdafa27508ce196ba5c9a59b1ff63b2113f34b10417a65b7bef37b7859dbd",
+      "originalSha256": "c243cf95de82105d7b40d3aec68649f55b64c57cc38fdf505ee86d86dca3f164",
+      "originalBytes": 208542,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmPyiEE45suFCjvQQaj1AneHQnHFopmguejMB2w66sVcm4",
+      "path": "assets/markets/dca9774387d45f78.png",
+      "bytes": 33930,
+      "sha256": "49ffc40734170b62ba7ef382a7c1ced01ac2fdc58cc88a369a6ea0c7b2dcd663",
+      "originalSha256": "fc8f9014dcf15b0d153567386d6a953a6d7037ad4e295483e060af8c4d2b6f07",
+      "originalBytes": 33696,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmcZ6wg3xLWJM6KqnfQM15KLysVEb7q4pRdRfqCREdtkx4",
+      "path": "assets/markets/28545fa8af32332f.png",
+      "bytes": 31812,
+      "sha256": "41911fb2dae24a2e2bffcb15dbaa446cd7d85de00e9c41749fa6a0150f859edd",
+      "originalSha256": "030565cdd2ea59570bbbe1716614b41e49370174d4036ec9103054a52fe0a518",
+      "originalBytes": 31578,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmVhSJjRuzN9erhJdZFvWp6o77bqanNT1QDrPbbh7rSS3W/seer_0x142a1bb5aac0f08d3e37bc822328a91951099f99_0.png",
+      "path": "assets/markets/0df2e0ccd23a0021.png",
+      "bytes": 29541,
+      "sha256": "8e513707d2708621cf5ab44fbbe55743d53f3717519ee73f631cb81c69f2a61f",
+      "originalSha256": "e7b1f65bb86bdaa59b7393a8910bd04ab56fe994713c3533e08da7899b8db274",
+      "originalBytes": 29253,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmXjjpfWycLFkr77aMDziMe7acBFNsHLYNzSSU93LDpAgs",
+      "path": "assets/markets/16cf67e5aa5112a3.png",
+      "bytes": 60919,
+      "sha256": "7aadff09398dadb9672b80cebc6eb9fd78ee8b7685cea353577f87682f4a4bef",
+      "originalSha256": "48b2e7da10cd54eb7c4d44a1c31fe15e8f612e7ae06ed1fc061bed4fa96b0cc7",
+      "originalBytes": 60685,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmPp6C9BUo4k6KKgCDaQ5R2FfnokaiHGS7GmtgQgUnjxx2",
+      "path": "assets/markets/4e1ddc2acb8b6316.png",
+      "bytes": 71737,
+      "sha256": "1100f1c5683baacdc2679c71db356b038a513e34ed38bf9637a1555cb4d65cf5",
+      "originalSha256": "703b20c669cb08eee789aa0a4df2414edef1fd84804e236c1740fa5fd7d5ebf3",
+      "originalBytes": 71503,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTe2Rg5mpLahB6jv4xMK2wSpoh6c1WrKSAta1JYCbCKmo/seer_0x19aeaa9495d865fdbb7699c595f6ecc4575a4dcd_0.png",
+      "path": "assets/markets/a08e5d58060f013d.png",
+      "bytes": 29541,
+      "sha256": "957e0e5c084a728432a1f3f19d65e22b0c731497b018986e1f0f458628e56064",
+      "originalSha256": "e7b1f65bb86bdaa59b7393a8910bd04ab56fe994713c3533e08da7899b8db274",
+      "originalBytes": 29253,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTyVpm8848qBwncNoyMXeFmqjvz5sFzhEVJdkd1Rb6eQ3",
+      "path": "assets/markets/fa29f98ef27ea449.png",
+      "bytes": 4065,
+      "sha256": "a0bf003c3dd66656cd170b4ba689d6d427698426e0244a583184e91ca0709ccb",
+      "originalSha256": "684bba930787b1726f1f37f26182df95291149005ce34da2663355d1cd28a46a",
+      "originalBytes": 3831,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmWf6KiUxJo4yyNkJxuwuDHWsqc6PADhKbhX2d974JmDiW",
+      "path": "assets/markets/febde64d2993cb8d.png",
+      "bytes": 46527,
+      "sha256": "ba7bdc84bdb7d50883057ab1e552a775cf762c481e0869fd3ec706dbf9b410f6",
+      "originalSha256": "77776b58de449421b3aa4ca1203e319f225bfb67418fde683bea3ec047de002e",
+      "originalBytes": 46293,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmXo6KMhAh5eu3kwm7NCs4a3hiqCw3TL7XjuuJDzR8BXon",
+      "path": "assets/markets/830183e41d633ffd.png",
+      "bytes": 132600,
+      "sha256": "6b2ae8eade95d3876a2a14667c7df0d5fe6099026601899b90532d6f48d0a8c1",
+      "originalSha256": "8428ce03a1501ec43b9e7c05b6340cdba42a737d6f1c7347e14874cc338fda90",
+      "originalBytes": 132366,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmetHSxgUvqDMS1aJKFeHYDoUBAKpnLCy1ucrsDMYy83S3",
+      "path": "assets/markets/00ffb53e25854a27.png",
+      "bytes": 39463,
+      "sha256": "f0e628b8e464b9ab090262240a019e640e2f8235004e7a7d4aefb01a4fc82f88",
+      "originalSha256": "afe1976999d71542d894bdaedc957d678ac752ca848bf8f5935a137cf56fbf6f",
+      "originalBytes": 39229,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmXKWT4pamQgAK7JBwkEEWD2c9jXTwhcPuGNT515n59raX",
+      "path": "assets/markets/86208d9edab4d536.png",
+      "bytes": 353769,
+      "sha256": "c90044620561970e1aafeba0679bd08cb2242f8783d074a796b7c2940d30aef1",
+      "originalSha256": "4492d0a2a6d2c0baf5646e33d44fc1c4cb6118deff41b9b0767698207d3f292b",
+      "originalBytes": 353535,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmX4AETY4g4s6pDr9b1uFgJ7XhLdh1U4AHKXA1ATV769mi",
+      "path": "assets/markets/f20b21874089df41.jpg",
+      "bytes": 18159,
+      "sha256": "5c7cc7fcad59757ae778a854e669d206af9a5f22edd5b873bc103268577c9ce9",
+      "originalSha256": "d84a9d36f631802c2d8c98e51ee9b7d142e71a9d13829b7afcfdf2fd87131000",
+      "originalBytes": 17933,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/Qmb6CwDXDPSnzDDpfN5G5EibxT5je6dHTaLVA5mhXrs4xy",
+      "path": "assets/markets/9e0ad3a6be68f308.png",
+      "bytes": 3565,
+      "sha256": "a3926eab72d1f7c36494b0edcfb84295d3372ed561a344f9c10822799d9a258c",
+      "originalSha256": "973fcdf1cf8b0e9d0499b33fc4f416cbd9272ab489da6f27aefac65c584ae9de",
+      "originalBytes": 3331,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmYNpLBByuSopfBNZykaGqdKzMiyYRvQABYJVcg9tnBhQP",
+      "path": "assets/markets/73e566417a9c0445.png",
+      "bytes": 30909,
+      "sha256": "1a1dde4fc472576c8abb807ad90a1cd3f04826bb2899feec588fce53cf204d89",
+      "originalSha256": "2cef8b70671ebaf89d84a170afea66d774563ea27d12dde5ffa791ce024b3273",
+      "originalBytes": 30675,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmRKTVLm1TgnBBfndQ4WPrfWGerVarszAnLX2mG8F7Ahzk",
+      "path": "assets/markets/1b6285ba2c1920a1.jpg",
+      "bytes": 127565,
+      "sha256": "0bc459b58a423946ca3b01552eae42e8d468eea7f221dd5119f1ddb20c6a97b8",
+      "originalSha256": "b259c7fc8242ffcf7a848e60f823b073cfd9c7fd70bc2c1a1f205a4e2b41cbbf",
+      "originalBytes": 127339,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmcQS6jL738UqpEk8gdqjPgMtgPo1TwWZ4EM637om63MW3",
+      "path": "assets/markets/fa8b4412478f2bfc.png",
+      "bytes": 127103,
+      "sha256": "99f652ca198b5861dfc44a05633de5c730972eac10e5d74ef2986725a70647da",
+      "originalSha256": "0d6f8d74f6cccf12d5a5e2459dfefe72168a88433ca82f61421f7dd4d72239d3",
+      "originalBytes": 126869,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmYZVoiq43dpurC5jJwm2y7bLqr8ZFpc7jf3ANUSHjoybK",
+      "path": "assets/markets/b386fbfc4b55844b.png",
+      "bytes": 3691,
+      "sha256": "5276b246d2e62bd55c548fccc5dc91eca9d35002ddf26fec5e3641212b5e26c8",
+      "originalSha256": "e6e5a82f7ad026a07b69ebced2f41bde96e9d929ce929c6b8e7c6b4251e9b8de",
+      "originalBytes": 3457,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmepDnf3DoaT7ZzvEW2tNHw2ocMXkA1ipdWiqMP8Ph9RpA",
+      "path": "assets/markets/d94db012962461cc.jpg",
+      "bytes": 16981,
+      "sha256": "fde22e339a717f44b9b711414c5be9f7045312a7f945e2faef868ce436ae8e08",
+      "originalSha256": "2fdca3685e51926c99c455bf8c847fbf10bc4f110d7d9bdb7d174776e5ef3eb6",
+      "originalBytes": 16755,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmdswqnpQeUPiyprvL6Ata1NVsnSJuHbJhBD6LwLNQYEEW",
+      "path": "assets/markets/e79e6ace37c2061e.png",
+      "bytes": 83136,
+      "sha256": "c8dff0b227dd4fd1f0ee1d6d5bb6180cd6a9be9ffeb8cd4dce7709fa552c2da5",
+      "originalSha256": "d040eaa5564112344e62bdc97d10664e8e4495114127fd21672be78b82857fb4",
+      "originalBytes": 82902,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmUsAE686DY9DNxWbm34s15UECde7kKAjSS3Rb3NgKZTvh",
+      "path": "assets/markets/9b34b9bf168fbc1d.png",
+      "bytes": 181862,
+      "sha256": "208608714d76a959866ae30fe867136d7c078449a9f749f1f84b513dcc4d169c",
+      "originalSha256": "10bdbbb520ec0376d81dcb1911f0481ac4e8bbd3c6cd7bb80e078fe44e66980e",
+      "originalBytes": 181628,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmUoEBxuvscZCsAu7Wh3fHH3fsKNV4MogSwW3jpr5TshKD",
+      "path": "assets/markets/fcab107e65818d75.png",
+      "bytes": 28476,
+      "sha256": "bcd37bfd36b3e9f26ca6cdc8a7cf3a6118d61c4a13b4692226cc58b0a19e9751",
+      "originalSha256": "04d8acaf89037cbcfd7a25d269f0cc01fff8f9e6b4aefc90772867be692e216d",
+      "originalBytes": 28242,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmW1UvSYfVdJVrkgbYHhPuryxX7LmisZLrtkXA2Y8imEgX",
+      "path": "assets/markets/6f8df968d53a9ef9.png",
+      "bytes": 13737,
+      "sha256": "96b7602c70bd08891b96162745f771cdedc4ba5ca6511f77a31b78f3fd1b1f8c",
+      "originalSha256": "c6ee7729aef863514debd7cd14991c235774432a49aca9d56d399d70e16da2e9",
+      "originalBytes": 13503,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTE4uJWsT3an8H7xdZQeVqzvPeKJJVhhCsMF9yQbW4GrV",
+      "path": "assets/markets/58e612294b8286a0.jpg",
+      "bytes": 227921,
+      "sha256": "88398ac2e580d1b07c924afc42f5180c143a2af27ded74876f87b6619f4bbfd8",
+      "originalSha256": "a6feadcf52fe6d76e917ea52af66297f865331a5877ab7d96589e43e2bb1713f",
+      "originalBytes": 227695,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmWH7q63Ck3fQ8z6bKe7sEF1CUrnEQ2VsiPky4aFGUiJCp/seer_0x086ad76dad41dbaefcce69b4b2e29621123ce29a_0.png",
+      "path": "assets/markets/2f9fb0c63eae930a.png",
+      "bytes": 75658,
+      "sha256": "015b6de5f7e3e13015526c47dd19d53a04b09555aa0c6b93285c0ec6b8cd2524",
+      "originalSha256": "33c41a91af1fba3984a396add4ac6d6fdb1056a3084ffc28ff687df2f18d43b7",
+      "originalBytes": 75370,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    },
+    {
+      "source": "https://cdn.kleros.link/ipfs/QmTY7LfPF86N9A2TtWawRxJ1WTBJZudAyB44E9LvW9uCZd",
+      "path": "assets/markets/6d99703fbc8a4268.png",
+      "bytes": 100480,
+      "sha256": "adc35a2ab13e573e79e91bb789b31fb9db4e6b6582865a8a091555d398bb46c0",
+      "originalSha256": "2bdb7d462503580a95d828a3092564868afb1b4466fa74f32dd4744d0b7993b1",
+      "originalBytes": 100246,
+      "metadata": "Embedded origin only; visual pixels unchanged."
+    }
+  ],
+  "failed": []
+}

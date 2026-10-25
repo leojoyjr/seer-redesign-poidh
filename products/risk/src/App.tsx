@@ -1,0 +1,9 @@
+import {Icon} from './components/icons';
+import {Provider} from './store';
+import {Header,Footer} from './components/Shell';
+import {Hero} from './components/Hero';
+import {Panel} from './components/Panel';
+import {Gallery} from './components/Gallery';
+import {Modal} from './components/Modal';
+import {Drawer} from './components/Drawer';
+export default function App(){return <Provider><div className="app"><Header/><main className="page"><div className="cols"><div className="col"><div className="titlebar"><div><h1 data-testid="page-title">Risk Pricing Predictions</h1><p className="q">What is the yearly Probability of <span className="pd" tabIndex={0} title="Probability of Default (PD): the chance an asset defaults within the period, as priced by the market.">Default (PD)</span> for the following DeFi assets during Q3 2026?</p></div><div className="meta"><div><span className="k">Trading Period</span><span className="v" data-testid="trading-period">Until Wednesday, 30 September 2026 at 23:59 UTC</span></div><div><span className="k">Countdown</span><span className="v" data-testid="countdown">Ended</span></div></div><div className="rv-seg quarter-tabs" role="tablist" aria-label="Quarter"><button className="rv-seg__item" role="tab" aria-selected="true" data-testid="tab-q3">Q3 2026</button><button className="rv-seg__item" role="tab" disabled aria-selected="false" data-testid="tab-q4" title="Coming soon">Q4 2026 · Coming soon</button></div></div><Hero/><Gallery/><div className="advanced"><h2>Advanced</h2><a href="https://app.seer.pm/markets/100/0xc84786B06390F11dED0DD362E27Fc881B540e6F2" target="_blank" rel="noopener noreferrer">LP or Trade specific outcome tokens in Seer. Check it out<Icon name="arrow-up-right" size={14}/></a></div><Footer/></div><Panel/></div></main></div><Modal/><Drawer/></Provider>}

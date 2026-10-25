@@ -1,0 +1,23 @@
+.gallery{margin-top:40px}
+.gallery-head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+h2{font-size:20px;margin:0}
+.gallery-head .field{width:100px;margin-left:auto}
+.advanced{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.advanced a{font-size:14px;color:var(--violet-text)}
+footer{display:flex;align-items:center;gap:24px;flex-wrap:wrap;padding-top:24px;font-size:12px;color:var(--text-2)}
+footer a{display:inline-flex;align-items:center}
+footer span{margin-right:auto}
+.credora-dialog{position:fixed;inset:64px 16px 16px auto;margin:0;width:440px;height:calc(100dvh - 80px);max-height:none;display:none;flex-direction:column;overflow:hidden}
+.credora-dialog[open]{display:flex}
+.dw-b{min-height:0}
+.sc{position:relative}
+.sc .metric-tip{display:none}
+.sc:hover .metric-tip,.sc:focus .metric-tip{display:block;position:fixed;z-index:55;bottom:24px;right:40px;max-width:min(360px,calc(100vw - 64px));max-height:40vh;overflow:auto;background:var(--text);color:var(--bg);padding:16px;border-radius:12px;font-size:12px}
+.dlg form{display:flex;flex-direction:column;gap:12px}
+.dlg input[type=file]{font-size:13px;max-width:100%;min-height:40px}
+.dlg-h h3{font-size:18px}
+.dlg h3{margin:0}
+.dlg .wl button{justify-content:space-between}
+.dlg [role=alert]{color:var(--dn)}
+.dl{white-space:nowrap}
+@media(max-width:550px){.gallery{margin-top:24px}.credora-dialog{inset:8px;margin:0;width:calc(100vw - 16px);height:calc(100dvh - 16px);max-width:none}.sc .metric-tip{right:24px}.gallery-head{gap:12px}footer{gap:16px}.scores{gap:8px}}

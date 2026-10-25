@@ -1,0 +1,68 @@
+@font-face { font-family: "Instrument Serif"; src: url("/fonts/instrument-serif.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+:root {
+  color-scheme: dark;
+  --bg: #0a0914;
+  --surface-1: #12101f;
+  --surface-2: #1a1730;
+  --surface-3: #241f40;
+  --hairline: rgba(185, 168, 255, 0.1);
+  --text: #f2f0fa;
+  --muted: #a9a3c4;
+  --dim: #6f688f;
+  --violet: #7b3ff2;
+  --electric: #4b3bff;
+  --lilac: #b9a8ff;
+  --mist: #e6deff;
+  --violet-text: #b9a8ff;
+  --up: #3ddc97;
+  --down: #ff6b81;
+  --focus: #b9a8ff;
+  --font-ui: "\49 nter Tight Variable", "\49 nter Tight", sans-serif;
+  --font-display: "Instrument Serif", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --shadow-raised: 0 1px 1px rgba(0, 0, 0, 0.3), 0 18px 52px rgba(2, 1, 12, 0.32), inset 0 1px rgba(255, 255, 255, 0.045);
+  --shadow-action: 0 1px 1px rgba(0, 0, 0, 0.4), 0 10px 24px rgba(0, 0, 0, 0.28), inset 0 1px rgba(255, 255, 255, 0.2);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Compatibility names used by the accepted application and host shell. */
+  --card: var(--surface-1);
+  --nested: var(--surface-2);
+  --text-2: var(--muted);
+  --line: var(--hairline);
+  --violet-soft: color-mix(in srgb, var(--violet) 16%, transparent);
+  --violet-hover: #8953f5;
+  --green: var(--up);
+  --red: var(--down);
+  --amber: var(--lilac);
+  --series-up: var(--lilac);
+  --series-down: color-mix(in srgb, var(--mist) 72%, transparent);
+  --series-line: var(--lilac);
+  --median: var(--mist);
+  --track: var(--surface-3);
+  --plot-rule: var(--hairline);
+  --gap: var(--lilac);
+  --lavender: var(--lilac);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f5fb;
+  --surface-1: #ffffff;
+  --surface-2: #f0eefa;
+  --surface-3: #e7e3f7;
+  --hairline: rgba(40, 30, 90, 0.1);
+  --text: #14122a;
+  --muted: #55507a;
+  --dim: #8a85a8;
+  --violet-text: #5b2fd0;
+  --focus: #5b2fd0;
+  --shadow-raised: 0 1px 1px rgba(40, 30, 90, 0.08), 0 18px 48px rgba(40, 30, 90, 0.1), inset 0 1px rgba(255, 255, 255, 0.9);
+  --shadow-action: 0 1px 1px rgba(40, 30, 90, 0.1), 0 10px 24px rgba(40, 30, 90, 0.12), inset 0 1px rgba(255, 255, 255, 0.5);
+  --series-up: #5b2fd0;
+  --series-down: #8a85a8;
+  --series-line: #5b2fd0;
+  --median: #5b2fd0;
+}
