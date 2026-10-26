@@ -1,0 +1,24 @@
+{
+  "compiledAt": "2026-10-26",
+  "counts": {
+    "seer": 40,
+    "futarchy": 9,
+    "deep": 30,
+    "opportunity": 5,
+    "risk": 33
+  },
+  "total": 117,
+  "chains": [
+    "Gnosis",
+    "Ethereum",
+    "OP Mainnet"
+  ],
+  "limitations": [
+    "No Base market record is present in the supplied captured data.",
+    "Deep organizer identity is not supplied; no funder is inferred.",
+    "Deep leaderboard entries are participants, not verified automated agents.",
+    "Deep token volumes must not be summed with USD volumes.",
+    "Missing amounts and quotes remain null.",
+    "Reconstructed history is flat and explicitly derived; it asserts no price movement."
+  ]
+}

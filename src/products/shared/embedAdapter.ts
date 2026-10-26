@@ -15,6 +15,8 @@ interface AdapterOptions {
   theme: SeerTheme;
   onThemeChange: (theme: SeerTheme) => void;
   onWalletChange: (address: string | null) => void;
+  keepCrossLinks?: boolean;
+  onNavigate?: (route: string) => void;
 }
 
 interface AdapterState {
@@ -65,7 +67,8 @@ function productFromHref(anchor: HTMLAnchorElement): ProductId | null {
   return null;
 }
 
-function hideCrossProductLinks(document: Document, current: ProductId) {
+function hideCrossProductLinks(document: Document, current: ProductId, keep = false) {
+  if (keep) return;
   document.querySelectorAll<HTMLAnchorElement>('a[href]').forEach((anchor) => {
     const target = productFromHref(anchor);
     if (target && target !== current) anchor.dataset.seerEmbedHidden = 'true';
@@ -138,7 +141,7 @@ export function adaptProductFrame(iframe: HTMLIFrameElement, options: AdapterOpt
       document.head.appendChild(style);
     }
 
-    const observer = new MutationObserver(() => hideCrossProductLinks(document, state?.options.product ?? options.product));
+    const observer = new MutationObserver(() => hideCrossProductLinks(document, state?.options.product ?? options.product, state?.options.keepCrossLinks));
     const themeListener: EventListener = (event) => {
       const next = (event as CustomEvent<{ theme?: string }>).detail?.theme;
       if (next === 'light' || next === 'dark') state?.options.onThemeChange(next);
@@ -154,6 +157,26 @@ export function adaptProductFrame(iframe: HTMLIFrameElement, options: AdapterOpt
     };
     states.set(iframe, state);
 
+    const clickListener = (event: Event) => {
+      const me = event as MouseEvent;
+      if (me.defaultPrevented || me.button !== 0 || me.metaKey || me.ctrlKey || me.shiftKey || me.altKey) return;
+      const anchor = (me.target as Element | null)?.closest?.('a[href]') as HTMLAnchorElement | null;
+      if (!anchor || !state?.options.keepCrossLinks || !state.options.onNavigate) return;
+      let ext: URL | null = null;
+      try { ext = new URL(anchor.getAttribute('href') || '', anchor.ownerDocument.baseURI); } catch { /* ignore */ }
+      if (ext && ext.hostname !== window.location.hostname && /^https?:$/.test(ext.protocol) && anchor.target === '_top') {
+        me.preventDefault(); window.open(ext.href, '_blank', 'noopener'); return; // never replace the app window with an outside site
+      }
+      const target = productFromHref(anchor);
+      if (!target) return;
+      if (target === state.options.product && anchor.target !== '_top') return;
+      let url: URL;
+      try { url = new URL(anchor.getAttribute('href') || '', anchor.ownerDocument.baseURI); } catch { return; }
+      if (url.hostname !== window.location.hostname) return; // external hosts open normally
+      me.preventDefault();
+      state.options.onNavigate(`/${target}${url.search}${url.hash}`);
+    };
+    document.addEventListener('click', clickListener, true);
     observer.observe(document.documentElement, { childList: true, subtree: true });
     window.addEventListener('seer:theme', themeListener);
     state.walletTimer = window.setInterval(() => {
@@ -165,7 +188,7 @@ export function adaptProductFrame(iframe: HTMLIFrameElement, options: AdapterOpt
     state.options = options;
   }
 
-  hideCrossProductLinks(document, options.product);
+  hideCrossProductLinks(document, options.product, options.keepCrossLinks);
   syncTheme(state, options.theme);
   options.onWalletChange(readWallet(window));
   return true;

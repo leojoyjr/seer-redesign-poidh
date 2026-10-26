@@ -1,0 +1,48 @@
+/* Tape styles are scoped; only SPEC_P §6 custom properties are consumed. */
+.trades-tape { color: var(--text); font-size: 14px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.trades-head, .trades-row { display: grid; grid-template-columns: minmax(112px, .9fr) minmax(180px, 2.3fr) minmax(104px, .85fr) minmax(96px, 1fr) minmax(88px, .9fr) minmax(136px, 1fr); gap: var(--space-5); align-items: start; }
+.trades-head { padding: var(--space-4) var(--space-6); color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--hair); }
+.trades-list { list-style: none; margin: 0; padding: 0; }
+.trades-row { padding: var(--space-7) var(--space-6); border-bottom: 1px solid var(--hair); transition: background 180ms var(--ease-out); }
+.trades-row:hover, .trades-row:focus-within { background: var(--s2); }
+.trades-row > div { min-width: 0; overflow-wrap: anywhere; }
+.trades-identity, .trades-question, .trades-action, .trades-size, .trades-price, .trades-time { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+.trades-tape a { color: var(--text); text-decoration: none; text-underline-offset: 4px; }
+.trades-tape a:hover { text-decoration: underline; }
+.trades-tape a:focus-visible { outline: 2px solid var(--lilac); outline-offset: 4px; border-radius: var(--r1); }
+.trades-trader { display: inline-flex; align-items: center; min-height: 40px; }
+.trades-market { display: block; padding-block: var(--space-2); font-weight: 600; }
+.trades-outcome { color: var(--text); }
+.trades-meta, .trades-missing { color: var(--muted); font-size: 12px; }
+.trades-chip { display: inline-flex; align-items: center; min-height: 24px; gap: var(--space-2); padding: 0 var(--space-2); border: 1px solid var(--hair); border-radius: var(--r1); color: var(--muted); font-size: 12px; text-transform: capitalize; }
+.trades-chip::before { content: ''; width: 3px; height: 12px; border-radius: var(--r1); background: var(--lilac); }
+.trades-product-seer::before { background: var(--tint-seer); }
+.trades-product-deep::before { background: var(--tint-deep); }
+.trades-product-futarchy::before { background: var(--tint-futarchy); }
+.trades-product-opportunity::before { background: var(--tint-opportunity); }
+.trades-product-risk::before { background: var(--tint-risk); }
+.trades-disclosure { margin: 0; padding: var(--space-5) var(--space-6); color: var(--muted); font-size: 12px; }
+.trades-empty { padding: var(--space-12) var(--space-6); border-block: 1px solid var(--hair); color: var(--muted); }
+.trades-empty p { margin: 0 0 var(--space-2); color: var(--text); }
+.trades-empty span { font-size: 12px; }
+.trades-tape-compact .trades-row { padding-block: var(--space-4); }
+@media (max-width: 1100px) {
+  .trades-head { display: none; }
+  .trades-row { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: var(--space-5); }
+  .trades-question { grid-column: 2; grid-row: 1; }
+  .trades-size, .trades-price { align-items: flex-start; }
+}
+@media (max-width: 600px) {
+  .trades-row { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: var(--space-6) var(--space-4); gap: var(--space-5) var(--space-4); }
+  .trades-identity { grid-column: 1 / -1; flex-direction: row; align-items: center; justify-content: space-between; gap: var(--space-3); }
+  .trades-question { grid-column: 1 / -1; grid-row: auto; }
+  .trades-time { grid-column: 1 / -1; }
+  .trades-disclosure { padding-inline: var(--space-4); }
+}
+@media (prefers-reduced-motion: reduce) { .trades-row { transition: none; } }
+/* EF neutral surfaces and one violet icon family across every saved record. */
+.trades-tape{--tint-seer:#B9A8FF;--tint-deep:#B9A8FF;--tint-futarchy:#B9A8FF;--tint-opportunity:#B9A8FF;--tint-risk:#B9A8FF;color:var(--ix-text,var(--text));font-variant-numeric:tabular-nums}
+.trades-chip::before{width:16px;height:16px;background:#B9A8FF;mask-image:var(--trade-icon);mask-size:contain;mask-repeat:no-repeat;border-radius:0}
+.trades-question{flex-direction:row;gap:14px}.trades-question>div:last-child{min-width:0}.trades-market-art{position:relative;flex:0 0 48px}.trades-market-image{display:block;width:48px;height:48px;aspect-ratio:1;object-fit:cover;border-radius:12px;background:var(--ix-nested,var(--s2))}.trades-asker-badge{position:absolute;right:-4px;bottom:-4px;width:20px;height:20px;object-fit:contain;border-radius:6px;background:var(--ix-card,var(--s1))}.trades-monogram{display:flex;align-items:center;justify-content:center;background:var(--ix-soft,#241E33);color:var(--ix-accent,#B9A8FF);font-size:10px;text-transform:uppercase}.trades-row{padding:24px;gap:20px}.trades-head{padding:20px 24px;gap:20px}.trades-identity,.trades-action,.trades-size,.trades-price,.trades-time{gap:8px}.trades-meta,.trades-missing,.trades-disclosure{color:var(--ix-secondary,var(--muted))}.trades-row:hover,.trades-row:focus-within{background:var(--ix-nested,var(--s2))}.trades-chip{padding:4px 8px;gap:6px;color:var(--ix-secondary,var(--muted));border:0;background:var(--ix-nested,var(--s2))}.trades-tape a{color:var(--ix-text,var(--text))}.trades-outcome{font-size:12px;color:var(--ix-secondary,var(--muted))}.trades-price,.trades-size{overflow-wrap:anywhere}.trades-tape .trades-empty{padding:64px 24px}
+[data-theme=light] .trades-tape{--tint-seer:#6C2BD9;--tint-deep:#6C2BD9;--tint-futarchy:#6C2BD9;--tint-opportunity:#6C2BD9;--tint-risk:#6C2BD9}[data-theme=light] .trades-chip::before{background:#6C2BD9}
+@media(max-width:600px){.trades-row{padding:24px 18px;gap:18px}.trades-question{gap:14px}.trades-market{padding:0 0 8px}.trades-time{gap:6px}.trades-size:before{content:'Amount';font-size:12px;color:var(--ix-secondary,var(--muted))}.trades-price:before{content:'Price';font-size:12px;color:var(--ix-secondary,var(--muted))}}

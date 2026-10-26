@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <title>Seer App</title>
+    <meta name="description" content="Find, understand and trade across Seer information markets.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="seer-shell.css">
+    <link rel="stylesheet" href="seer-subbar.css">
+    <link rel="stylesheet" href="subbar.css">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="app.css">
+    <script defer src="assets/image-map.js"></script>
+    <script defer src="icons.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header id="header" class="sb"></header>
+    <main id="app" tabindex="-1"><p class="loading" role="status">Loading markets</p></main>
+    <footer class="site-footer">Seer. Information Finance for the agentic economy.</footer>
+    <div id="popover" aria-label="Options" hidden></div>
+    <dialog id="dialog"></dialog>
+    <div id="notice" role="status"></div>
+    <script type="module">import {mountSeerShell} from './seer-shell.js'; mountSeerShell({current:'explorer'});</script>
+  </body>
+</html>

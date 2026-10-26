@@ -1,0 +1,822 @@
+[
+  {
+    "rank": 1,
+    "address": "0x2ff064d951996c9fe70d6ba22d8684f37b2e24ec",
+    "pnl": 241172.15314631056,
+    "volume": 1428994.8499800863,
+    "roi": 0.30255383620362536,
+    "unit": "USD",
+    "marketCount": 55,
+    "score": 78.6,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 78.6,
+      "tier": "Great",
+      "components": {
+        "returns": 55.3,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 79.8,
+        "breadth": 89.9
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 50,
+        "factor": 0.8333333333333334,
+        "rawScore": 84.3
+      },
+      "inputs": {
+        "roi": 0.3025275400715047,
+        "profitFactor": 3.7206220508169086,
+        "hitRate": 0.6818181818181818,
+        "breakEvenHitRate": 0.36887166146580463,
+        "hitEdge": 0.31294652035237713,
+        "lossBurn": 0.10110324912630321,
+        "breadth": 0.6293275505702169
+      }
+    },
+    "updatedAt": "2026-10-18T15:09:02.645+00:00"
+  },
+  {
+    "rank": 2,
+    "address": "0x04a9edd12ed304efb5e5fe83109a65e8e84799c3",
+    "pnl": 75302.9753885209,
+    "volume": 123730.15839779931,
+    "roi": 1.2077306326852322,
+    "unit": "USD",
+    "marketCount": 14,
+    "score": 73.3,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 73.3,
+      "tier": "Great",
+      "components": {
+        "returns": 100,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 94.5,
+        "breadth": 18.8
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 17,
+        "factor": 0.6296296296296297,
+        "rawScore": 87
+      },
+      "inputs": {
+        "roi": 1.207730632685232,
+        "profitFactor": 23.898547337549864,
+        "hitRate": 0.6136363636363636,
+        "breakEvenHitRate": 0.039199628915456176,
+        "hitEdge": 0.5744367347209075,
+        "lossBurn": 0.02748852117141465,
+        "breadth": 0.13154038377357213
+      }
+    },
+    "updatedAt": "2026-10-17T13:55:10.257+00:00"
+  },
+  {
+    "rank": 3,
+    "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+    "pnl": 64264.58387603411,
+    "volume": 172025.05640820152,
+    "roi": 2.6458985891677265,
+    "unit": "USD",
+    "marketCount": 1,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T15:05:42.936+00:00"
+  },
+  {
+    "rank": 4,
+    "address": "0x923bfbcf199afcdf2071d60a811132ce4b747984",
+    "pnl": 51783.38761976871,
+    "volume": 177160.26676738696,
+    "roi": 0.39960381928524624,
+    "unit": "USD",
+    "marketCount": 110,
+    "score": 87.5,
+    "tier": "Elite",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 87.5,
+      "tier": "Elite",
+      "components": {
+        "returns": 65,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 98,
+        "breadth": 100
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 108,
+        "factor": 0.9152542372881356,
+        "rawScore": 90.9
+      },
+      "inputs": {
+        "roi": 0.39960306055406014,
+        "profitFactor": 22.733552510294842,
+        "hitRate": 0.8451327433628318,
+        "breakEvenHitRate": 0.13140647555025659,
+        "hitEdge": 0.7137262678125753,
+        "lossBurn": 0.009994612745330748,
+        "breadth": 0.8318019017115346
+      }
+    },
+    "updatedAt": "2026-10-18T04:24:06.57+00:00"
+  },
+  {
+    "rank": 5,
+    "address": "0xe7f13052fe2ba7d038dac18de5e730542e3979bc",
+    "pnl": 43244.64287307114,
+    "volume": 315492.19953356846,
+    "roi": 0.08190246404909728,
+    "unit": "USD",
+    "marketCount": 37,
+    "score": 68.7,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 68.7,
+      "tier": "Good",
+      "components": {
+        "returns": 33.2,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 95.8,
+        "breadth": 59
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 24,
+        "factor": 0.7058823529411765,
+        "rawScore": 76.5
+      },
+      "inputs": {
+        "roi": 0.08187240663357008,
+        "profitFactor": 4.520884389148237,
+        "hitRate": 0.3275862068965517,
+        "breakEvenHitRate": 0.07695289573544578,
+        "hitEdge": 0.25063331116110593,
+        "lossBurn": 0.020784534578152873,
+        "breadth": 0.4132304954991528
+      }
+    },
+    "updatedAt": "2026-10-18T15:06:46.869+00:00",
+    "mergedWallets": [
+      "0xcf922c66acd737d7049670429fcfe2a2ce6059c0"
+    ]
+  },
+  {
+    "rank": 6,
+    "address": "0xff2c9647c4f24682bbb24bd530324c8354d90435",
+    "pnl": 35414.85233290713,
+    "volume": 80412.89814779015,
+    "roi": 0.4263146555192478,
+    "unit": "USD",
+    "marketCount": 25,
+    "score": 75.6,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 75.6,
+      "tier": "Great",
+      "components": {
+        "returns": 67.6,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 90.7,
+        "breadth": 74.7
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 23,
+        "factor": 0.696969696969697,
+        "rawScore": 86.7
+      },
+      "inputs": {
+        "roi": 0.4263146555192478,
+        "profitFactor": 8.480279828835348,
+        "hitRate": 0.8392857142857143,
+        "breakEvenHitRate": 0.5085214236615722,
+        "hitEdge": 0.33076429062414214,
+        "lossBurn": 0.0466014545329751,
+        "breadth": 0.5230727678933751
+      }
+    },
+    "updatedAt": "2026-10-17T13:55:36.883+00:00"
+  },
+  {
+    "rank": 7,
+    "address": "0x55122fdca4ba43294677d96c12ce76dabc459a2b",
+    "pnl": 33783.256720713856,
+    "volume": 377479.86575529014,
+    "roi": 0.04390583014249653,
+    "unit": "USD",
+    "marketCount": 22,
+    "score": 71.9,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 71.9,
+      "tier": "Great",
+      "components": {
+        "returns": 29.4,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 100,
+        "breadth": 100
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 21,
+        "factor": 0.6774193548387096,
+        "rawScore": 82.3
+      },
+      "inputs": {
+        "roi": 0.04390090914745793,
+        "profitFactor": 51.00000000000001,
+        "hitRate": 0.9038461538461539,
+        "breakEvenHitRate": 0,
+        "hitEdge": 0.9038461538461539,
+        "lossBurn": 0,
+        "breadth": 0.7623931397581349
+      }
+    },
+    "updatedAt": "2026-10-17T13:53:05.21+00:00"
+  },
+  {
+    "rank": 8,
+    "address": "0xe28c5e8cc6c44ae364b13a250e75ce35ecb3d3aa",
+    "pnl": 27537.9557783898,
+    "volume": 55418.96779998174,
+    "roi": 0.4545889440923976,
+    "unit": "USD",
+    "marketCount": 8,
+    "score": 67.2,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 67.2,
+      "tier": "Good",
+      "components": {
+        "returns": 70.5,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 80.6,
+        "breadth": 54.4
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 11,
+        "factor": 0.5238095238095238,
+        "rawScore": 82.9
+      },
+      "inputs": {
+        "roi": 0.4545889440923976,
+        "profitFactor": 5.135846727932282,
+        "hitRate": 0.59375,
+        "breakEvenHitRate": 0.23524183607245044,
+        "hitEdge": 0.3585081639275496,
+        "lossBurn": 0.09694478905627577,
+        "breadth": 0.3805006865698196
+      }
+    },
+    "updatedAt": "2026-10-18T14:55:05.795+00:00"
+  },
+  {
+    "rank": 9,
+    "address": "0xe082bda07536420401187ba7225ff5f56c30998b",
+    "pnl": 24469.69782678529,
+    "volume": 102016.45306059327,
+    "roi": 0.295359213724366,
+    "unit": "USD",
+    "marketCount": 76,
+    "score": 83.5,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 83.5,
+      "tier": "Great",
+      "components": {
+        "returns": 54.5,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 94.7,
+        "breadth": 100
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 78,
+        "factor": 0.8863636363636364,
+        "rawScore": 87.8
+      },
+      "inputs": {
+        "roi": 0.29533573473958535,
+        "profitFactor": 9.869268597275802,
+        "hitRate": 0.5,
+        "breakEvenHitRate": 0.07568261108761802,
+        "hitEdge": 0.42431738891238197,
+        "lossBurn": 0.026338514678675373,
+        "breadth": 0.7604133576549408
+      }
+    },
+    "updatedAt": "2026-10-18T08:48:53.482+00:00",
+    "mergedWallets": [
+      "0x3d04e58ea15783e089403aa3947e3df9ff227818"
+    ],
+    "username": "mr-froggert"
+  },
+  {
+    "rank": 10,
+    "address": "0xfe13988736d95d052c2e45e5b4e1ef2e2750b7f4",
+    "pnl": 8016.931244270217,
+    "volume": 80241.49949200657,
+    "roi": 0.03637297608282555,
+    "unit": "USD",
+    "marketCount": 2,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 2,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T14:54:47.498+00:00"
+  },
+  {
+    "rank": 11,
+    "address": "0xbff956c949c545fa15d9abbe550d2488baa16f8d",
+    "pnl": 5356.022146516652,
+    "volume": 21723.12826963075,
+    "roi": 0.7011278952776232,
+    "unit": "USD",
+    "marketCount": 1,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T15:06:31.268+00:00"
+  },
+  {
+    "rank": 12,
+    "address": "0xd0fb3b244bf5d1a3756e8428435d8235e44eb74d",
+    "pnl": 4988.151514437924,
+    "volume": 277707.9843390602,
+    "roi": 0.10476050898134696,
+    "unit": "USD",
+    "marketCount": 123,
+    "score": 78,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 78,
+      "tier": "Great",
+      "components": {
+        "returns": 34,
+        "profitFactor": 100,
+        "hitRate": 86.6,
+        "lossBurn": 95.7,
+        "breadth": 100
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 99,
+        "factor": 0.908256880733945,
+        "rawScore": 80.8
+      },
+      "inputs": {
+        "roi": 0.08993004595497102,
+        "profitFactor": 4.718694332055584,
+        "hitRate": 0.9375,
+        "breakEvenHitRate": 0.8209984690738308,
+        "hitEdge": 0.11650153092616922,
+        "lossBurn": 0.021523683262535915,
+        "breadth": 0.91780953010741
+      }
+    },
+    "updatedAt": "2026-10-17T14:52:31.729+00:00"
+  },
+  {
+    "rank": 13,
+    "address": "0x30a78778413f5d9a871d5beebd0a93e77475e204",
+    "pnl": 4610.198850856531,
+    "volume": 81671.17947374388,
+    "roi": 0.07471519326935235,
+    "unit": "USD",
+    "marketCount": 22,
+    "score": 56,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 56,
+      "tier": "Good",
+      "components": {
+        "returns": 32.5,
+        "profitFactor": 51.1,
+        "hitRate": 59,
+        "lossBurn": 81.8,
+        "breadth": 94.1
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 22,
+        "factor": 0.6875,
+        "rawScore": 58.7
+      },
+      "inputs": {
+        "roi": 0.07471519326935232,
+        "profitFactor": 1.7776217586848655,
+        "hitRate": 0.7592592592592593,
+        "breakEvenHitRate": 0.7118560252432529,
+        "hitEdge": 0.047403234016006435,
+        "lossBurn": 0.09094938565032264,
+        "breadth": 0.6587319011081821
+      }
+    },
+    "updatedAt": "2026-10-18T14:53:33.459+00:00"
+  },
+  {
+    "rank": 14,
+    "address": "0x9eb6d10f75b364662313ee3099173dc3ac4048c9",
+    "pnl": 4275.891950953277,
+    "volume": 377.01334070391454,
+    "roi": 0.22560315413106533,
+    "unit": "USD",
+    "marketCount": 327,
+    "score": 46.5,
+    "tier": "Average",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 46.5,
+      "tier": "Average",
+      "components": {
+        "returns": 36.5,
+        "profitFactor": 40.1,
+        "hitRate": 81.9,
+        "lossBurn": 56.3,
+        "breadth": 27.3
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 65,
+        "factor": 0.8666666666666667,
+        "rawScore": 46
+      },
+      "inputs": {
+        "roi": 0.11519916856240943,
+        "profitFactor": 1.5017209022146685,
+        "hitRate": 0.4785714285714286,
+        "breakEvenHitRate": 0.3738512757324541,
+        "hitEdge": 0.10472015283897451,
+        "lossBurn": 0.21856162276694538,
+        "breadth": 0.19136687639949512
+      }
+    },
+    "updatedAt": "2026-10-18T14:12:01.542+00:00",
+    "mergedWallets": [
+      "0x1bffd2e368c2789366ec38be3f2771fabc5bc86a",
+      "0x35aa70bfbfaa4ab42b1efff88184681d0047b59f",
+      "0xfcd1a55c89651bad1c3c37dff0b14d737cc72b48"
+    ]
+  },
+  {
+    "rank": 15,
+    "address": "0x1e3ec1e5cd9c91c32cd676b7026a327298d54d60",
+    "pnl": 4146.8754374676,
+    "volume": 2714.1082596688807,
+    "roi": 1.6389649091270868,
+    "unit": "USD",
+    "marketCount": 3,
+    "score": 60.2,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 60.2,
+      "tier": "Good",
+      "components": {
+        "returns": 100,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 100,
+        "breadth": 61.4
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 3,
+        "factor": 0.23076923076923078,
+        "rawScore": 94.2
+      },
+      "inputs": {
+        "roi": 1.6389649091270868,
+        "profitFactor": 50.99999999999999,
+        "hitRate": 0.6875,
+        "breakEvenHitRate": 0,
+        "hitEdge": 0.6875,
+        "lossBurn": 0,
+        "breadth": 0.42948599041987845
+      }
+    },
+    "updatedAt": "2026-10-18T14:53:07.535+00:00"
+  },
+  {
+    "rank": 16,
+    "address": "0x9c813e60680423536eb72c2e6ce930701fc8f622",
+    "pnl": 3583.787205376525,
+    "volume": 4483.050003858301,
+    "roi": 0.7994082605128577,
+    "unit": "USD",
+    "marketCount": 1,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T15:05:31.365+00:00"
+  },
+  {
+    "rank": 17,
+    "address": "0xb772412857f3309f392a3646cec8b3f06cfa7dbd",
+    "pnl": 2873.654028486848,
+    "volume": 5049.261025906614,
+    "roi": 0.5691236824047678,
+    "unit": "USD",
+    "marketCount": 1,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T14:54:24.438+00:00"
+  },
+  {
+    "rank": 18,
+    "address": "0xe638c61b86ac6999b4d7eccec20ce4ae37e2ae08",
+    "pnl": 2292.123941564413,
+    "volume": 3988.420031533282,
+    "roi": 0.3916158935475981,
+    "unit": "USD",
+    "marketCount": 293,
+    "score": 72.6,
+    "tier": "Great",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 72.6,
+      "tier": "Great",
+      "components": {
+        "returns": 64.2,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 84,
+        "breadth": 26.1
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 46,
+        "factor": 0.8214285714285714,
+        "rawScore": 77.5
+      },
+      "inputs": {
+        "roi": 0.3916158935475979,
+        "profitFactor": 5.297154303614472,
+        "hitRate": 0.5588235294117647,
+        "breakEvenHitRate": 0.18082587633407277,
+        "hitEdge": 0.37799765307769195,
+        "lossBurn": 0.08009755495453684,
+        "breadth": 0.1824436011144216
+      }
+    },
+    "updatedAt": "2026-10-18T14:13:29.373+00:00",
+    "mergedWallets": [
+      "0xee2fa2bbb2526160d99c5b9ea1031ab8bf984fb5",
+      "0xf7f3223f56484cb5e65f4556d0da9c2de320fb90"
+    ]
+  },
+  {
+    "rank": 19,
+    "address": "0xe56955435033d3a1f51d95333ef81a00954bbf87",
+    "pnl": 2194.2901229966874,
+    "volume": 0,
+    "roi": null,
+    "unit": "USD",
+    "marketCount": 0,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 0,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 1,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T15:05:50.767+00:00"
+  },
+  {
+    "rank": 20,
+    "address": "0x3730f0dae72100cf020f02fde7730b814a37e63e",
+    "pnl": 2179.3194891749436,
+    "volume": 12659.955900604475,
+    "roi": 0.31365664500330587,
+    "unit": "USD",
+    "marketCount": 9,
+    "score": 67.3,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 67.3,
+      "tier": "Good",
+      "components": {
+        "returns": 56.4,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 95,
+        "breadth": 87.8
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 9,
+        "factor": 0.47368421052631576,
+        "rawScore": 86.5
+      },
+      "inputs": {
+        "roi": 0.31365664500330587,
+        "profitFactor": 10.762480500547777,
+        "hitRate": 0.75,
+        "breakEvenHitRate": 0.3700909317599377,
+        "hitEdge": 0.3799090682400623,
+        "lossBurn": 0.024861204723740208,
+        "breadth": 0.6146405698851123
+      }
+    },
+    "updatedAt": "2026-10-18T14:53:39.535+00:00"
+  },
+  {
+    "rank": 21,
+    "address": "0xf55cffd673485dd499e57ded846bae3e3ae194ff",
+    "pnl": 2150.198863848022,
+    "volume": 1867.9976574954246,
+    "roi": 4.509611011375813,
+    "unit": "USD",
+    "marketCount": 1,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T14:36:48.455+00:00"
+  },
+  {
+    "rank": 22,
+    "address": "0x9d3680e4d49d9d168d843faf9d20ed270e1da332",
+    "pnl": 2036.082176868399,
+    "volume": 2596.450351447146,
+    "roi": 3.6334721871009354,
+    "unit": "USD",
+    "marketCount": 2,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 1,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 0.6452649580905686,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T10:21:14.32+00:00"
+  },
+  {
+    "rank": 23,
+    "address": "0x216ac1eb296ecd64f6d782d8d740a2fb69f76203",
+    "pnl": 1781.2361610118603,
+    "volume": 5181.069958082186,
+    "roi": 0.27436480739630614,
+    "unit": "USD",
+    "marketCount": 180,
+    "score": 56.7,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 56.7,
+      "tier": "Good",
+      "components": {
+        "returns": 52.4,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 97.1,
+        "breadth": 4.3
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 4,
+        "factor": 0.2857142857142857,
+        "rawScore": 73.3
+      },
+      "inputs": {
+        "roi": 0.27436480739630614,
+        "profitFactor": 14.238519344758497,
+        "hitRate": 0.6111111111111112,
+        "breakEvenHitRate": 0.13200620432579124,
+        "hitEdge": 0.4791049067853199,
+        "lossBurn": 0.014651383670223901,
+        "breadth": 0.029768482972574062
+      }
+    },
+    "updatedAt": "2026-10-18T14:43:25.045+00:00",
+    "mergedWallets": [
+      "0x5417b27f616909d7ef374c04002f0e7bceb732f4",
+      "0xb6ff36371d4c77d67295d8465942089c2c46dccf"
+    ]
+  },
+  {
+    "rank": 24,
+    "address": "0x0000000071727de22e5e9d8baf0edac6f37da032",
+    "pnl": 1680.5688946463383,
+    "volume": 0,
+    "roi": 13681.320054058553,
+    "unit": "USD",
+    "marketCount": 0,
+    "score": null,
+    "tier": null,
+    "scoreUnavailable": {
+      "reason": "markets",
+      "scoredMarketCount": 0,
+      "minScoredMarkets": 3,
+      "minCapitalUsd": 100,
+      "dustUsd": 1,
+      "unscoredPnlFraction": 1,
+      "maxUnscoredPnlFraction": 0.25
+    },
+    "updatedAt": "2026-10-18T08:24:14.963+00:00"
+  },
+  {
+    "rank": 25,
+    "address": "0x02dadbe42f385fa68f96c753df7f24c863701481",
+    "pnl": 1614.4923361985818,
+    "volume": 3741.7643581210796,
+    "roi": 0.25443042434291163,
+    "unit": "USD",
+    "marketCount": 180,
+    "score": 58,
+    "tier": "Good",
+    "scoreBreakdown": {
+      "method": "markets",
+      "score": 58,
+      "tier": "Good",
+      "components": {
+        "returns": 50.4,
+        "profitFactor": 100,
+        "hitRate": 100,
+        "lossBurn": 100,
+        "breadth": 36.1
+      },
+      "sampleShrink": {
+        "scoredMarketCount": 4,
+        "factor": 0.2857142857142857,
+        "rawScore": 78
+      },
+      "inputs": {
+        "roi": 0.25443042434291163,
+        "profitFactor": 51,
+        "hitRate": 0.7222222222222222,
+        "breakEvenHitRate": 0,
+        "hitEdge": 0.7222222222222222,
+        "lossBurn": 0,
+        "breadth": 0.2526547779724029
+      }
+    },
+    "updatedAt": "2026-10-18T15:09:31.213+00:00",
+    "mergedWallets": [
+      "0x7f93d9e40f0b393d2d5506d618aa0526496f374f"
+    ]
+  }
+]

@@ -63,13 +63,30 @@ export function ProductShell({ product }: { product: ProductId }) {
 
   const current = PRODUCTS[product];
   const otherProducts = useMemo(() => PRODUCT_ORDER.filter((id) => id !== product), [product]);
-  const v2 = (product === 'explorer' || product === 'deep') && !(typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('v') === '1');
-  const frameSrc = `/p/${product}${v2 ? '-v2' : ''}/index.html`;
+  const BUNDLE: Record<ProductId, string> = { explorer: 'explorer', deep: 'deep-v2', futarchy: 'futarchy', opportunity: 'opportunity', risk: 'risk' };
+  // the explorer hands native-Seer trading off to the trading app via /explorer?v=2#/market/<id>
+  const bundleFor = (search: string) => (product === 'explorer' && new URLSearchParams(search).get('v') === '2' ? 'explorer-v2' : BUNDLE[product]);
+  const frameUrl = (search: string, hash: string) => `/p/${bundleFor(search)}/index.html${bundleFor(search) === 'explorer-v2' ? '' : search}${hash}`;
+  const [frameSrc, setFrameSrc] = useState(() => frameUrl(window.location.search, window.location.hash));
+  useEffect(() => { setFrameSrc(frameUrl(window.location.search, window.location.hash)); }, [product]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    // deep links to the same product (e.g. /deep#/repo/a/b) re-point the frame without remounting the shell
+    const onPop = () => {
+      const next = frameUrl(window.location.search, window.location.hash);
+      const frame = iframe.current;
+      if (!frame) return;
+      const here = frame.contentWindow?.location;
+      const same = here && (here.pathname + here.search + here.hash) === next;
+      if (!same) { if (here && here.pathname === `/p/${bundleFor(window.location.search)}/index.html`) { frame.contentWindow!.location.replace(next); } else setFrameSrc(next); }
+    };
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, [product]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const updateTheme = useCallback((next: SeerTheme) => setTheme((value) => value === next ? value : next), []);
   const runAdapter = useCallback(() => {
     if (!iframe.current) return false;
-    return adaptProductFrame(iframe.current, { product, theme, onThemeChange: updateTheme, onWalletChange: setAddress });
+    return adaptProductFrame(iframe.current, { product, theme, onThemeChange: updateTheme, onWalletChange: setAddress, keepCrossLinks: product === 'explorer' && new URLSearchParams(window.location.search).get('v') !== '2', onNavigate: (route) => { setAppsOpen(false); navTo(route); } });
   }, [product, theme, updateTheme]);
 
   useEffect(() => {

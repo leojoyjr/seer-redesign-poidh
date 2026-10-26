@@ -1,0 +1,1873 @@
+{
+  "1d": {
+    "scope": "global",
+    "period": "1d",
+    "sortBy": "pnl",
+    "sortDir": "desc",
+    "unit": "USD",
+    "updatedAt": "2026-10-18T18:41:35.278+00:00",
+    "total": 29,
+    "limit": 100,
+    "offset": 0,
+    "rows": [
+      {
+        "rank": 1,
+        "address": "0x00dc3e0acadb8dba21bb08ff30540222ff8836e0",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 2,
+        "address": "0x03bb5bc3c8fdab212a6b2b347a049133dfcb3a47",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 3,
+        "address": "0x2ad670e5953a85c998cdf1c2f6d74386ab735d4a",
+        "pnl": 0,
+        "volume": 0.19002804938284631,
+        "roi": null,
+        "marketCount": 1
+      },
+      {
+        "rank": 4,
+        "address": "0x2ff064d951996c9fe70d6ba22d8684f37b2e24ec",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 5,
+        "address": "0x355f62e1afd6eb0e3d54d4756d356ffce567f39f",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x72be8fbf921699f3bcf6275e05838a0e05cb2d20"
+        ]
+      },
+      {
+        "rank": 6,
+        "address": "0x430e15706acaa26c6e9653509312c19a75e4fd21",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 7,
+        "address": "0x469a1fc96685d532896fc0475affc9cb3d731669",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 8,
+        "address": "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 9,
+        "address": "0x5fb88aeb99b5dbabeb96bf489e088712e00bd0d8",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 10,
+        "address": "0x6816b392a5a5b1a843ee6f22281f654ba206a492",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 11,
+        "address": "0x7c289ae9c1ce26a575828d779649fc38d038fe70",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x3da3de05d81c9977d12a9c7c8a4b509aa8edc85c"
+        ]
+      },
+      {
+        "rank": 12,
+        "address": "0x7ebdebe88ec46b316fdfb4e783364177c9d6bac9",
+        "pnl": 0,
+        "volume": 10.001743776756959,
+        "roi": null,
+        "marketCount": 94,
+        "mergedWallets": [
+          "0x42d27b4b004c9ef0c8b716051a135b9a541e42a7"
+        ]
+      },
+      {
+        "rank": 13,
+        "address": "0x81781ffeb24bff62ae0046f59869b1cc534c2080",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xfba8524d64ee1191555e24c5559feb56b7483a81"
+        ]
+      },
+      {
+        "rank": 14,
+        "address": "0x8d5e32873c100ae7a0da7f1ece6eaed26eec7a6b",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 15,
+        "address": "0x98da0b33146b1ce5feaa4852f2bc001000c609fd",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xbfa91f6e620898e9ced94860076529ae14391107"
+        ]
+      },
+      {
+        "rank": 16,
+        "address": "0x9eb6d10f75b364662313ee3099173dc3ac4048c9",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x35aa70bfbfaa4ab42b1efff88184681d0047b59f"
+        ]
+      },
+      {
+        "rank": 17,
+        "address": "0xa71970e9bdb6b62eb6434d9cac0cc4e2a30a8287",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 18,
+        "address": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xf05fc99ed6a8235c7cdfe2a4c3cef846b8c35d9d"
+        ]
+      },
+      {
+        "rank": 19,
+        "address": "0xbea26de685ef828b60ca53b40ecc9bab35645fdf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x6c228330b76b2977df0e7ff5550013f53e6fdaaf"
+        ]
+      },
+      {
+        "rank": 20,
+        "address": "0xc06ebbefd94032b85424d51906e2a335efae264b",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 21,
+        "address": "0xd6a2a456b48836f38ace550c59c421ca24f1681a",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x890f56030cde792a5bdd9925b408c5ef6e63986d",
+          "0xf2d1357ce7078303400db99b9603de93bf1b520e"
+        ]
+      },
+      {
+        "rank": 22,
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x7d45b54ecf3aad1c89831ad2f154a0d2d37e63ad"
+        ]
+      },
+      {
+        "rank": 23,
+        "address": "0xe18ff9d58b4deb8c17ccba79a87fbed548ab06b3",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 24,
+        "address": "0xe622793f3d7bc200cefa177a39f9737f8852afea",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 25,
+        "address": "0xe638c61b86ac6999b4d7eccec20ce4ae37e2ae08",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 26,
+        "address": "0xe7f13052fe2ba7d038dac18de5e730542e3979bc",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 27,
+        "address": "0xefb8e220f012241a00f5dae4a5b2c473a742a63a",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x1b52fc7df35f3a8b84ede2b49ef82e94d0a8d19e",
+          "0xa7a92bd47b205edf294836e6490c2d50613d1ff1",
+          "0xe3030b4d360ca93a371aaa421101863d02b490b0",
+          "0xeed124a855c17064d5040ed326ff9c549c2a7f86"
+        ]
+      },
+      {
+        "rank": 28,
+        "address": "0xf7fc47d7de31e58a8c57847fa8df98d830c298cf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x14c54f16dbb1f0c4f3bc4e06cc958a34118db8ee",
+          "0x2771980e5252204e526745acf056d4a6e2299df0"
+        ]
+      },
+      {
+        "rank": 29,
+        "address": "0xab07c88e2aab4bffe8bfae10043ba2bbdd82a809",
+        "pnl": -9.07670837921763e-17,
+        "volume": 0,
+        "roi": -3.295737264009041e-19,
+        "marketCount": 0
+      }
+    ]
+  },
+  "1w": {
+    "scope": "global",
+    "period": "1w",
+    "sortBy": "pnl",
+    "sortDir": "desc",
+    "unit": "USD",
+    "updatedAt": "2026-10-18T18:41:35.278+00:00",
+    "total": 34,
+    "limit": 100,
+    "offset": 0,
+    "rows": [
+      {
+        "rank": 1,
+        "address": "0xe638c61b86ac6999b4d7eccec20ce4ae37e2ae08",
+        "pnl": 8.899018454636797e-15,
+        "volume": 39.48009891422202,
+        "roi": 9.50040402470695e-18,
+        "marketCount": 97,
+        "mergedWallets": [
+          "0xf7f3223f56484cb5e65f4556d0da9c2de320fb90"
+        ]
+      },
+      {
+        "rank": 2,
+        "address": "0x00dc3e0acadb8dba21bb08ff30540222ff8836e0",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 3,
+        "address": "0x03bb5bc3c8fdab212a6b2b347a049133dfcb3a47",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 4,
+        "address": "0x232a90552ba37000bc8b0f757039da99866412a4",
+        "pnl": 0,
+        "volume": 60.434036046989355,
+        "roi": null,
+        "marketCount": 40,
+        "mergedWallets": [
+          "0xdc7a9bf1f652462ff40e63bbbbbb35cad83756c2"
+        ]
+      },
+      {
+        "rank": 5,
+        "address": "0x2ad670e5953a85c998cdf1c2f6d74386ab735d4a",
+        "pnl": 0,
+        "volume": 133.58890468434214,
+        "roi": null,
+        "marketCount": 57
+      },
+      {
+        "rank": 6,
+        "address": "0x2bdd99191fe8e396caf7fda474679426a6fcd51d",
+        "pnl": 0,
+        "volume": 17.144648187184632,
+        "roi": null,
+        "marketCount": 42,
+        "mergedWallets": [
+          "0xf192d22fc3bf63f3f9d2b4ef87c2458f1a825edc"
+        ]
+      },
+      {
+        "rank": 7,
+        "address": "0x2ff064d951996c9fe70d6ba22d8684f37b2e24ec",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 8,
+        "address": "0x355f62e1afd6eb0e3d54d4756d356ffce567f39f",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x72be8fbf921699f3bcf6275e05838a0e05cb2d20"
+        ]
+      },
+      {
+        "rank": 9,
+        "address": "0x430e15706acaa26c6e9653509312c19a75e4fd21",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 10,
+        "address": "0x469a1fc96685d532896fc0475affc9cb3d731669",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 11,
+        "address": "0x570087d41d2844923c8167d4ee782f4b2ae52e38",
+        "pnl": 0,
+        "volume": 101.45988536769262,
+        "roi": null,
+        "marketCount": 93,
+        "mergedWallets": [
+          "0x4cb96305e72aa6fa446e2d4bd92a7e0b4a59eff3"
+        ]
+      },
+      {
+        "rank": 12,
+        "address": "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 13,
+        "address": "0x5fb88aeb99b5dbabeb96bf489e088712e00bd0d8",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 14,
+        "address": "0x6580df4b0e17850b5ffbd3d51c503efb5fbef1f7",
+        "pnl": 0,
+        "volume": 52.39488696953315,
+        "roi": null,
+        "marketCount": 94,
+        "mergedWallets": [
+          "0xcdc6de6da1536d993d7768e5ccb2df8bdf7776a2"
+        ]
+      },
+      {
+        "rank": 15,
+        "address": "0x6816b392a5a5b1a843ee6f22281f654ba206a492",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 16,
+        "address": "0x7c289ae9c1ce26a575828d779649fc38d038fe70",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x3da3de05d81c9977d12a9c7c8a4b509aa8edc85c"
+        ]
+      },
+      {
+        "rank": 17,
+        "address": "0x7ebdebe88ec46b316fdfb4e783364177c9d6bac9",
+        "pnl": 0,
+        "volume": 44.574968515748104,
+        "roi": null,
+        "marketCount": 98,
+        "mergedWallets": [
+          "0x42d27b4b004c9ef0c8b716051a135b9a541e42a7"
+        ]
+      },
+      {
+        "rank": 18,
+        "address": "0x81781ffeb24bff62ae0046f59869b1cc534c2080",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xfba8524d64ee1191555e24c5559feb56b7483a81"
+        ]
+      },
+      {
+        "rank": 19,
+        "address": "0x8d5e32873c100ae7a0da7f1ece6eaed26eec7a6b",
+        "pnl": 0,
+        "volume": 56.39465606633118,
+        "roi": 0,
+        "marketCount": 34,
+        "mergedWallets": [
+          "0xdf60cbbbb1312b59754c41967a1ab426b615fdbb"
+        ]
+      },
+      {
+        "rank": 20,
+        "address": "0x98da0b33146b1ce5feaa4852f2bc001000c609fd",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xbfa91f6e620898e9ced94860076529ae14391107"
+        ]
+      },
+      {
+        "rank": 21,
+        "address": "0x9eb6d10f75b364662313ee3099173dc3ac4048c9",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x35aa70bfbfaa4ab42b1efff88184681d0047b59f"
+        ]
+      },
+      {
+        "rank": 22,
+        "address": "0xa2c5b4b63d2c31e177879bd5261453537a7f1bf0",
+        "pnl": 0,
+        "volume": 39.63494468951541,
+        "roi": null,
+        "marketCount": 56,
+        "mergedWallets": [
+          "0xb7def5b5307484b9df6e12ba2cb63f83f5cab7fe"
+        ]
+      },
+      {
+        "rank": 23,
+        "address": "0xa71970e9bdb6b62eb6434d9cac0cc4e2a30a8287",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 24,
+        "address": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xf05fc99ed6a8235c7cdfe2a4c3cef846b8c35d9d"
+        ]
+      },
+      {
+        "rank": 25,
+        "address": "0xbea26de685ef828b60ca53b40ecc9bab35645fdf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x6c228330b76b2977df0e7ff5550013f53e6fdaaf"
+        ]
+      },
+      {
+        "rank": 26,
+        "address": "0xc06ebbefd94032b85424d51906e2a335efae264b",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 27,
+        "address": "0xd6a2a456b48836f38ace550c59c421ca24f1681a",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x890f56030cde792a5bdd9925b408c5ef6e63986d",
+          "0xf2d1357ce7078303400db99b9603de93bf1b520e"
+        ]
+      },
+      {
+        "rank": 28,
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x7d45b54ecf3aad1c89831ad2f154a0d2d37e63ad"
+        ]
+      },
+      {
+        "rank": 29,
+        "address": "0xe18ff9d58b4deb8c17ccba79a87fbed548ab06b3",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 30,
+        "address": "0xe622793f3d7bc200cefa177a39f9737f8852afea",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 31,
+        "address": "0xe7f13052fe2ba7d038dac18de5e730542e3979bc",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 32,
+        "address": "0xefb8e220f012241a00f5dae4a5b2c473a742a63a",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x1b52fc7df35f3a8b84ede2b49ef82e94d0a8d19e",
+          "0xa7a92bd47b205edf294836e6490c2d50613d1ff1",
+          "0xe3030b4d360ca93a371aaa421101863d02b490b0",
+          "0xeed124a855c17064d5040ed326ff9c549c2a7f86"
+        ]
+      },
+      {
+        "rank": 33,
+        "address": "0xf7fc47d7de31e58a8c57847fa8df98d830c298cf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x14c54f16dbb1f0c4f3bc4e06cc958a34118db8ee",
+          "0x2771980e5252204e526745acf056d4a6e2299df0"
+        ]
+      },
+      {
+        "rank": 34,
+        "address": "0xab07c88e2aab4bffe8bfae10043ba2bbdd82a809",
+        "pnl": -9.07670837921763e-17,
+        "volume": 0,
+        "roi": -3.295737264009041e-19,
+        "marketCount": 0
+      }
+    ]
+  },
+  "1m": {
+    "scope": "global",
+    "period": "1m",
+    "sortBy": "pnl",
+    "sortDir": "desc",
+    "unit": "USD",
+    "updatedAt": "2026-10-18T18:41:35.278+00:00",
+    "total": 45,
+    "limit": 100,
+    "offset": 0,
+    "rows": [
+      {
+        "rank": 1,
+        "address": "0x6e8211f9059648ee6b88fdcb3db0415d9015cc9e",
+        "pnl": 414.13193641622473,
+        "volume": 311.9594672010291,
+        "roi": 0.3559338592937136,
+        "marketCount": 22
+      },
+      {
+        "rank": 2,
+        "address": "0xf1b285f65a3174c9d6e062f089c5cd1ea8cf30d9",
+        "pnl": 323.9575714952855,
+        "volume": 242.63523851879964,
+        "roi": 0.462424155644097,
+        "marketCount": 15
+      },
+      {
+        "rank": 3,
+        "address": "0x6156d8dee1cf1b8bc22261d5d98e5bbec1eea6fe",
+        "pnl": 210.235506795754,
+        "volume": 294.2544937133866,
+        "roi": 0.27305072974487526,
+        "marketCount": 22
+      },
+      {
+        "rank": 4,
+        "address": "0xe638c61b86ac6999b4d7eccec20ce4ae37e2ae08",
+        "pnl": 196.10943552201303,
+        "volume": 39.48009891422202,
+        "roi": 0.22835302112866848,
+        "marketCount": 97,
+        "mergedWallets": [
+          "0xf7f3223f56484cb5e65f4556d0da9c2de320fb90"
+        ]
+      },
+      {
+        "rank": 5,
+        "address": "0x017859431458cedac674344f6031d41c9a68a858",
+        "pnl": 162.50725441252928,
+        "volume": 80.59886008069117,
+        "roi": 0.6840118373769657,
+        "marketCount": 9
+      },
+      {
+        "rank": 6,
+        "address": "0x9eb6d10f75b364662313ee3099173dc3ac4048c9",
+        "pnl": 12.545533449613217,
+        "volume": 0,
+        "roi": 0.022299148253662048,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x35aa70bfbfaa4ab42b1efff88184681d0047b59f"
+        ]
+      },
+      {
+        "rank": 7,
+        "address": "0xe622793f3d7bc200cefa177a39f9737f8852afea",
+        "pnl": 1.4466639455234909,
+        "volume": 68.09901109934395,
+        "roi": 0.026203658730276084,
+        "marketCount": 12
+      },
+      {
+        "rank": 8,
+        "address": "0xefb8e220f012241a00f5dae4a5b2c473a742a63a",
+        "pnl": 0.4561668210721415,
+        "volume": 0.5895035006963405,
+        "roi": 0.016217179551031555,
+        "marketCount": 20,
+        "mergedWallets": [
+          "0x1b52fc7df35f3a8b84ede2b49ef82e94d0a8d19e",
+          "0xa7a92bd47b205edf294836e6490c2d50613d1ff1",
+          "0xe3030b4d360ca93a371aaa421101863d02b490b0",
+          "0xeed124a855c17064d5040ed326ff9c549c2a7f86"
+        ]
+      },
+      {
+        "rank": 9,
+        "address": "0xbddf948569dd3f53ba3561bb4633ddc0fad38ece",
+        "pnl": 0.13452204537011325,
+        "volume": 3.0075230580625503,
+        "roi": 0.19394012398752905,
+        "marketCount": 98,
+        "mergedWallets": [
+          "0xa9bcdd402f015c77e5716e32b78d20041d714615"
+        ]
+      },
+      {
+        "rank": 10,
+        "address": "0x1625c313f4f88e787c278f590568da9a443279f8",
+        "pnl": 1.1074334076881348e-13,
+        "volume": 0,
+        "roi": 2.009065438943167e-16,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x0d54284a9fdbfb17551bc31d8a531261c06ea713"
+        ]
+      },
+      {
+        "rank": 11,
+        "address": "0xa193d51e5e814c7b476e49ce41819c7e89c52c62",
+        "pnl": 3.164088557797926e-14,
+        "volume": 0,
+        "roi": 1.57600934220891e-16,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x0081ed50125a4bdc1fce1f382b72a98c0b3257f5"
+        ]
+      },
+      {
+        "rank": 12,
+        "address": "0x44366f4ba4e2284a2f1c113733c0ec3af5755d58",
+        "pnl": 1.9775636979401815e-15,
+        "volume": 0,
+        "roi": 9.354330911391884e-18,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x0c674c9ca35d83ff3674330fc17105b954bf09c4"
+        ]
+      },
+      {
+        "rank": 13,
+        "address": "0x03bb5bc3c8fdab212a6b2b347a049133dfcb3a47",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 14,
+        "address": "0x232a90552ba37000bc8b0f757039da99866412a4",
+        "pnl": 0,
+        "volume": 60.434036046989355,
+        "roi": null,
+        "marketCount": 40,
+        "mergedWallets": [
+          "0xdc7a9bf1f652462ff40e63bbbbbb35cad83756c2"
+        ]
+      },
+      {
+        "rank": 15,
+        "address": "0x2ad670e5953a85c998cdf1c2f6d74386ab735d4a",
+        "pnl": 0,
+        "volume": 66.79445234217108,
+        "roi": null,
+        "marketCount": 57
+      },
+      {
+        "rank": 16,
+        "address": "0x2bdd99191fe8e396caf7fda474679426a6fcd51d",
+        "pnl": 0,
+        "volume": 17.144648187184632,
+        "roi": null,
+        "marketCount": 42,
+        "mergedWallets": [
+          "0xf192d22fc3bf63f3f9d2b4ef87c2458f1a825edc"
+        ]
+      },
+      {
+        "rank": 17,
+        "address": "0x2ff064d951996c9fe70d6ba22d8684f37b2e24ec",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 18,
+        "address": "0x355f62e1afd6eb0e3d54d4756d356ffce567f39f",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x72be8fbf921699f3bcf6275e05838a0e05cb2d20"
+        ]
+      },
+      {
+        "rank": 19,
+        "address": "0x430e15706acaa26c6e9653509312c19a75e4fd21",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 20,
+        "address": "0x469a1fc96685d532896fc0475affc9cb3d731669",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 21,
+        "address": "0x570087d41d2844923c8167d4ee782f4b2ae52e38",
+        "pnl": 0,
+        "volume": 130.64953376835808,
+        "roi": null,
+        "marketCount": 96,
+        "mergedWallets": [
+          "0x4cb96305e72aa6fa446e2d4bd92a7e0b4a59eff3"
+        ]
+      },
+      {
+        "rank": 22,
+        "address": "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 23,
+        "address": "0x5fb88aeb99b5dbabeb96bf489e088712e00bd0d8",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 24,
+        "address": "0x6580df4b0e17850b5ffbd3d51c503efb5fbef1f7",
+        "pnl": 0,
+        "volume": 119.13252130481956,
+        "roi": null,
+        "marketCount": 96,
+        "mergedWallets": [
+          "0xcdc6de6da1536d993d7768e5ccb2df8bdf7776a2"
+        ]
+      },
+      {
+        "rank": 25,
+        "address": "0x6816b392a5a5b1a843ee6f22281f654ba206a492",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 26,
+        "address": "0x79913fb3efc92162f6edc91e5f3b4e3d234d0028",
+        "pnl": 0,
+        "volume": 11.021794843489847,
+        "roi": null,
+        "marketCount": 54,
+        "mergedWallets": [
+          "0x767dd74733c7c96d96174a1f41a93cbb55212335"
+        ]
+      },
+      {
+        "rank": 27,
+        "address": "0x7c289ae9c1ce26a575828d779649fc38d038fe70",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x3da3de05d81c9977d12a9c7c8a4b509aa8edc85c"
+        ]
+      },
+      {
+        "rank": 28,
+        "address": "0x7ebdebe88ec46b316fdfb4e783364177c9d6bac9",
+        "pnl": 0,
+        "volume": 252.96211308600988,
+        "roi": null,
+        "marketCount": 98,
+        "mergedWallets": [
+          "0x42d27b4b004c9ef0c8b716051a135b9a541e42a7"
+        ]
+      },
+      {
+        "rank": 29,
+        "address": "0x81781ffeb24bff62ae0046f59869b1cc534c2080",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xfba8524d64ee1191555e24c5559feb56b7483a81"
+        ]
+      },
+      {
+        "rank": 30,
+        "address": "0x8d5e32873c100ae7a0da7f1ece6eaed26eec7a6b",
+        "pnl": 0,
+        "volume": 56.39465606633118,
+        "roi": 0,
+        "marketCount": 34,
+        "mergedWallets": [
+          "0xdf60cbbbb1312b59754c41967a1ab426b615fdbb"
+        ]
+      },
+      {
+        "rank": 31,
+        "address": "0x98da0b33146b1ce5feaa4852f2bc001000c609fd",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xbfa91f6e620898e9ced94860076529ae14391107"
+        ]
+      },
+      {
+        "rank": 32,
+        "address": "0xa2c5b4b63d2c31e177879bd5261453537a7f1bf0",
+        "pnl": 0,
+        "volume": 39.63494468951541,
+        "roi": null,
+        "marketCount": 56,
+        "mergedWallets": [
+          "0xb7def5b5307484b9df6e12ba2cb63f83f5cab7fe"
+        ]
+      },
+      {
+        "rank": 33,
+        "address": "0xa71970e9bdb6b62eb6434d9cac0cc4e2a30a8287",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 34,
+        "address": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0xf05fc99ed6a8235c7cdfe2a4c3cef846b8c35d9d"
+        ]
+      },
+      {
+        "rank": 35,
+        "address": "0xb83689bbc4bddbafd7903bfeb68df502c8ed3f93",
+        "pnl": 0,
+        "volume": 56.708007167115944,
+        "roi": null,
+        "marketCount": 69
+      },
+      {
+        "rank": 36,
+        "address": "0xbea26de685ef828b60ca53b40ecc9bab35645fdf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x6c228330b76b2977df0e7ff5550013f53e6fdaaf"
+        ]
+      },
+      {
+        "rank": 37,
+        "address": "0xc06ebbefd94032b85424d51906e2a335efae264b",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 38,
+        "address": "0xd6a2a456b48836f38ace550c59c421ca24f1681a",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x890f56030cde792a5bdd9925b408c5ef6e63986d",
+          "0xf2d1357ce7078303400db99b9603de93bf1b520e"
+        ]
+      },
+      {
+        "rank": 39,
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x7d45b54ecf3aad1c89831ad2f154a0d2d37e63ad"
+        ]
+      },
+      {
+        "rank": 40,
+        "address": "0xe18ff9d58b4deb8c17ccba79a87fbed548ab06b3",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 41,
+        "address": "0xe7f13052fe2ba7d038dac18de5e730542e3979bc",
+        "pnl": 0,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 42,
+        "address": "0xf7fc47d7de31e58a8c57847fa8df98d830c298cf",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0,
+        "mergedWallets": [
+          "0x14c54f16dbb1f0c4f3bc4e06cc958a34118db8ee",
+          "0x2771980e5252204e526745acf056d4a6e2299df0"
+        ]
+      },
+      {
+        "rank": 43,
+        "address": "0xab07c88e2aab4bffe8bfae10043ba2bbdd82a809",
+        "pnl": -9.07670837921763e-17,
+        "volume": 0,
+        "roi": -3.295737264009041e-19,
+        "marketCount": 0
+      },
+      {
+        "rank": 44,
+        "address": "0xba097edcd5dde78f2990af8db2bab7d98bffd5d0",
+        "pnl": -39.58477266445141,
+        "volume": 739.3967552145725,
+        "roi": -0.06747130417069294,
+        "marketCount": 35
+      },
+      {
+        "rank": 45,
+        "address": "0x00dc3e0acadb8dba21bb08ff30540222ff8836e0",
+        "pnl": -1028.187482752075,
+        "volume": 0.03471380285381098,
+        "roi": -0.02564113047846881,
+        "marketCount": 98
+      }
+    ]
+  },
+  "all": {
+    "scope": "global",
+    "period": "all",
+    "sortBy": "pnl",
+    "sortDir": "desc",
+    "unit": "USD",
+    "updatedAt": "2026-10-18T18:41:35.278+00:00",
+    "total": 76,
+    "limit": 100,
+    "offset": 0,
+    "rows": [
+      {
+        "rank": 1,
+        "address": "0xe638c61b86ac6999b4d7eccec20ce4ae37e2ae08",
+        "pnl": 2599.779064687603,
+        "volume": 3805.610482928335,
+        "roi": 0.5374076964372089,
+        "marketCount": 198,
+        "mergedWallets": [
+          "0xee2fa2bbb2526160d99c5b9ea1031ab8bf984fb5",
+          "0xf7f3223f56484cb5e65f4556d0da9c2de320fb90"
+        ]
+      },
+      {
+        "rank": 2,
+        "address": "0xf55cffd673485dd499e57ded846bae3e3ae194ff",
+        "pnl": 2150.2401103180027,
+        "volume": 1868.0334906039802,
+        "roi": 4.509611011375813,
+        "marketCount": 1
+      },
+      {
+        "rank": 3,
+        "address": "0x216ac1eb296ecd64f6d782d8d740a2fb69f76203",
+        "pnl": 1781.2739700227373,
+        "volume": 5181.179932904552,
+        "roi": 0.27436480739630614,
+        "marketCount": 180,
+        "mergedWallets": [
+          "0x5417b27f616909d7ef374c04002f0e7bceb732f4",
+          "0xb6ff36371d4c77d67295d8465942089c2c46dccf"
+        ]
+      },
+      {
+        "rank": 4,
+        "address": "0x02dadbe42f385fa68f96c753df7f24c863701481",
+        "pnl": 1614.5227412252596,
+        "volume": 3741.8348251295497,
+        "roi": 0.25443042434291163,
+        "marketCount": 180,
+        "mergedWallets": [
+          "0x7f93d9e40f0b393d2d5506d618aa0526496f374f"
+        ]
+      },
+      {
+        "rank": 5,
+        "address": "0x9e125959cf104f9b55bc33f41b39a11c99be3d13",
+        "pnl": 1450.6548271753436,
+        "volume": 20458.933474476522,
+        "roi": 0.14776814742556466,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x223b86b24b3a36b5d7a9ab838f1ec57059185bee"
+        ]
+      },
+      {
+        "rank": 6,
+        "address": "0xf7fc47d7de31e58a8c57847fa8df98d830c298cf",
+        "pnl": 1105.4103322256692,
+        "volume": 2217.9950876010635,
+        "roi": 0.27117059138449023,
+        "marketCount": 115,
+        "mergedWallets": [
+          "0x14c54f16dbb1f0c4f3bc4e06cc958a34118db8ee",
+          "0x2771980e5252204e526745acf056d4a6e2299df0"
+        ]
+      },
+      {
+        "rank": 7,
+        "address": "0x1ad0152a4a2f188a611bf9147544bc4e5b1b35fe",
+        "pnl": 1041.4071115349063,
+        "volume": 1140.6333551240266,
+        "roi": 3.8136401240443925,
+        "marketCount": 1
+      },
+      {
+        "rank": 8,
+        "address": "0xa96609bb1dfafc8e676365397f4974d6c26cf991",
+        "pnl": 909.8009294399009,
+        "volume": 1641.9682530460325,
+        "roi": 0.3828013318450675,
+        "marketCount": 146,
+        "mergedWallets": [
+          "0x7e8e183b17ebe39799d1f0c1ca1fda578404264f"
+        ]
+      },
+      {
+        "rank": 9,
+        "address": "0x1c732f5df6858ff1acc55b2edc97fc318cec560a",
+        "pnl": 648.022833401147,
+        "volume": 2560.995128443632,
+        "roi": 0.14277077174401281,
+        "marketCount": 85,
+        "mergedWallets": [
+          "0x2404ceff5be315c3b8ff16db5632413135b9e0a7",
+          "0xd3d7ffb785dd413ba14085c578d58c77d1b4f640"
+        ]
+      },
+      {
+        "rank": 10,
+        "address": "0x6e8211f9059648ee6b88fdcb3db0415d9015cc9e",
+        "pnl": 646.5395801867629,
+        "volume": 1490.5301099745843,
+        "roi": 0.3680390842539822,
+        "marketCount": 39
+      },
+      {
+        "rank": 11,
+        "address": "0xf1b285f65a3174c9d6e062f089c5cd1ea8cf30d9",
+        "pnl": 400.9401009672893,
+        "volume": 1211.9352696452438,
+        "roi": 0.35061869048551797,
+        "marketCount": 32
+      },
+      {
+        "rank": 12,
+        "address": "0x41d2a18e1ddacdabfddadb62e9aee67c63070b76",
+        "pnl": 374.9126693690696,
+        "volume": 1600.8951152911413,
+        "roi": 0.14536776858435108,
+        "marketCount": 170,
+        "mergedWallets": [
+          "0x6291a756bf05cd2e68a994acacbd7dd0e109ffc5",
+          "0xbbf587aa970b5c58a213ec520b5ae05d56f11565"
+        ]
+      },
+      {
+        "rank": 13,
+        "address": "0x6156d8dee1cf1b8bc22261d5d98e5bbec1eea6fe",
+        "pnl": 364.7365352536003,
+        "volume": 681.7535929290169,
+        "roi": 0.5130734551403112,
+        "marketCount": 34
+      },
+      {
+        "rank": 14,
+        "address": "0x6580df4b0e17850b5ffbd3d51c503efb5fbef1f7",
+        "pnl": 351.9849332670547,
+        "volume": 2483.524310390132,
+        "roi": 0.06546463038732508,
+        "marketCount": 180,
+        "mergedWallets": [
+          "0xcdc6de6da1536d993d7768e5ccb2df8bdf7776a2"
+        ]
+      },
+      {
+        "rank": 15,
+        "address": "0x469a1fc96685d532896fc0475affc9cb3d731669",
+        "pnl": 246.7551643213332,
+        "volume": 251.36213478582897,
+        "roi": 0.04039225439411874,
+        "marketCount": 1
+      },
+      {
+        "rank": 16,
+        "address": "0x232a90552ba37000bc8b0f757039da99866412a4",
+        "pnl": 239.07041139401326,
+        "volume": 414.28227880682823,
+        "roi": 1.0938995704378047,
+        "marketCount": 222,
+        "mergedWallets": [
+          "0xdc7a9bf1f652462ff40e63bbbbbb35cad83756c2"
+        ]
+      },
+      {
+        "rank": 17,
+        "address": "0x570087d41d2844923c8167d4ee782f4b2ae52e38",
+        "pnl": 206.7542408682509,
+        "volume": 2113.8181531505875,
+        "roi": 0.06190602275312628,
+        "marketCount": 277,
+        "mergedWallets": [
+          "0x4cb96305e72aa6fa446e2d4bd92a7e0b4a59eff3"
+        ]
+      },
+      {
+        "rank": 18,
+        "address": "0x017859431458cedac674344f6031d41c9a68a858",
+        "pnl": 199.41303451582755,
+        "volume": 322.99566355844553,
+        "roi": 0.769009319759409,
+        "marketCount": 18
+      },
+      {
+        "rank": 19,
+        "address": "0xdc6513a9bd3ae79e1ce0de8784662fbffadfedb7",
+        "pnl": 160.9433300113726,
+        "volume": 432.4292557344011,
+        "roi": 0.5312175234221825,
+        "marketCount": 1
+      },
+      {
+        "rank": 20,
+        "address": "0x9eb6d10f75b364662313ee3099173dc3ac4048c9",
+        "pnl": 132.91140307324451,
+        "volume": 100.92058655834433,
+        "roi": 0.22347512263973135,
+        "marketCount": 298,
+        "mergedWallets": [
+          "0x1bffd2e368c2789366ec38be3f2771fabc5bc86a",
+          "0x35aa70bfbfaa4ab42b1efff88184681d0047b59f"
+        ]
+      },
+      {
+        "rank": 21,
+        "address": "0x03bb5bc3c8fdab212a6b2b347a049133dfcb3a47",
+        "pnl": 126.20284455498782,
+        "volume": 88.81563464467587,
+        "roi": 2.3465661162290155,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x168fe3126906169d1b4ee5f9c07309c6f131ace6"
+        ]
+      },
+      {
+        "rank": 22,
+        "address": "0x8d5e32873c100ae7a0da7f1ece6eaed26eec7a6b",
+        "pnl": 112.41000385287897,
+        "volume": 800.5559539665041,
+        "roi": 0.3799200815827642,
+        "marketCount": 216,
+        "mergedWallets": [
+          "0xdf60cbbbb1312b59754c41967a1ab426b615fdbb"
+        ]
+      },
+      {
+        "rank": 23,
+        "address": "0x9c02e8b888f94fc89906d97c613785072731a9b3",
+        "pnl": 92.55216257955665,
+        "volume": 476.3273339841001,
+        "roi": 0.5194054457885573,
+        "marketCount": 1
+      },
+      {
+        "rank": 24,
+        "address": "0xbea26de685ef828b60ca53b40ecc9bab35645fdf",
+        "pnl": 81.29629783012194,
+        "volume": 59.722063967438515,
+        "roi": 1.1030660056238488,
+        "marketCount": 2,
+        "mergedWallets": [
+          "0x6c228330b76b2977df0e7ff5550013f53e6fdaaf"
+        ]
+      },
+      {
+        "rank": 25,
+        "address": "0x12e8268d6f20783b786c2602ae5d2a9eec7bd8c1",
+        "pnl": 43.10419653431923,
+        "volume": 135.93720343243643,
+        "roi": 0.1935932351410772,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0xe955c8ca272b9cfd6a039b57e89030dfd9db5caa"
+        ]
+      },
+      {
+        "rank": 26,
+        "address": "0x4a501613ef5569a1a7b7b063bbb6b868764ff426",
+        "pnl": 39.04868495152265,
+        "volume": 185.83127259418902,
+        "roi": 0.35495918903090934,
+        "marketCount": 1
+      },
+      {
+        "rank": 27,
+        "address": "0xfdb1517ac55f9285ed13a72c9c872c7b3b0f57a8",
+        "pnl": 30.217011475478582,
+        "volume": 208.79811795530125,
+        "roi": 0.0467976596741883,
+        "marketCount": 23,
+        "mergedWallets": [
+          "0xaee4f2202a460e343689c92b1073928daee3be3a",
+          "0xc69f8b63801d325e0df9c79b55072843f94eeb42"
+        ]
+      },
+      {
+        "rank": 28,
+        "address": "0x85e59b4824cf72e1e22ac8652de50670d44e450f",
+        "pnl": 29.32370399961748,
+        "volume": 966.3235271067495,
+        "roi": 0.05746957724049819,
+        "marketCount": 1
+      },
+      {
+        "rank": 29,
+        "address": "0x79913fb3efc92162f6edc91e5f3b4e3d234d0028",
+        "pnl": 25.333449824368543,
+        "volume": 1232.9869454852358,
+        "roi": 0.019192802092265048,
+        "marketCount": 236,
+        "mergedWallets": [
+          "0x767dd74733c7c96d96174a1f41a93cbb55212335"
+        ]
+      },
+      {
+        "rank": 30,
+        "address": "0x81781ffeb24bff62ae0046f59869b1cc534c2080",
+        "pnl": 9.54958367980344,
+        "volume": 61.76612863714422,
+        "roi": 0.2198604790489013,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0xfba8524d64ee1191555e24c5559feb56b7483a81"
+        ]
+      },
+      {
+        "rank": 31,
+        "address": "0xefb8e220f012241a00f5dae4a5b2c473a742a63a",
+        "pnl": 6.0921089499843895,
+        "volume": 156.54272188555623,
+        "roi": 0.10394551302538273,
+        "marketCount": 295,
+        "mergedWallets": [
+          "0x0b0f825a83bb16a17221e86d6e9345f8dff9ad95",
+          "0x1b52fc7df35f3a8b84ede2b49ef82e94d0a8d19e",
+          "0x26fff79b7b9ff21e7d46e0a457fb49a852a53b30",
+          "0xa7a92bd47b205edf294836e6490c2d50613d1ff1",
+          "0xafdb3ecf4aff31a4295a18b1e11cd05f2587a5a1",
+          "0xb965865a3ab00d04b1d22e325e7777f6bb5479ab",
+          "0xe3030b4d360ca93a371aaa421101863d02b490b0",
+          "0xe3b1d067df6e26bd287f3f4f7ca0deee145f6303",
+          "0xeed124a855c17064d5040ed326ff9c549c2a7f86"
+        ]
+      },
+      {
+        "rank": 32,
+        "address": "0xe622793f3d7bc200cefa177a39f9737f8852afea",
+        "pnl": 5.8172445107867565,
+        "volume": 257.3973657535877,
+        "roi": 0.04574072307749033,
+        "marketCount": 26
+      },
+      {
+        "rank": 33,
+        "address": "0x7c289ae9c1ce26a575828d779649fc38d038fe70",
+        "pnl": 5.677615857269952,
+        "volume": 527.6845198237389,
+        "roi": 0.01588019732806753,
+        "marketCount": 182,
+        "mergedWallets": [
+          "0x3da3de05d81c9977d12a9c7c8a4b509aa8edc85c"
+        ]
+      },
+      {
+        "rank": 34,
+        "address": "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+        "pnl": 0.2807124123266111,
+        "volume": 0.9968531453542842,
+        "roi": 0.018398371862278367,
+        "marketCount": 10,
+        "mergedWallets": [
+          "0x7d45b54ecf3aad1c89831ad2f154a0d2d37e63ad"
+        ]
+      },
+      {
+        "rank": 35,
+        "address": "0x430e15706acaa26c6e9653509312c19a75e4fd21",
+        "pnl": 0.26768056195241885,
+        "volume": 0.8455841294433617,
+        "roi": 0.3165628973294826,
+        "marketCount": 1
+      },
+      {
+        "rank": 36,
+        "address": "0x98da0b33146b1ce5feaa4852f2bc001000c609fd",
+        "pnl": 0.023702026542212352,
+        "volume": 0.04048252333247646,
+        "roi": 0.10645234082664361,
+        "marketCount": 18,
+        "mergedWallets": [
+          "0xbfa91f6e620898e9ced94860076529ae14391107"
+        ]
+      },
+      {
+        "rank": 37,
+        "address": "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+        "pnl": 0.0001923129154078152,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 38,
+        "address": "0xc06ebbefd94032b85424d51906e2a335efae264b",
+        "pnl": 0.000004035114339712887,
+        "volume": 0,
+        "roi": null,
+        "marketCount": 0
+      },
+      {
+        "rank": 39,
+        "address": "0x2ad670e5953a85c998cdf1c2f6d74386ab735d4a",
+        "pnl": 0,
+        "volume": 133.58890468434214,
+        "roi": null,
+        "marketCount": 57
+      },
+      {
+        "rank": 40,
+        "address": "0x2bdd99191fe8e396caf7fda474679426a6fcd51d",
+        "pnl": 0,
+        "volume": 17.144648187184632,
+        "roi": null,
+        "marketCount": 42,
+        "mergedWallets": [
+          "0xf192d22fc3bf63f3f9d2b4ef87c2458f1a825edc"
+        ]
+      },
+      {
+        "rank": 41,
+        "address": "0x7ebdebe88ec46b316fdfb4e783364177c9d6bac9",
+        "pnl": 0,
+        "volume": 252.96211308600988,
+        "roi": null,
+        "marketCount": 98,
+        "mergedWallets": [
+          "0x42d27b4b004c9ef0c8b716051a135b9a541e42a7"
+        ]
+      },
+      {
+        "rank": 42,
+        "address": "0xa2c5b4b63d2c31e177879bd5261453537a7f1bf0",
+        "pnl": 0,
+        "volume": 39.63494468951541,
+        "roi": null,
+        "marketCount": 56,
+        "mergedWallets": [
+          "0xb7def5b5307484b9df6e12ba2cb63f83f5cab7fe"
+        ]
+      },
+      {
+        "rank": 43,
+        "address": "0xb83689bbc4bddbafd7903bfeb68df502c8ed3f93",
+        "pnl": 0,
+        "volume": 56.708007167115944,
+        "roi": null,
+        "marketCount": 69
+      },
+      {
+        "rank": 44,
+        "address": "0xe18ff9d58b4deb8c17ccba79a87fbed548ab06b3",
+        "pnl": 0,
+        "volume": 0,
+        "roi": 0,
+        "marketCount": 0
+      },
+      {
+        "rank": 45,
+        "address": "0x6816b392a5a5b1a843ee6f22281f654ba206a492",
+        "pnl": -7.415848712197331e-16,
+        "volume": 0,
+        "roi": -6.661338147750939e-16,
+        "marketCount": 0
+      },
+      {
+        "rank": 46,
+        "address": "0xe7f13052fe2ba7d038dac18de5e730542e3979bc",
+        "pnl": -0.00016022856210577477,
+        "volume": 0.0009418259053300648,
+        "roi": null,
+        "marketCount": 1
+      },
+      {
+        "rank": 47,
+        "address": "0xbddf948569dd3f53ba3561bb4633ddc0fad38ece",
+        "pnl": -0.009191849163320803,
+        "volume": 5.12485451736195,
+        "roi": -0.005525737076336937,
+        "marketCount": 136,
+        "mergedWallets": [
+          "0xa9bcdd402f015c77e5716e32b78d20041d714615"
+        ]
+      },
+      {
+        "rank": 48,
+        "address": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+        "pnl": -0.07968401376699238,
+        "volume": 32.039989792133284,
+        "roi": -0.006694125681930713,
+        "marketCount": 78,
+        "mergedWallets": [
+          "0xf05fc99ed6a8235c7cdfe2a4c3cef846b8c35d9d"
+        ]
+      },
+      {
+        "rank": 49,
+        "address": "0xd6a2a456b48836f38ace550c59c421ca24f1681a",
+        "pnl": -0.4389603769653309,
+        "volume": 1.0587904225558757,
+        "roi": -0.3199448831076925,
+        "marketCount": 70,
+        "mergedWallets": [
+          "0x890f56030cde792a5bdd9925b408c5ef6e63986d",
+          "0xf2d1357ce7078303400db99b9603de93bf1b520e"
+        ]
+      },
+      {
+        "rank": 50,
+        "address": "0xa71970e9bdb6b62eb6434d9cac0cc4e2a30a8287",
+        "pnl": -0.46574153897535386,
+        "volume": 2.961439170406016,
+        "roi": -0.2852881447838379,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x64b75ca03b3b4285165fd1363bf9a93858a9cd14"
+        ]
+      },
+      {
+        "rank": 51,
+        "address": "0x52ccef75dc22f1c127e3f694c62b868f805ba86c",
+        "pnl": -0.6692198248598856,
+        "volume": 0.4440472917030435,
+        "roi": -0.6011314040479493,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x4d2dfec6b79e557635b5232dad56cd877f55c3b4"
+        ]
+      },
+      {
+        "rank": 52,
+        "address": "0x8cffe5787082f559869170fd5bb2b434dc42a618",
+        "pnl": -1.4916956228351257,
+        "volume": 1.3334177391396296,
+        "roi": -1,
+        "marketCount": 1
+      },
+      {
+        "rank": 53,
+        "address": "0x456982866707011709c3d9e32857cbb451fb9c0b",
+        "pnl": -1.9246976957803832,
+        "volume": 319.3384061225386,
+        "roi": -0.0011525797860058968,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0xe68ebd3d5049dcf85dd8c6687c80fef29a0a6740"
+        ]
+      },
+      {
+        "rank": 54,
+        "address": "0x46f73dc62762409d02371b106919305238bc2f07",
+        "pnl": -11.834416824962766,
+        "volume": 208.38260586288408,
+        "roi": -0.05315173981559801,
+        "marketCount": 98,
+        "mergedWallets": [
+          "0xa2e97cab55ecacee922be5dc00bee5c5e47ad9ff"
+        ]
+      },
+      {
+        "rank": 55,
+        "address": "0x44366f4ba4e2284a2f1c113733c0ec3af5755d58",
+        "pnl": -21.246320923855,
+        "volume": 100.5825296353784,
+        "roi": -0.09132211166271235,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x0c674c9ca35d83ff3674330fc17105b954bf09c4"
+        ]
+      },
+      {
+        "rank": 56,
+        "address": "0x3f1ae19bb282db4137ede1ad2696a4a0a93415e4",
+        "pnl": -21.52289400278956,
+        "volume": 153.3051016778974,
+        "roi": -0.09217761911848095,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0xc00c442760eb19b7bf9f6e2178780014f8c2a3c4"
+        ]
+      },
+      {
+        "rank": 57,
+        "address": "0xa193d51e5e814c7b476e49ce41819c7e89c52c62",
+        "pnl": -25.397657772162084,
+        "volume": 126.16193502979644,
+        "roi": -0.11229777067388985,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x0081ed50125a4bdc1fce1f382b72a98c0b3257f5"
+        ]
+      },
+      {
+        "rank": 58,
+        "address": "0x5fb88aeb99b5dbabeb96bf489e088712e00bd0d8",
+        "pnl": -33.50055569828004,
+        "volume": 2830.047633903733,
+        "roi": -0.03262573266302634,
+        "marketCount": 2,
+        "mergedWallets": [
+          "0x284ca2e264aa062c5f3b6d6778a54b13535e5000",
+          "0xf9ad88d0c29ff060f8c560320e50653fb0eb2b7a"
+        ]
+      },
+      {
+        "rank": 59,
+        "address": "0x12e49f8715e615c53772017cd71f529604226a14",
+        "pnl": -34.64506470086048,
+        "volume": 123.19945434866956,
+        "roi": -0.14527757827520485,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x6fddf994e2f5e565457415fb7487cc273f6d762d"
+        ]
+      },
+      {
+        "rank": 60,
+        "address": "0x1625c313f4f88e787c278f590568da9a443279f8",
+        "pnl": -35.18603616965036,
+        "volume": 141.80309517675283,
+        "roi": -0.060003040246239495,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x0d54284a9fdbfb17551bc31d8a531261c06ea713"
+        ]
+      },
+      {
+        "rank": 61,
+        "address": "0xba097edcd5dde78f2990af8db2bab7d98bffd5d0",
+        "pnl": -39.58477266445141,
+        "volume": 739.3967552145725,
+        "roi": -0.06747130417069294,
+        "marketCount": 35
+      },
+      {
+        "rank": 62,
+        "address": "0x3b510168df70c7dec47685111684cab1bd8484df",
+        "pnl": -40.05319002240435,
+        "volume": 143.00082598329453,
+        "roi": -0.17274502714579767,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x72e23236fff4928dc9923c00abf7216438fe23a5"
+        ]
+      },
+      {
+        "rank": 63,
+        "address": "0x235ed5d990ef37df9322190754abd86f9bcfd486",
+        "pnl": -62.49118607940621,
+        "volume": 894.6758265394586,
+        "roi": -0.030556965943762126,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x54be0f6ef84c01b0af823abeec8b989c574a0452"
+        ]
+      },
+      {
+        "rank": 64,
+        "address": "0x694755f26e3bee4dc62383c4bb6c29c9f7cc2d20",
+        "pnl": -103.44107676976559,
+        "volume": 644.2200808254233,
+        "roi": -0.1032475265364114,
+        "marketCount": 99,
+        "mergedWallets": [
+          "0xd62de70a64c22f8ac9b136ad74e0b11b5611b854"
+        ]
+      },
+      {
+        "rank": 65,
+        "address": "0x20c86aef64e830c43cc161b6bce6ff31140318b4",
+        "pnl": -127.71178339304612,
+        "volume": 534.2765417688026,
+        "roi": -0.10748895141753394,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0xecbc78374eec824652c0a96744e38c391d71117b"
+        ]
+      },
+      {
+        "rank": 66,
+        "address": "0xa5ee98888d809aa989e40c198b07fa6922604371",
+        "pnl": -215.52213534847272,
+        "volume": 658.0839021422315,
+        "roi": -0.3516979957919545,
+        "marketCount": 1,
+        "mergedWallets": [
+          "0x92348fd9b4b49b994f401af45d1bb6e734fcc34e"
+        ]
+      },
+      {
+        "rank": 67,
+        "address": "0x19fede9da3c6e298868e1d21ca6fe26d269cc3da",
+        "pnl": -414.6567998319165,
+        "volume": 9685.787742270824,
+        "roi": -0.10912916992050796,
+        "marketCount": 2,
+        "mergedWallets": [
+          "0x04f8d2e611389fbaa67b5621520823f624e5333a",
+          "0x187af24353267756e73dcb593a2a72bf1872834f"
+        ]
+      },
+      {
+        "rank": 68,
+        "address": "0x9649065433be11328d40ff9a81987b6fdb37dc8b",
+        "pnl": -438.89417001836415,
+        "volume": 438.89417001836415,
+        "roi": -1,
+        "marketCount": 1
+      },
+      {
+        "rank": 69,
+        "address": "0x2ff064d951996c9fe70d6ba22d8684f37b2e24ec",
+        "pnl": -457.1962200954172,
+        "volume": 711.0963132892299,
+        "roi": -0.22608479313708837,
+        "marketCount": 1
+      },
+      {
+        "rank": 70,
+        "address": "0x355f62e1afd6eb0e3d54d4756d356ffce567f39f",
+        "pnl": -567.0535328085092,
+        "volume": 5049.351578981018,
+        "roi": -0.14170962117891536,
+        "marketCount": 99,
+        "mergedWallets": [
+          "0x72be8fbf921699f3bcf6275e05838a0e05cb2d20"
+        ]
+      },
+      {
+        "rank": 71,
+        "address": "0xb9ecee9a0e273d8a1857f3b8eea30e5dd3cb6335",
+        "pnl": -745.5273140373605,
+        "volume": 3864.5793318666488,
+        "roi": -0.06850544088034849,
+        "marketCount": 80,
+        "mergedWallets": [
+          "0x504d11f3a6a25b1055a38e6bbd2ec60b25373ba0",
+          "0x6da3d4b31aa8d40be7322ac4b1b83b9d1791be60"
+        ]
+      },
+      {
+        "rank": 72,
+        "address": "0xf0d2e80166588893f14d5ace57cdd342c15f7fdf",
+        "pnl": -866.5145809049195,
+        "volume": 6864.917994140306,
+        "roi": -0.06544402333997011,
+        "marketCount": 84,
+        "mergedWallets": [
+          "0x37bf93b1380e0df59d2d54bd19d6333accfa0185",
+          "0x730a646f7b9256e32e7dbaa76ba7a862c6979db0"
+        ]
+      },
+      {
+        "rank": 73,
+        "address": "0xab07c88e2aab4bffe8bfae10043ba2bbdd82a809",
+        "pnl": -915.0139341951539,
+        "volume": 0,
+        "roi": -0.014514708270604632,
+        "marketCount": 0
+      },
+      {
+        "rank": 74,
+        "address": "0xe04447b101cbb6c9cf1461ddf96c6d10bc075b63",
+        "pnl": -1096.494655705909,
+        "volume": 4488.044454368164,
+        "roi": -0.1407048599044992,
+        "marketCount": 84,
+        "mergedWallets": [
+          "0xc7ac690a7b44d270263ac85d86f9e08d8302d77c"
+        ]
+      },
+      {
+        "rank": 75,
+        "address": "0x00dc3e0acadb8dba21bb08ff30540222ff8836e0",
+        "pnl": -3640.897113773993,
+        "volume": 0.6861841727824947,
+        "roi": -0.03192043444598488,
+        "marketCount": 134
+      },
+      {
+        "rank": 76,
+        "address": "0x70652f821da69446fd716fe13ca0cc39465759c4",
+        "pnl": -6792.535326641536,
+        "volume": 160.22407901732436,
+        "roi": -0.43146745926441676,
+        "marketCount": 1
+      }
+    ]
+  }
+}

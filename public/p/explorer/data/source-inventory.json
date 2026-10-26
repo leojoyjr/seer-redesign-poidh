@@ -1,0 +1,1537 @@
+[
+  {
+    "path": "research/crawl-v3/app_api1.json",
+    "bytes": 5869,
+    "sha256": "16f251312cc087072410092d384a19d829c28ba7101b86ad7daa3ec47d063890"
+  },
+  {
+    "path": "research/crawl-v3/SUMMARY.json",
+    "bytes": 404,
+    "sha256": "4e569904dc79b46e48ff50164b300eb373db620bbacec8ee148195142c6243dd"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api2.json",
+    "bytes": 208,
+    "sha256": "4376f75a081f8423898cf4c0d6f1c4797fd1a1bef92390ca9c291978e850d015"
+  },
+  {
+    "path": "research/crawl-v3/risk_api0.json",
+    "bytes": 822,
+    "sha256": "4c53bff8ccf0b2510ac4f34baf68d5fab71769812b4440ae7a02f7e15971d14e"
+  },
+  {
+    "path": "research/crawl-v3/risk_api1.json",
+    "bytes": 163,
+    "sha256": "76facb36b050d40543762525def65b1417ace963e57441e1def8616eda32cfdb"
+  },
+  {
+    "path": "research/crawl-v3/docs.json",
+    "bytes": 6261,
+    "sha256": "c23a6c46e70fff1256ff86e8e159689a14552cfdb877e639702260e19dffecaa"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api3.json",
+    "bytes": 819,
+    "sha256": "7da0eb9615de26419e33a8fdc8a55198f5afbaa7c43829f33504c793eea54f35"
+  },
+  {
+    "path": "research/crawl-v3/app_api0.json",
+    "bytes": 8367,
+    "sha256": "f1d7c72d952398ed0904f275570c5d50228782a446400183f9550233c7e60d9d"
+  },
+  {
+    "path": "research/crawl-v3/app.json",
+    "bytes": 21335,
+    "sha256": "6a336b8b759a43aa0b93f3c5b618d2d9cf515869f12c10230908632054085f52"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api11.json",
+    "bytes": 3447,
+    "sha256": "6c103a8e3b311f78f9a3d6aeeadb186c1da11e32d7f42c14e43779cbfe6f1b78"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api8.json",
+    "bytes": 1417,
+    "sha256": "1e9eab45f69b7667cbb14f80eb0bd329999d55eb28448f881b59abcff3cf36ad"
+  },
+  {
+    "path": "research/crawl-v3/risk_api6.json",
+    "bytes": 9004,
+    "sha256": "d486de6567990e0dd857913b15fbd9dc2c0f416dc953f6986edc558676041e9d"
+  },
+  {
+    "path": "research/crawl-v3/opportunity_api2.json",
+    "bytes": 18242,
+    "sha256": "bf0e8e7f0a25dcaa94d65a63318f00fb69d530c23b6e50ab7624732fed2f3133"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api4.json",
+    "bytes": 7048,
+    "sha256": "709a87bf1c28a1cdb3955302defca349525db9b06b5eba25fb77a61ac4a57bfa"
+  },
+  {
+    "path": "research/crawl-v3/deep_api1.json",
+    "bytes": 295,
+    "sha256": "dc21183006b5fabcbfdbc67f01af83b9d7e51f8289ceb5533afd2145d8cd4fa5"
+  },
+  {
+    "path": "research/crawl-v3/deep_api0.json",
+    "bytes": 821,
+    "sha256": "7a3fbddf58d30d3b4bfad33ab4477de201749c6cb0717c006180f760ff60f0b8"
+  },
+  {
+    "path": "research/crawl-v3/opportunity.json",
+    "bytes": 1770,
+    "sha256": "eb6b217b06a180303bdf0061e78ee68b0985d9ceb7f7b318fd7a7f60d0b02876"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api5.json",
+    "bytes": 505,
+    "sha256": "cda07b895ccdba60b25761e24e767008ede595b9eb51f4bc00a907de80eff62b"
+  },
+  {
+    "path": "research/crawl-v3/opportunity_api3.json",
+    "bytes": 18333,
+    "sha256": "daa70d1959f3d9cb7d48caae742af8949de9417d24320caeace48b66c2e71ed4"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api9.json",
+    "bytes": 1481,
+    "sha256": "507084c4032bba18dfd87bcae8f79e03aac37fc829499157488397c2fd5eddc1"
+  },
+  {
+    "path": "research/crawl-v3/futarchy.json",
+    "bytes": 4282,
+    "sha256": "bb9d46aaca6583f57358b8d41b76f057e28dbf0fc3f092ac72661a795cf382e0"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api10.json",
+    "bytes": 1509,
+    "sha256": "0efa15cacfd2ad9aac2a4faaa14c214a849737d34ad0910461d6b952293bac67"
+  },
+  {
+    "path": "research/crawl-v3/risk_api4.json",
+    "bytes": 161394,
+    "sha256": "59be339f70dcd317fa307b271358c57bd14aad7b253c50980ad1b010a208ec4a"
+  },
+  {
+    "path": "research/crawl-v3/risk.json",
+    "bytes": 5131,
+    "sha256": "1c3511d7adfe354f6296a7ad3eecf70b65f0a1aaac481a2b9853dfd1c361dd7c"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api6.json",
+    "bytes": 436,
+    "sha256": "6d2a53df6ac8bc541d39838e03b7e83ba909c4da6e40fd09cd31be27bf971376"
+  },
+  {
+    "path": "research/crawl-v3/app_api5.json",
+    "bytes": 2895,
+    "sha256": "0611acb036db39248e5108f91343e099f1d4ac54805dde2c7535ae87b64ccf97"
+  },
+  {
+    "path": "research/crawl-v3/opportunity_api0.json",
+    "bytes": 12862,
+    "sha256": "d0211f62a2cc8d6ae645b07eb2a90a23027edc80cec79a6dd3333a3f498ae4d3"
+  },
+  {
+    "path": "research/crawl-v3/deep.json",
+    "bytes": 9101,
+    "sha256": "8bf3ec4f528a412c89ca32fb2a84beed914924b8de0bac5fc28d21968ff9bb8e"
+  },
+  {
+    "path": "research/crawl-v3/opportunity_api1.json",
+    "bytes": 18717,
+    "sha256": "240053e4efe75f7e69226e365af43e0dc9484e1b69d9fa672fabbf3f56729643"
+  },
+  {
+    "path": "research/crawl-v3/app_api4.json",
+    "bytes": 3599,
+    "sha256": "908611f75dd19f98b43eb4e8600044aa19d519b2d1887573e6233f93b112548c"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api7.json",
+    "bytes": 1143,
+    "sha256": "2b549f655b10c832d1c72b367461cf53d264b8bfffe2e8d99532939b12975e6a"
+  },
+  {
+    "path": "research/crawl-v3/deep_api2.json",
+    "bytes": 197,
+    "sha256": "f9ee453a76c950619bd00a971139214cdb34a2f2521cc53fac3c6e4c4d53cc43"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api12.json",
+    "bytes": 471,
+    "sha256": "f766f4092f8aed73fe03be2222ee73da906738f14d7bb35d1f6f5810ae2e3971"
+  },
+  {
+    "path": "research/crawl-v3/risk_api5.json",
+    "bytes": 45649,
+    "sha256": "703e42f936614663864904737c31ef60ebdf9fc651e2b3ec036ae8f60cc9e3ef"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api0.json",
+    "bytes": 123,
+    "sha256": "b2c9edfe2c0883365b24c885fe27a273999401a824ae07b855b18ed9a5a97ea8"
+  },
+  {
+    "path": "research/crawl-v3/app_api3.json",
+    "bytes": 88803,
+    "sha256": "6a2402fc627cf81318616db7fc4464454645d41321c22da37b070b0aae6707c8"
+  },
+  {
+    "path": "research/crawl-v3/risk_api2.json",
+    "bytes": 9004,
+    "sha256": "d486de6567990e0dd857913b15fbd9dc2c0f416dc953f6986edc558676041e9d"
+  },
+  {
+    "path": "research/crawl-v3/home.json",
+    "bytes": 4506,
+    "sha256": "e21c257b755038e4fea4d13183d347e8c200dd13cfe11dc1670b8126941ccf7e"
+  },
+  {
+    "path": "research/crawl-v3/risk_api3.json",
+    "bytes": 161394,
+    "sha256": "59be339f70dcd317fa307b271358c57bd14aad7b253c50980ad1b010a208ec4a"
+  },
+  {
+    "path": "research/crawl-v3/app_api2.json",
+    "bytes": 88166,
+    "sha256": "766b34f031ea37d6f0ac8de30ee13b2ad7d8685f0b01a7ac4eaecf0f41b84ec2"
+  },
+  {
+    "path": "research/crawl-v3/futarchy_api1.json",
+    "bytes": 39571,
+    "sha256": "503800ad4fa60f2128b1dedd05bb940f98a87cec4b77ad14f43f8d398d4c0b8a"
+  },
+  {
+    "path": "apps/explorer-v2/data/get-pnl-leaderboard.json",
+    "bytes": 21326,
+    "sha256": "90366a211d14b4bea9930d6afa457a6d69633b7f07eeba17303585c1afd00184"
+  },
+  {
+    "path": "apps/explorer-v2/data/markets-charts.json",
+    "bytes": 22437,
+    "sha256": "22f4ac88e1e329d88ff357b792547f183c76852edcdbf922bfbb7059f5dcabfa"
+  },
+  {
+    "path": "apps/explorer-v2/data/markets.json",
+    "bytes": 377159,
+    "sha256": "3f4fd26e43896c1c8195e8b28666f871180398e0b0619078017c65bc3da23c71"
+  },
+  {
+    "path": "apps/explorer-v2/data/market-chart.json",
+    "bytes": 22449,
+    "sha256": "cf1d9ad0e59d4d643e1fc4c62d8bea174f89844e2b26fc4cb78a1541b9dc395d"
+  },
+  {
+    "path": "src/products/opportunity/data/wallet.ts",
+    "bytes": 2523,
+    "sha256": "8fac0e1500b1f67976f254b7da3c77e70185cd684a7e23af7032c1746b9dd258"
+  },
+  {
+    "path": "src/products/opportunity/data/gallery.ts",
+    "bytes": 3980,
+    "sha256": "c76846dc168b071ca3caa986dcbd0e34fc70046280effc00a46450673981bde2"
+  },
+  {
+    "path": "src/products/opportunity/data/submissions.ts",
+    "bytes": 5089,
+    "sha256": "1405ab75f0f90c66266d4dc872c5f9c6b2a342287ef89a719bf7a7c8a2dd4b4c"
+  },
+  {
+    "path": "src/products/opportunity/data/analytics.ts",
+    "bytes": 3397,
+    "sha256": "ea68f3012f0440fe40091ba128894a5bdd1d0de2c3b96cedf2c792ec276772b4"
+  },
+  {
+    "path": "src/products/opportunity/data/search.ts",
+    "bytes": 4990,
+    "sha256": "360968b5db9b7c31705896e6c0c1a8f1ca491c4f130e57743533d0f046c7d2ce"
+  },
+  {
+    "path": "src/products/opportunity/data/tradeOutcomes.json",
+    "bytes": 80570,
+    "sha256": "a493cefe0708f55b556f9f91ca3a118a790e21de56af8fe9c6958ac1d98d7ae6"
+  },
+  {
+    "path": "src/products/opportunity/data/archive.ts",
+    "bytes": 999,
+    "sha256": "fe23f62b8abb28408d8ff5af236f71314dd075cbde1758dbefa93a96a792b6f0"
+  },
+  {
+    "path": "src/products/opportunity/data/submissionEvidence.ts",
+    "bytes": 17015,
+    "sha256": "e77375578d8bd7d1be67a240baa1cd1a2d59c549dd5366af63f10c3305ccfc6d"
+  },
+  {
+    "path": "src/products/opportunity/data/decisionFlow.ts",
+    "bytes": 3698,
+    "sha256": "35bfda87cc5cfd693aefad5beb1560c2265712ee884290106b235d143c7c5107"
+  },
+  {
+    "path": "src/products/opportunity/data/priceHistory.ts",
+    "bytes": 3207,
+    "sha256": "a2e96b17937d91d0a4338dd81ff783828ebce62bf8ef43bcb4271805d8f8b8a6"
+  },
+  {
+    "path": "src/products/opportunity/data/canonical.ts",
+    "bytes": 1155,
+    "sha256": "db2022481f47b68b33d7f445689df5138d01bb848b2be4b7e1a53d654e0f07ad"
+  },
+  {
+    "path": "src/products/opportunity/data/liveTransactionRecords.ts",
+    "bytes": 3014,
+    "sha256": "04bad3971315b618562daddbc665dca734b55ac792e0d79bb941c21d5579bee9"
+  },
+  {
+    "path": "src/products/opportunity/data/archiveTokens.json",
+    "bytes": 2223,
+    "sha256": "5527acf4ec291dd0cfde6f2cd57a96e780b88b34eea38ddcec1ea9aff63aa23f"
+  },
+  {
+    "path": "src/products/opportunity/data/redemption.ts",
+    "bytes": 4254,
+    "sha256": "28dae0228c4364ce1c3b9ffc8586a8f9049cdad7d512a575961ed6714e8de01a"
+  },
+  {
+    "path": "src/products/opportunity/data/explorer.ts",
+    "bytes": 10900,
+    "sha256": "6acd740b49547bef3b80ebf1a58bc6e319988fee4bd8baa5bbc601338d4db26d"
+  },
+  {
+    "path": "src/products/opportunity/data/markets.ts",
+    "bytes": 4838,
+    "sha256": "7b8f86a5f83366ea65661bf29a9ed480f45e45526d557ca98d71c13ab6ee291e"
+  },
+  {
+    "path": "src/products/opportunity/data/recordedHistory.json",
+    "bytes": 10645,
+    "sha256": "a76f27641a388acdbdd7d1246f5b83e9ed3858258c8ce1ca44929046dba40351"
+  },
+  {
+    "path": "src/products/opportunity/data/types.ts",
+    "bytes": 6924,
+    "sha256": "222f90c71bd1f78cf8fd848a4fdf26c074d266a0fe1e799bcab8162e2b782adc"
+  },
+  {
+    "path": "src/products/opportunity/data/liveTrade.ts",
+    "bytes": 9266,
+    "sha256": "451b0dc32689e92c24d78cf8f884fcd40e29871f80d1d63a5ccbdb8e8df83178"
+  },
+  {
+    "path": "src/products/opportunity/data/sampleMarkets.ts",
+    "bytes": 10332,
+    "sha256": "eb3258b69e6c4001d09d2d3213d81a28ffa83a2740e7dd8f1859165afc70c521"
+  },
+  {
+    "path": "src/products/opportunity/data/contractRpc.ts",
+    "bytes": 2530,
+    "sha256": "3f57cd30663d5219d3db76ccbe4350a9183e063972340bf01580dcadf55e6dc6"
+  },
+  {
+    "path": "src/products/opportunity/data/finalized_outcomes.json",
+    "bytes": 953,
+    "sha256": "f894fc383e45c17748a810e82bf6bb24ecc32d30ae80978a75432ccc70f05ff3"
+  },
+  {
+    "path": "src/products/opportunity/data/records.ts",
+    "bytes": 12708,
+    "sha256": "acbad4470f7f8e812b5a37905789f03639374a790072677dd5c6e6ef0ec991cc"
+  },
+  {
+    "path": "src/products/opportunity/data/archiveEvidence.ts",
+    "bytes": 2363,
+    "sha256": "1551e0a60aae7f0752197bb3a387c8bf477b15bc7e48bfcd9e5e7668fbd632a9"
+  },
+  {
+    "path": "src/products/opportunity/data/devcon_outcomes.json",
+    "bytes": 1301,
+    "sha256": "605a4c4b758198d13f6e4ed3ccdf17e0e681adb380c2ff13ed0ef08da6443f32"
+  },
+  {
+    "path": "src/products/opportunity/data/transactions.ts",
+    "bytes": 4141,
+    "sha256": "ce3d9e8aa5a1c05272710fda90473018ea6ed6c0a6cd35cf0efae47c892c69be"
+  },
+  {
+    "path": "src/products/opportunity/data/tradeSdk.ts",
+    "bytes": 1976,
+    "sha256": "d7d65463e51f677471bb744e723ec275ec21d60b7e6ce0f00d4fd4ecc1fe8059"
+  },
+  {
+    "path": "src/products/opportunity/data/trade.ts",
+    "bytes": 808,
+    "sha256": "5644f038934b657b85b42b62fa4aa82a72d6a7b59af0e8c438383080f69d88db"
+  },
+  {
+    "path": "src/products/opportunity/data/reviewDossiers.ts",
+    "bytes": 1280,
+    "sha256": "6767514f8ea81f706a1e2d91a0f85b66d30f84f648462f92cdeb8bc2ee9bda9b"
+  },
+  {
+    "path": "src/products/opportunity/data/live_outcomes.json",
+    "bytes": 11758,
+    "sha256": "3f2b2d18082ebeb2e94e536961b33385a07b22f39246828c39945589dfb98d2b"
+  },
+  {
+    "path": "src/products/opportunity/data/reviewList.ts",
+    "bytes": 3836,
+    "sha256": "8418cbb2ceac2c2535672fa74920261cf7606a018986171c8c264642875dfd42"
+  },
+  {
+    "path": "src/products/opportunity/data/sharing.ts",
+    "bytes": 1196,
+    "sha256": "1b951b5540cfd2bc2268b606e97972bfa33f1ea3bec904a1dcfa87cc9e03d072"
+  },
+  {
+    "path": "src/products/opportunity/data/reviewCut.ts",
+    "bytes": 5542,
+    "sha256": "fc3eddcf80a5bf11e7cc00754e49d262156136935dca9065038a6294f968cacc"
+  },
+  {
+    "path": "src/products/opportunity/data/marketAssets.ts",
+    "bytes": 516,
+    "sha256": "1e6ac64422ccc92c38b5c92668a4ff6801cfdea3ab0398681a8715a8344ba937"
+  },
+  {
+    "path": "src/products/opportunity/data/gallery/SOURCES.md",
+    "bytes": 1916,
+    "sha256": "70c12e1ff7c7007ba8fe1203ab6aab5574cdddc77026bf89f4a1a2c4bb7ddb40"
+  },
+  {
+    "path": "src/products/opportunity/data/gallery/seer-rebrand.json",
+    "bytes": 27952,
+    "sha256": "4baa87f5d3a94a43d5b60d327d73dfc2a86247389b4d0fa79b723024f1339e9b"
+  },
+  {
+    "path": "src/products/opportunity/data/gallery/seer-devcon-2026-merch.json",
+    "bytes": 5167,
+    "sha256": "bb6ef4d9495a3e0abd5f12ca49daecf5b1281ea59e22277b7496480c69f160dd"
+  },
+  {
+    "path": "src/products/explorer/data/wallet.ts",
+    "bytes": 2881,
+    "sha256": "c2249d0a6e566e3b92d83565ba40dbd3edf9e83174625bd48f8e16650bd1f673"
+  },
+  {
+    "path": "src/products/explorer/data/account.ts",
+    "bytes": 866,
+    "sha256": "a60ffe8cacff817b4c6bb8eafcf2cb1f5fcb1dbb5d8f14f00f9f19ed3647035d"
+  },
+  {
+    "path": "src/products/explorer/data/walletIdentity.ts",
+    "bytes": 2833,
+    "sha256": "cc57413682f97abcb8a6fbc485103136bbb22c8fa69ff44414c7baca4922a719"
+  },
+  {
+    "path": "src/products/explorer/data/leaderboardQuery.ts",
+    "bytes": 4093,
+    "sha256": "4e970252fe81b31ad52f9853f9b2613a54d31836c9733b2952f6cc44e7f9e33a"
+  },
+  {
+    "path": "src/products/explorer/data/marketService.ts",
+    "bytes": 1425,
+    "sha256": "3f7df23d2bf92cd58269809d896ab53eb2bb9da0116ded511e70bef598902664"
+  },
+  {
+    "path": "src/products/explorer/data/chartHistory.ts",
+    "bytes": 5434,
+    "sha256": "8a9b3c81141ae79d2ce8c4bbfb6c4c75f8840233eaf2b0dd75445399603070ff"
+  },
+  {
+    "path": "src/products/explorer/data/navigation.ts",
+    "bytes": 1736,
+    "sha256": "5fbd8a10fcbf5f4e9e423082f5c81eecd03505ceb2720e1eb3aebb322e0bf9d7"
+  },
+  {
+    "path": "src/products/explorer/data/walletBalances.ts",
+    "bytes": 1156,
+    "sha256": "f7537c65caba94a32e0eff320f69952c7e72bfff165293207196e67d390656ae"
+  },
+  {
+    "path": "src/products/explorer/data/positionBalances.ts",
+    "bytes": 4114,
+    "sha256": "14a2b9e56a7d630e6a07d9260287ded738e521550093eb8cb1eb9b9c161d5048"
+  },
+  {
+    "path": "src/products/explorer/data/sampleRecords.ts",
+    "bytes": 2998,
+    "sha256": "d46af93a3c65ac6942092b8c1dacf53ea7867dc5dd528239e3017aa355ae2252"
+  },
+  {
+    "path": "src/products/explorer/data/leaderboard.fixture.json",
+    "bytes": 1376,
+    "sha256": "baf9629b8cebb67fb708e9409f30e1c11bc6304138394a41dd628b399f04e6bc"
+  },
+  {
+    "path": "src/products/explorer/data/capturedPools.ts",
+    "bytes": 2879,
+    "sha256": "f90d921c8fae0d9f5c01c293b6398ab3fba2a24a341d57799645965294465dd4"
+  },
+  {
+    "path": "src/products/explorer/data/walletTokens.ts",
+    "bytes": 2852,
+    "sha256": "32031b1d7aaa79fd073eb2e2ca5bbdbfa2e6830e672dd122cc5a7579eeecddc1"
+  },
+  {
+    "path": "src/products/explorer/data/markets.ts",
+    "bytes": 14818,
+    "sha256": "c920b7e108ba6386af4f270167809245e4000cff90ffb8046e8f2231ae01e8b3"
+  },
+  {
+    "path": "src/products/explorer/data/marketEvidence.ts",
+    "bytes": 10899,
+    "sha256": "6dcbadba35301957627e78f53000d7ca49755e55cfce9251f4319916c74fab51"
+  },
+  {
+    "path": "src/products/explorer/data/externalLinks.ts",
+    "bytes": 2622,
+    "sha256": "2a6c2c94900ca1a53127c9e373f39928031db2c94112c5cd2238f4737b009f00"
+  },
+  {
+    "path": "src/products/explorer/data/capturedHistory.ts",
+    "bytes": 2070,
+    "sha256": "12be54359f137d1e2d73fc7944d8ec420daa4e9dafcd3a9d6d0b6a579ceb35b7"
+  },
+  {
+    "path": "src/products/explorer/data/recentMarkets.ts",
+    "bytes": 533,
+    "sha256": "fe58d75c106277e4360d258efd21fc50bc994f75de4f909df6c418eb9d97616e"
+  },
+  {
+    "path": "src/products/explorer/data/catalog.fixture.json",
+    "bytes": 344,
+    "sha256": "29783728a44fbaa6b9e059143ace0015a0851be497c7a64ba6192dd0440901a2"
+  },
+  {
+    "path": "src/products/explorer/data/capturedEvidence.ts",
+    "bytes": 2457,
+    "sha256": "3176acf7d1950f20395a6f83e0af815a1436224f462deb35f1f0c4cd36cdf65f"
+  },
+  {
+    "path": "src/products/explorer/data/capturedLeaderboard.ts",
+    "bytes": 3267,
+    "sha256": "43eddb3ed06ca61919044ce37df7e181e41bbc0a575cf92c8001e968e2b46d8e"
+  },
+  {
+    "path": "src/products/explorer/data/clock.ts",
+    "bytes": 803,
+    "sha256": "9418f30aad6b5d0c4101b33ece5d37531c15b0aa3ab258d62b211fb8814438a1"
+  },
+  {
+    "path": "src/products/explorer/data/leaderboardService.ts",
+    "bytes": 2284,
+    "sha256": "0f97b25b9914c64005c546cc616c86a9ed5af42f1c08d32e0172051834d2c399"
+  },
+  {
+    "path": "src/products/explorer/data/semantics.ts",
+    "bytes": 1856,
+    "sha256": "8a0941a32e717991221413da944978846203b55cfb2e4699543474a8ea4a3efb"
+  },
+  {
+    "path": "src/products/explorer/data/trade.ts",
+    "bytes": 1760,
+    "sha256": "3d6055ce870cd87c63b0ef460285c9015a15b7af95e4c34aa42d694864d7b8c8"
+  },
+  {
+    "path": "src/products/explorer/data/creation.ts",
+    "bytes": 1492,
+    "sha256": "50d475038acb0ea3818c5e360b74265eb423b1bc30f15c737f2b2e213517a3a8"
+  },
+  {
+    "path": "src/products/explorer/data/leaderboard.ts",
+    "bytes": 1605,
+    "sha256": "0d60665a1c520663fd333e503c5dd70b8d319b37d85b433daf98d91d7e081374"
+  },
+  {
+    "path": "src/products/explorer/data/chains.ts",
+    "bytes": 505,
+    "sha256": "abddd5432a285a57c423c0df518b7eac8a724eb6fea99254a8f7a9277cc851fd"
+  },
+  {
+    "path": "src/products/explorer/data/poolLadder.ts",
+    "bytes": 1087,
+    "sha256": "c071dce99cba2efc94e12f2315940ecc05ab37ee9535b24f41955557dcbac716"
+  },
+  {
+    "path": "src/products/explorer/data/marketRecord.ts",
+    "bytes": 2380,
+    "sha256": "db0594b2ce9ee5ce0c663fe8a7771ddef35f708bf3e0ac9794c1de6e477e85a3"
+  },
+  {
+    "path": "src/products/explorer/data/capturedMarkets.ts",
+    "bytes": 8793,
+    "sha256": "8fc25f8eb35dbf7a8229df152a18a28bf86ce24be5be4a79d8dee6f84c367498"
+  },
+  {
+    "path": "src/products/explorer/data/marketImages.ts",
+    "bytes": 237,
+    "sha256": "d2a43d867692c7358714625995a88843156ebad75c027686caaea69994019654"
+  },
+  {
+    "path": "src/products/explorer/data/captures/events.capture.json",
+    "bytes": 1722,
+    "sha256": "5bd652633a2fbd8cc229f3d0b9cd16e35e76ea150dfd27f5af995e37459e702d"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard-index.json",
+    "bytes": 6749,
+    "sha256": "c0e287a1f641e5d284474a6be75d3ab0e39ad3a138d58bf10a74e89ca22bf4ef"
+  },
+  {
+    "path": "src/products/explorer/data/captures/pool-ticks-0xbbf8f7e40a9234d965f59802c1b3720b21bcc32e.capture.json",
+    "bytes": 4168,
+    "sha256": "2b279a25334c0632d394da33032438ff0f6aaeccaf49c02238a5f727a2bccd7c"
+  },
+  {
+    "path": "src/products/explorer/data/captures/history.capture.json",
+    "bytes": 2448589,
+    "sha256": "f9cdf59e6ddda9cb948eef0bf841d212bf9ec98d45d1c2a0f01fea56a509c9dd"
+  },
+  {
+    "path": "src/products/explorer/data/captures/chart-series.capture.json",
+    "bytes": 141511,
+    "sha256": "4ccd7f3a340a90b07106687668f4cfbdeb49e7a4887cf6ee9c82bb748ce78818"
+  },
+  {
+    "path": "src/products/explorer/data/captures/markets.capture.json",
+    "bytes": 377132,
+    "sha256": "347dcb2c704e7514b81efe7d73b27529a63477bb7731c621d60cb1121adacf54"
+  },
+  {
+    "path": "src/products/explorer/data/captures/market-detail.capture.json",
+    "bytes": 3391,
+    "sha256": "964f1423de0dbb0f38d1df1b55ec932e29547e09c33950d2894deb76f402073b"
+  },
+  {
+    "path": "src/products/explorer/data/captures/transactions.capture.json",
+    "bytes": 1711490,
+    "sha256": "504514203f7c1a0d4af4ca66a6f86eec0163dbe87bf7c9bac00123826adece30"
+  },
+  {
+    "path": "src/products/explorer/data/captures/pool-ticks-0xfe414db77da686f2050877565b7223b7da4b7c36.capture.json",
+    "bytes": 4082,
+    "sha256": "6335bcb1b9a41574e17589caf9b10f808a4a671a73682a5140cb50e5811bb681"
+  },
+  {
+    "path": "src/products/explorer/data/captures/pools.capture.json",
+    "bytes": 3555,
+    "sha256": "0125f679c293de06bdd25bc12391e1f718841f5759db3bdd9141ad91d5d5b4cf"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-all-volume-desc-0.json",
+    "bytes": 10577,
+    "sha256": "847be751f0c68062aebbfec038e072a9bda4731bd520a9baff0233885febb5af"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-all-score-desc-0.json",
+    "bytes": 16777,
+    "sha256": "e4b777672483ab8f8bb87ba8f8b8afcd30f1dfd607fc1ae452927d8860d3aacb"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-100-pnl-desc-0.json",
+    "bytes": 15505,
+    "sha256": "9bff696f6be7c267f66bc996dfd0cd67a362c2c1103cf6b4cf75e5bd693a42f6"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-all-score-desc-0.json",
+    "bytes": 15974,
+    "sha256": "cef897d480dba4ab07ee588389beaf8c5cc08a36978f47b7a5153ad6ab5739ea"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-all-roi-desc-0.json",
+    "bytes": 10638,
+    "sha256": "7efba3c7b7a585058c0f98e41aac854e9daa1199f0815166dea5697ca2b20ee5"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-100-volume-desc-0.json",
+    "bytes": 14170,
+    "sha256": "fad994e2e2040481fd95dcad86c7df6da4d7264e0985b54ffa506d72790bda63"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-all-score-desc-0.json",
+    "bytes": 18533,
+    "sha256": "487e1520c7d2f4d4caa7a3afbae2a078629835d1ae2a737587adb3b0fa839df0"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-all-pnl-desc-0.json",
+    "bytes": 11398,
+    "sha256": "980b39f9885bf522a958c94b495b68ea840ca2da8479c13f7f31072df87ac0bc"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-100-volume-desc-0.json",
+    "bytes": 11528,
+    "sha256": "6ebbabf73df200348c54045970b107d26a5bab4738794995f765d7e18729f3fd"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-100-pnl-desc-0.json",
+    "bytes": 12000,
+    "sha256": "6ac3a263b31e9cac2f87edc6cf3fe11e6a2336c80b3bccbebd8f190f77c1afcf"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-all-roi-desc-0.json",
+    "bytes": 11778,
+    "sha256": "928985e8e65050cbe860f656cff2fa28400b7a367e4367617ca9351380838651"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-all-volume-desc-0.json",
+    "bytes": 15421,
+    "sha256": "3ac2f5aec896e6a81d1328f9d8267c78e5cb6faf70dfb81ab0115e08d05248db"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-all-roi-desc-0.json",
+    "bytes": 11042,
+    "sha256": "2d585df511527af102a92451becc75abf44d9c46a9f1af521229f454d6ab6586"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-100-score-desc-0.json",
+    "bytes": 17799,
+    "sha256": "ba5ec5a8f6b448629cbf9a8cd998f7cf1e31eb2f4ad4f02473d2d08599a29799"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-100-pnl-desc-0.json",
+    "bytes": 11682,
+    "sha256": "47890d3d75c9781beae62e60209ff42ed3e724da267319997c1cea5652c3300d"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-100-roi-desc-0.json",
+    "bytes": 11864,
+    "sha256": "d1ad89f6cbcda308f9b230283e347af48028955b12df235513d4bb79b1c47b50"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-all-volume-desc-0.json",
+    "bytes": 11710,
+    "sha256": "58437a57f7bbfbcc44593515a1f0bc129aee7871276e1d04358e7f4aa65ac640"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-all-roi-desc-0.json",
+    "bytes": 12293,
+    "sha256": "4465739abf789589b12e20edc5b2c9558b9d44735bd99c86c72fbc301f002677"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-100-score-desc-0.json",
+    "bytes": 16223,
+    "sha256": "b6a225f026774788d4126822217aad968bd570cb4f57c62a7581b2b1e9bb0b27"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-100-score-desc-0.json",
+    "bytes": 15830,
+    "sha256": "a8fb213e465707f3c65a66bd7725f3fb92bb31e9d73152126a4dc8e5e5ae75ed"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-100-roi-desc-0.json",
+    "bytes": 11485,
+    "sha256": "71291f1f7e9ff9c3f034960ccf021c89f03bbf7947ca6fabcc54891f9eba2235"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-all-pnl-desc-0.json",
+    "bytes": 11672,
+    "sha256": "6ecc08f1fa7bcb852488135857acd5aca36a2ea1c474699c4e5d583a03b2e894"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-foresight-all-pnl-desc-0.json",
+    "bytes": 11379,
+    "sha256": "20f0ef4d5e2878feafb2241a0705d94f826d5d62f1acf10661e0b368eda39dbb"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-100-volume-desc-0.json",
+    "bytes": 16861,
+    "sha256": "2eb4d4a24489a8c48ac2c933acd30f09312d99548741a7d3b0ffe810fcafa1d2"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-all-pnl-desc-0.json",
+    "bytes": 12795,
+    "sha256": "f75349722b9c32db6e7de6ff0aacb361ae635617cc11fc21afb804814ed12f9d"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1w-all-100-roi-desc-0.json",
+    "bytes": 11893,
+    "sha256": "464b2759281a80dcf4923b26ee7e135974723d270355bc806821da60bcbe0da0"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-opportunity-all-pnl-desc-0.json",
+    "bytes": 10645,
+    "sha256": "6b7b7363c8af0449944b7d19d80c36798b5dd334a6ccc4a1ffba61fec193f729"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-100-score-desc-0.json",
+    "bytes": 18776,
+    "sha256": "dcb4af8ada4f0929f662c37e913cc7fa530b1604baee0bb93e5cdc5353cdef31"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-100-pnl-desc-0.json",
+    "bytes": 11225,
+    "sha256": "ea93c186719149b02e29b9b7ee1f9c78457fda043377006e49422f87ae4fff53"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1d-all-100-volume-desc-0.json",
+    "bytes": 10878,
+    "sha256": "06c899277a3c888602a6f90c8e38fdabf2e74b5c39034fd93b8b12374f32d4ef"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-100-roi-desc-0.json",
+    "bytes": 10992,
+    "sha256": "66ab26fab36c36add015e7f4b00cd931ac902d169399b135c0277085dcfe251a"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-all-score-desc-0.json",
+    "bytes": 17885,
+    "sha256": "dadd7864f0a74464fbb57ae0000684400f3b89b211f7cbdad4fbd07517f52b07"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-all-pnl-desc-0.json",
+    "bytes": 15631,
+    "sha256": "156fc807d81daa5614ce4416e2d5668f1d87e15bd6f2165441772ef2d513eee7"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-all-all-all-pnl-desc-25.json",
+    "bytes": 14986,
+    "sha256": "89e3e1f7b7c3767645eb655ecd8793f887fbecd28c5b3c2e0e41cb4578d5b675"
+  },
+  {
+    "path": "src/products/explorer/data/captures/leaderboard/lb-1m-all-all-volume-desc-0.json",
+    "bytes": 14820,
+    "sha256": "f39c97d5e23cec2f0a27076ef402891836161b645e21f602c33129a6fb290d4b"
+  },
+  {
+    "path": "src/products/deep/data/local-preferences.ts",
+    "bytes": 640,
+    "sha256": "2c2c3ef1aca213002bb66e75b4277f967e4bf921b243b518fc0d9450d751d309"
+  },
+  {
+    "path": "src/products/deep/data/account.ts",
+    "bytes": 1714,
+    "sha256": "5385eaf5d8a3d16af06b219bea6cd90771ba0e4fb4e8fb40947d556d1753fce5"
+  },
+  {
+    "path": "src/products/deep/data/wallet-analysis.ts",
+    "bytes": 1823,
+    "sha256": "06ae11a232e0f8357d1c09d95f5c56b998774930496ae8a7d85a0531382f76e4"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-metadata-1d.json",
+    "bytes": 193,
+    "sha256": "cce569b7e73bb3d1cc7f966496fb1648fa8bbff17a0d6ac962e155bbdf391d52"
+  },
+  {
+    "path": "src/products/deep/data/profiles.ts",
+    "bytes": 895,
+    "sha256": "ae0bfe4ce388347f71d6894cb2e9abd095440916d06861753435cc277308c660"
+  },
+  {
+    "path": "src/products/deep/data/profiles-reference.json",
+    "bytes": 727,
+    "sha256": "767d360211a0c882b211229e45473d8020b943397ad4618de29a5dfb72e79ca5"
+  },
+  {
+    "path": "src/products/deep/data/price-series.ts",
+    "bytes": 769,
+    "sha256": "203779e0aaf4150824c43b0f8cf8eaee871fd705794fd5dda74b5ed1cf537557"
+  },
+  {
+    "path": "src/products/deep/data/portfolio.ts",
+    "bytes": 4745,
+    "sha256": "fb8591ad875a5b51e579c17c0dadd8be44be3373c72a0bf04fe55e208f19778f"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-reference.json",
+    "bytes": 27098,
+    "sha256": "2a3810d0129f9487e9607abe55456ae072bd905a6ca337dba6132d262d930773"
+  },
+  {
+    "path": "src/products/deep/data/workspace.ts",
+    "bytes": 819,
+    "sha256": "8c4801e4fe802d3d7f5adab3146f4051a79739aecdde8a0919d34b54996e26b6"
+  },
+  {
+    "path": "src/products/deep/data/zcash-markets-data.json",
+    "bytes": 48552,
+    "sha256": "7399a55203c4306b8bd837d1aa11de16cc371ec2ea4dc04dedc6ca874859256c"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-resource.ts",
+    "bytes": 1877,
+    "sha256": "927e2f656095a773a28078f824b5ed90d727f48c2535ea2ca88bc208b30edb72"
+  },
+  {
+    "path": "src/products/deep/data/archive.ts",
+    "bytes": 3063,
+    "sha256": "4fcdec8ac084dc58909875a98779c63c5c6fd28596358ec836067dc9ae87e3d0"
+  },
+  {
+    "path": "src/products/deep/data/contests.ts",
+    "bytes": 3055,
+    "sha256": "882febefff2c6b75eef2cf35448fa95936ffb6d9ea65f5d64aa8ed2893d88f52"
+  },
+  {
+    "path": "src/products/deep/data/repositories.ts",
+    "bytes": 605,
+    "sha256": "22c1c9b054c65fa2ba6fcb2df5d6216c8b80d96235754184bb23784c7f32c5f9"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-metadata-1w.json",
+    "bytes": 193,
+    "sha256": "c77c13d0274af920ec4199d4cf34876680f013c521c6bd46b963a585c89ff823"
+  },
+  {
+    "path": "src/products/deep/data/get-market-charts.json",
+    "bytes": 326301,
+    "sha256": "d130a8810fec604dd23f06ee693682fa03a38cec10d21cab9b6292b7d59fe705"
+  },
+  {
+    "path": "src/products/deep/data/markets-data.json",
+    "bytes": 119147,
+    "sha256": "839ec3e10e4f07a3b9b986f4e0355ccd69e475cbc549580ef60a8fe5384537ff"
+  },
+  {
+    "path": "src/products/deep/data/prediction-csv.ts",
+    "bytes": 5414,
+    "sha256": "232c194b4b3a2e23df252d1d1cdd89345ffd80613e0722ee4838589a455e60c0"
+  },
+  {
+    "path": "src/products/deep/data/asset-format.ts",
+    "bytes": 430,
+    "sha256": "4d543f2e871b8f09a267248d68dcb388ac893e201dc2a752c1a5237ae94f9f97"
+  },
+  {
+    "path": "src/products/deep/data/market-volume.ts",
+    "bytes": 1322,
+    "sha256": "4b7b2a7555c07aae5965ecfd5fc5ee1ea0e12eb6943a0eb9582b8f4f561360bf"
+  },
+  {
+    "path": "src/products/deep/data/api.ts",
+    "bytes": 8180,
+    "sha256": "1f77f64dec8e58d26048affce1f668a913a4026e8e2f33d5a577511f612410b0"
+  },
+  {
+    "path": "src/products/deep/data/refresh-market-volume.json",
+    "bytes": 11458,
+    "sha256": "6e718ca67d35826a7650a110323b955b3213679bf3742f5e189897367dd293f3"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-1m.json",
+    "bytes": 14191,
+    "sha256": "5f919f116d58cd819ec2baa58aa68087a8ea9012abeb77cd05ecfadef072439b"
+  },
+  {
+    "path": "src/products/deep/data/types.ts",
+    "bytes": 3754,
+    "sha256": "caf2a81d2e29c7423010d829ae5710b9a7c89f557f16c744665df733619c0920"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-1w.json",
+    "bytes": 10433,
+    "sha256": "e26c3e4512fded9d740194db5dbe4742056fec3519652d15caeddd6f9ce8fc8e"
+  },
+  {
+    "path": "src/products/deep/data/deep-view.ts",
+    "bytes": 3358,
+    "sha256": "5ce4c01cac3b09a724dabd8a14c768d7a2838adf76729e4c0ba13ed164caa349"
+  },
+  {
+    "path": "src/products/deep/data/trading.ts",
+    "bytes": 2301,
+    "sha256": "5c424dd0bc76c3453289f3a170d7041e2105cc5f364a3da4e1a2de31571e7297"
+  },
+  {
+    "path": "src/products/deep/data/executor-bytecode.json",
+    "bytes": 6959,
+    "sha256": "ef533ed5db526f1d9c3b21d188f55aea94e17a6c9f94e2d979974050e3761518"
+  },
+  {
+    "path": "src/products/deep/data/contest-adapter.ts",
+    "bytes": 590,
+    "sha256": "7748e00e799ec23ec4ae2789d6662e5923370b77ffc9afad5262d8c551c5da1b"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-periods.ts",
+    "bytes": 1832,
+    "sha256": "ab2a75727a3b58a02a3eeadb8c4697432c39bed983501be9722ba051c231a6f2"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-metadata-1m.json",
+    "bytes": 193,
+    "sha256": "e40fa4d122a91d89edb096e114f673c179b05a5c3debff7c6cb0bb346787d1e1"
+  },
+  {
+    "path": "src/products/deep/data/wallet-connection.ts",
+    "bytes": 1911,
+    "sha256": "5cffada0b28f4e067c7276659be533390d9a3997a4297bdd6819cc14203ced94"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-1d.json",
+    "bytes": 8585,
+    "sha256": "a78c3e1247c31900bda96a80f524f993aef0b7c609de8df6bbcab12a6bb18d97"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard.ts",
+    "bytes": 880,
+    "sha256": "46fb7e8707e5e957304f459aa491a93223dce60a53207e9d2b339ca0abcd7efa"
+  },
+  {
+    "path": "src/products/deep/data/rows.json",
+    "bytes": 25123,
+    "sha256": "5dfd151d00fcf1ced53cfe5fb878479c006db5ff1b71176b8c1b646ed8a5fc95"
+  },
+  {
+    "path": "src/products/deep/data/leaderboard-metadata-all.json",
+    "bytes": 194,
+    "sha256": "e0796a205d239a8300464d5dc675cddf78092fd5a41a6c2eab3b1ee896633e83"
+  },
+  {
+    "path": "src/products/deep/data/field-analysis.ts",
+    "bytes": 5847,
+    "sha256": "51650515da7794cd8c21b26d7eb970ea2536aad7012bac9a10d8231ef483dec2"
+  },
+  {
+    "path": "src/products/deep/data/predictions.ts",
+    "bytes": 1317,
+    "sha256": "3ecf506718d9cc884f505ed59ca679c6bb973c244e6f8c2e4e9e4cf96db5d094"
+  },
+  {
+    "path": "src/products/deep/data/wallet-balances.ts",
+    "bytes": 3247,
+    "sha256": "f89349f17d0a7a0f246c0d0b31947edc55773d6f35dee38459ed1afe60baf331"
+  },
+  {
+    "path": "src/products/deep/data/guide.ts",
+    "bytes": 2423,
+    "sha256": "dac9f67458b37c5d66277616169474446b56efdfe819bfb74acd9b81e1801914"
+  },
+  {
+    "path": "src/products/deep/data/archive/octant.json",
+    "bytes": 13294,
+    "sha256": "e19fc13620f71c1be40c76c9d1a7d1d111c93d665546a117b930bb0fdd76c3a5"
+  },
+  {
+    "path": "src/products/deep/data/archive/round2.json",
+    "bytes": 504387,
+    "sha256": "199cf9b804b5c48a7dbe822b158eb6e672982831a067f9cc7d3dbb83dd5724f8"
+  },
+  {
+    "path": "src/products/deep/data/archive/round2-l1.json",
+    "bytes": 69921,
+    "sha256": "8ed9ca1565e1cdf157da0b45528008b63fd358d1c265365a0dccfab17504074c"
+  },
+  {
+    "path": "src/products/deep/data/archive/round2-l2.json",
+    "bytes": 4051664,
+    "sha256": "544953ada1f84ac1f71c73ce59445497b3b4b3cf1909f29c21d37c0eab3ffa14"
+  },
+  {
+    "path": "src/products/deep/data/archive/zcash.json",
+    "bytes": 113706,
+    "sha256": "eaf6cdf1593ff0e26a5f148abbc480b09ef8573c99ad0c6c28720e5333a6ef6a"
+  },
+  {
+    "path": "src/products/deep/data/archive/zcash-nu7.json",
+    "bytes": 18674,
+    "sha256": "a60c8fd68ac49cdb289655e58f8c1b8eac8dd1e3a39ea0412fef79e220b35e18"
+  },
+  {
+    "path": "src/products/futarchy/data/history.ts",
+    "bytes": 550,
+    "sha256": "a8014b5f4953832ab08762e9cac4f284cb50aebb5d53ce9a274318a295bddeaf"
+  },
+  {
+    "path": "src/products/futarchy/data/collateral.ts",
+    "bytes": 4347,
+    "sha256": "2c9353dfbd79be4d99f85ae2948e6e6acd4da6fed067e079f788fdb3eb09f616"
+  },
+  {
+    "path": "src/products/futarchy/data/portfolio.ts",
+    "bytes": 5091,
+    "sha256": "240fc34577f5fcd9ae88b71b7d4112618933661216b89a6b94775c3461292cf2"
+  },
+  {
+    "path": "src/products/futarchy/data/protocolSnapshot.ts",
+    "bytes": 18529,
+    "sha256": "5ea7e229f86e3d28309d7d40c5e0543cc10e7e00569af5a33fd6fb6137e5f731"
+  },
+  {
+    "path": "src/products/futarchy/data/resolution.ts",
+    "bytes": 1281,
+    "sha256": "ee8e60232eaff6d5cbc9552ca314b49702220ab26def1371874e638b1d9a3c4a"
+  },
+  {
+    "path": "src/products/futarchy/data/walletReadiness.ts",
+    "bytes": 763,
+    "sha256": "54dc03a1d402b1b50e9e9a3ca5041a7b13820ea3e02ca932a60b1ecc7ab5e6cb"
+  },
+  {
+    "path": "src/products/futarchy/data/closedMarkets.ts",
+    "bytes": 11079,
+    "sha256": "a8796ea83815ae9db62577e72dae1117beff2c98cbbdd1d9508d4f4b243589fd"
+  },
+  {
+    "path": "src/products/futarchy/data/abi.ts",
+    "bytes": 4763,
+    "sha256": "3e02781ce2ae60d99e17e2605d29c471c0c67a15d6a6a43de7cd215b3c482e86"
+  },
+  {
+    "path": "src/products/futarchy/data/organizations.ts",
+    "bytes": 1832,
+    "sha256": "983e32430f25a2351b58b67b0606c616f94f671cd306c8c9080df7920c6680fb"
+  },
+  {
+    "path": "src/products/futarchy/data/lifecycle.ts",
+    "bytes": 1636,
+    "sha256": "c102b3f042a51f5c086cf7702a50b5726a98003239ed6e57086bd1b47a0ec380"
+  },
+  {
+    "path": "src/products/futarchy/data/explorer.ts",
+    "bytes": 6721,
+    "sha256": "598a08268778855c9c97cc37cb1ee76a512871f475d7c6e89be5cce33d45425e"
+  },
+  {
+    "path": "src/products/futarchy/data/markets.ts",
+    "bytes": 5244,
+    "sha256": "ef2020325db5a749f9935c0d34ca2eb5f3bf20f367ebe88ba3bdecc780ea4ea6"
+  },
+  {
+    "path": "src/products/futarchy/data/proposalRpc.ts",
+    "bytes": 4309,
+    "sha256": "b4ce5c702ff7c5e88345b9229afbb0047d026f02af9444924e9342f77d7d4404"
+  },
+  {
+    "path": "src/products/futarchy/data/chainRpc.ts",
+    "bytes": 1827,
+    "sha256": "926a78c67062f254ce7ebdf0cc53bce585ab6a94d8674245727fbcb308ce8d02"
+  },
+  {
+    "path": "src/products/futarchy/data/signalSeries.ts",
+    "bytes": 3031,
+    "sha256": "3ce7dcabdad11d596bfcc75298b54762a35dbb857845608bf3392cf30f5b7a75"
+  },
+  {
+    "path": "src/products/futarchy/data/types.ts",
+    "bytes": 2099,
+    "sha256": "99f3c8da73a60259a977655af761ad81f3bc44f3cc67154c6a5fe218974d1ad3"
+  },
+  {
+    "path": "src/products/futarchy/data/export.ts",
+    "bytes": 1029,
+    "sha256": "e3c74529a92cc9121fbdcc3b05d22887798d32628486dac39ff822f7ffce4d6e"
+  },
+  {
+    "path": "src/products/futarchy/data/collateralExecution.ts",
+    "bytes": 4651,
+    "sha256": "e45be1dbfdfb0fe59b4b95d0cbf418fcfa92b11a5fb9aa1b6db9af71606fd90f"
+  },
+  {
+    "path": "src/products/futarchy/data/marketSnapshot.ts",
+    "bytes": 399,
+    "sha256": "15d63b74b180479f39f65e49aa51ad3bf74de49695135ab4260ca9b2b3b8d5a4"
+  },
+  {
+    "path": "src/products/futarchy/data/format.ts",
+    "bytes": 2683,
+    "sha256": "a156f8ba06ecff6dfcd9af4d230d12a60bed87980ab13f3f00830c644ccd76a7"
+  },
+  {
+    "path": "src/products/futarchy/data/positionEngine.ts",
+    "bytes": 3396,
+    "sha256": "5ad981e7822b44a7284645dba450be24fa3301a3ec2cf9b8fc6fa146a39719f5"
+  },
+  {
+    "path": "src/products/futarchy/data/resource.ts",
+    "bytes": 1100,
+    "sha256": "bbb4f8013bccc21f52453b5ee4fec70da4e211374c28056429494718659431be"
+  },
+  {
+    "path": "src/products/futarchy/data/trading.ts",
+    "bytes": 2725,
+    "sha256": "2b76bd2ee1b8bd65b2c785c721815b84bb06e8851b66a269cc234a3ce184da6e"
+  },
+  {
+    "path": "src/products/futarchy/data/activity.ts",
+    "bytes": 1341,
+    "sha256": "c6c58f8cc7afe3f1a704dcbe65fd1b77b48c8b8b27ac90f78812d0755454d103"
+  },
+  {
+    "path": "src/products/futarchy/data/protocol.ts",
+    "bytes": 1528,
+    "sha256": "09a5443cf156404bd8f9f9cb78b256b05f433d157df2e3f9d9300503154ba974"
+  },
+  {
+    "path": "src/products/futarchy/data/transactions.ts",
+    "bytes": 5893,
+    "sha256": "f3be8d602506078bc8bf5105d4034ac20952e7bf5b3c92a96050304626a0112e"
+  },
+  {
+    "path": "src/products/futarchy/data/entityGraph.ts",
+    "bytes": 2674,
+    "sha256": "046c802e873eea107998c2aa37ec57883723653b95d8675383eb0cafeb23504d"
+  },
+  {
+    "path": "src/products/futarchy/data/browserStorage.ts",
+    "bytes": 437,
+    "sha256": "0d6eb7e746c254fc2bc495f4f7120364e72be5c36a4a96f82df5b56545219263"
+  },
+  {
+    "path": "src/products/futarchy/data/localRecords.ts",
+    "bytes": 735,
+    "sha256": "c1816b3ce69b61aab7ee6c84239c6440b19a8ff8e89af07480707dc07ddba9bb"
+  },
+  {
+    "path": "src/products/futarchy/data/research.ts",
+    "bytes": 1288,
+    "sha256": "e097cdde82a9fcb32c455fc1d5a35b377b6ba8545aab382dd6b6fc15c59e6b9e"
+  },
+  {
+    "path": "src/products/futarchy/data/discovery.ts",
+    "bytes": 3736,
+    "sha256": "39ed8ef8b0543705d3f5700b8fa5d45b1158321b27e2d27d0cc69bb4aeece0c7"
+  },
+  {
+    "path": "src/products/futarchy/data/creation.ts",
+    "bytes": 3414,
+    "sha256": "c9a00faece315695abef70177b96019a0d9890a88c4730e24b552137f0514062"
+  },
+  {
+    "path": "src/products/futarchy/data/savedMarkets.ts",
+    "bytes": 777,
+    "sha256": "90ea5081c8146d33f947120e2693e6e89bcbaa238f8e7320222f61b6ba93af36"
+  },
+  {
+    "path": "src/products/futarchy/data/twap.ts",
+    "bytes": 1925,
+    "sha256": "2798c4acbe2cea94ad8ac1fba08aff72ec49a687c9b74c7488dcb36c99a1c9d5"
+  },
+  {
+    "path": "src/products/futarchy/data/walletRpc.ts",
+    "bytes": 1523,
+    "sha256": "37d599583655c8d093975a6db1346ab17e1204de8bb0eceb5e132fdd8dbdaab8"
+  },
+  {
+    "path": "src/products/futarchy/data/artwork.ts",
+    "bytes": 977,
+    "sha256": "17f34c895054431a5b460b07cea61808b250cdca259c5cf439ccb5256ec22ad0"
+  },
+  {
+    "path": "src/products/futarchy/data/protocolMetadata.ts",
+    "bytes": 776,
+    "sha256": "4b1d079838da50eb9672508acfd6d23c0ae8932abbff03fcb443f682470ac62e"
+  },
+  {
+    "path": "src/products/futarchy/data/liquidity.ts",
+    "bytes": 2870,
+    "sha256": "d1411c428c498ec4066798cd748da42ef09d44b3a80d13287cc44f535b8b55f3"
+  },
+  {
+    "path": "src/products/futarchy/data/captured/registry.json",
+    "bytes": 39004,
+    "sha256": "f2c498b1793d658487eaa1a347b7990e00e7d3a554db4f578a7ffb46dcc0ac56"
+  },
+  {
+    "path": "src/products/futarchy/data/captured/pools.json",
+    "bytes": 10883,
+    "sha256": "4d3caa9e3d7ab27d056dccd641af411b362befa664e95f0c03c53ecf677be890"
+  },
+  {
+    "path": "src/products/risk/data/history.ts",
+    "bytes": 3009,
+    "sha256": "cbd9c993adf782d33fef0d5b60eaea998ddedd7e5106a2d3d9a3e682dbbb00d9"
+  },
+  {
+    "path": "src/products/risk/data/profiles.ts",
+    "bytes": 768,
+    "sha256": "920fc0ec51e1047977cc9881e99add4f905970625c633cfb247b8cb0427d3eea"
+  },
+  {
+    "path": "src/products/risk/data/imagery.ts",
+    "bytes": 417,
+    "sha256": "484cb1cf432f469488c4966d93358e8e3ee7c5db389579e27666d11710ca1e6d"
+  },
+  {
+    "path": "src/products/risk/data/seer-market.json",
+    "bytes": 7884,
+    "sha256": "68fdbb819b0ac75cd93bf2c9ada87836e10f5e72806faf1ce8746eb0810df503"
+  },
+  {
+    "path": "src/products/risk/data/asset-rank.ts",
+    "bytes": 499,
+    "sha256": "be0d5167bc232b7d59aae5c2500dcfb38633b47342b2f029656e25e79912e963"
+  },
+  {
+    "path": "src/products/risk/data/entities.ts",
+    "bytes": 2201,
+    "sha256": "8f2ec6873b461e4979f0306edb86bc4bfa5deb0825c1a6ba02a464b8e34e823e"
+  },
+  {
+    "path": "src/products/risk/data/provenance.ts",
+    "bytes": 1390,
+    "sha256": "e18a99a26e8171670116a475f103edba1ae1fee461c4eb88d1ad07dd4e74779a"
+  },
+  {
+    "path": "src/products/risk/data/tide.ts",
+    "bytes": 1046,
+    "sha256": "2a582cc9d66c35e274e365dfd12875c901b0323d84d0a3b50cba53ddf8fae2c2"
+  },
+  {
+    "path": "src/products/risk/data/math.ts",
+    "bytes": 4867,
+    "sha256": "1290b753664c0ecbe7c962d5589bbadff8efcf2e7ff02e1dae626abca0068b60"
+  },
+  {
+    "path": "src/products/risk/data/selection.ts",
+    "bytes": 1366,
+    "sha256": "eaf1baf938ffcb6826f4722097daf602520fc5890237c63a4f507aa42879fb39"
+  },
+  {
+    "path": "src/products/risk/data/urlState.ts",
+    "bytes": 7042,
+    "sha256": "4e6ae160127f20c56ba2ebdefbf05175fe6bf48ea14f830ba1b991cbd933baa3"
+  },
+  {
+    "path": "src/products/risk/data/route-focus.ts",
+    "bytes": 1263,
+    "sha256": "f3896a203633a11476a196ff21604214f59650fe0a625cff57f13a15ab659c40"
+  },
+  {
+    "path": "src/products/risk/data/wallet-providers.ts",
+    "bytes": 1487,
+    "sha256": "740780284605a14f6ff13bee2a474689e9dd7cfc7fd64d8a4be515e37be08a42"
+  },
+  {
+    "path": "src/products/risk/data/assets.ts",
+    "bytes": 5950,
+    "sha256": "d11c2220c842c99b5766339dbacca4ed500a0f7496eb5ec240aede06fda54b6e"
+  },
+  {
+    "path": "src/products/risk/data/market-record.ts",
+    "bytes": 1767,
+    "sha256": "4630c081a8463da28e0b266d24b39d80f62586875be5bf7681667304a8003cc3"
+  },
+  {
+    "path": "src/products/risk/data/prediction-csv.ts",
+    "bytes": 4836,
+    "sha256": "e7f67d814f3e514959481cc11a5675d37311c259df3c875939fed495c8ed500d"
+  },
+  {
+    "path": "src/products/risk/data/asset-sort.ts",
+    "bytes": 907,
+    "sha256": "880dede7c60a8be978d9ff2ae5f2425f28c0d5481b1e0cc05d43abe8e72ca05b"
+  },
+  {
+    "path": "src/products/risk/data/types.ts",
+    "bytes": 1737,
+    "sha256": "3f8ea1c2a6d5bd77e875e455e4c6d736eaa0ac7839d37de7340f0e6462832359"
+  },
+  {
+    "path": "src/products/risk/data/credora-profiles.json",
+    "bytes": 164421,
+    "sha256": "72e242a4f73e82007efaacc4504e7bc55f7333672538166b3ec5a14b1ebd9fc4"
+  },
+  {
+    "path": "src/products/risk/data/format.ts",
+    "bytes": 456,
+    "sha256": "9b1fe0316618e385436776e970a82436d0b9780777e5333cc44ae899d13dfb2b"
+  },
+  {
+    "path": "src/products/risk/data/prediction-state.ts",
+    "bytes": 1787,
+    "sha256": "d84c595bd3af7b6ff71d0650f75a954e07da85b5f12e77ab1c93cd055b0ba216"
+  },
+  {
+    "path": "src/products/risk/data/notification-preference.ts",
+    "bytes": 1418,
+    "sha256": "779335a91fdecaa9a7f6a8889f0d48937287d21ce0b3fc4939666918f0b4a2af"
+  },
+  {
+    "path": "src/products/risk/data/asset-snapshot.json",
+    "bytes": 12629,
+    "sha256": "53461b432b9c96463fac9f7ed7d317b37b5f314b7b5eaa3726082dbecfb44f4d"
+  },
+  {
+    "path": "src/products/risk/data/market.ts",
+    "bytes": 2402,
+    "sha256": "312a2f8c43ad140860ff14e3b87c3a13b55f9a9ea2c7707320a104d8539b19e1"
+  },
+  {
+    "path": "src/products/risk/data/asset-observations.ts",
+    "bytes": 1187,
+    "sha256": "1ba6e93110b3a78f94c00761aaf6eadb389f9a7e2e707ed70a25bada6038dcbd"
+  },
+  {
+    "path": "src/products/risk/data/pool-snapshot.json",
+    "bytes": 145531,
+    "sha256": "6a14afdae9d4235f84fd2c5dccad106793929becca5bdd2356825ab7ab07336f"
+  },
+  {
+    "path": "src/products/risk/data/pool-history.ts",
+    "bytes": 1860,
+    "sha256": "4340b74da0c8e3da09d79025ca25b221f6685e747770c5d9e74bb545194080ec"
+  },
+  {
+    "path": "reference/products/opportunity/data/finalized_outcomes.json",
+    "bytes": 953,
+    "sha256": "f894fc383e45c17748a810e82bf6bb24ecc32d30ae80978a75432ccc70f05ff3"
+  },
+  {
+    "path": "reference/products/opportunity/data/devcon_outcomes.json",
+    "bytes": 1301,
+    "sha256": "605a4c4b758198d13f6e4ed3ccdf17e0e681adb380c2ff13ed0ef08da6443f32"
+  },
+  {
+    "path": "reference/products/opportunity/data/live_outcomes.json",
+    "bytes": 11758,
+    "sha256": "3f2b2d18082ebeb2e94e536961b33385a07b22f39246828c39945589dfb98d2b"
+  },
+  {
+    "path": "reference/products/opportunity/data/markets.json",
+    "bytes": 1479,
+    "sha256": "a4eddfbe1bf9e1d1ec4398d2f0e53603fcb19ecf6f4c29f44a8ee46db59cd2c6"
+  },
+  {
+    "path": "reference/products/home/data/INDEX.md",
+    "bytes": 90,
+    "sha256": "e992a6ba8e82e88a3e448e658f0ad6e388eac0cde636d5a019f360ead8c89818"
+  },
+  {
+    "path": "reference/products/explorer/data/get-market.json",
+    "bytes": 3934,
+    "sha256": "9ec084fd4089f2c61f4a386f889f435518c026176233fe973e0223b13bdcdc80"
+  },
+  {
+    "path": "reference/products/explorer/data/markets-search.json",
+    "bytes": 22022,
+    "sha256": "2519cdc9a77fd23712e49e26837ea5bb433738b372f65ae62448de73f327374a"
+  },
+  {
+    "path": "reference/products/explorer/data/get-portfolio-pl.json",
+    "bytes": 804,
+    "sha256": "5a25841d2acd8b0bcac3c9b39c157b012e84a324e44b9dcded1d196645735bd0"
+  },
+  {
+    "path": "reference/products/explorer/data/subgraph.json",
+    "bytes": 4553,
+    "sha256": "31a43daee933559024111993420af6b2e7f9fae48c502f8ecc60ccf1677d55be"
+  },
+  {
+    "path": "reference/products/explorer/data/get-pnl-leaderboard.json",
+    "bytes": 21326,
+    "sha256": "90366a211d14b4bea9930d6afa457a6d69633b7f07eeba17303585c1afd00184"
+  },
+  {
+    "path": "reference/products/explorer/data/markets-search.full.json",
+    "bytes": 377159,
+    "sha256": "3f4fd26e43896c1c8195e8b28666f871180398e0b0619078017c65bc3da23c71"
+  },
+  {
+    "path": "reference/products/explorer/data/markets-charts.json",
+    "bytes": 22437,
+    "sha256": "22f4ac88e1e329d88ff357b792547f183c76852edcdbf922bfbb7059f5dcabfa"
+  },
+  {
+    "path": "reference/products/explorer/data/INDEX.md",
+    "bytes": 1475,
+    "sha256": "261e92e448d21aa04034283515182b70266df8d699f0b2a20b6c3eb3ef6a209e"
+  },
+  {
+    "path": "reference/products/explorer/data/get-market-events.json",
+    "bytes": 212,
+    "sha256": "37770556bec4b9e140576dfddaa5658fe2520c854b8a4fefc8f184da6dda8dc7"
+  },
+  {
+    "path": "reference/products/explorer/data/get-token-transactions.json",
+    "bytes": 21775,
+    "sha256": "5378c1878947ef36b7e642929c5109af8dd4802dd1742a3f529fe41926342f10"
+  },
+  {
+    "path": "reference/products/explorer/data/market-comments.json",
+    "bytes": 212,
+    "sha256": "8ffb5a3ac773148f0ce7642313822b7ee6232af77700a20a25abf32f9c764b3c"
+  },
+  {
+    "path": "reference/products/explorer/data/market-chart.json",
+    "bytes": 22449,
+    "sha256": "cf1d9ad0e59d4d643e1fc4c62d8bea174f89844e2b26fc4cb78a1541b9dc395d"
+  },
+  {
+    "path": "reference/products/deep/data/leaderboard-all.json",
+    "bytes": 16154,
+    "sha256": "b66a331bd5a2c30fecd6601f202a823930708dbbc448bb6bfcca8d8c17650409"
+  },
+  {
+    "path": "reference/products/deep/data/profiles-leaderboard.json",
+    "bytes": 727,
+    "sha256": "767d360211a0c882b211229e45473d8020b943397ad4618de29a5dfb72e79ca5"
+  },
+  {
+    "path": "reference/products/deep/data/get-profiles.json",
+    "bytes": 199,
+    "sha256": "d062c746623c76c66ec61ac421c9a897c9916d846a0c80d1f6cf29f85616de53"
+  },
+  {
+    "path": "reference/products/deep/data/zcash-markets-data.json",
+    "bytes": 48551,
+    "sha256": "240549be63ea28634109953a898142be3bee7f22dd72049d64c408955da34d83"
+  },
+  {
+    "path": "reference/products/deep/data/get-market-charts.json",
+    "bytes": 326300,
+    "sha256": "96983c1a77e158f1b73a33898eb72b5fc04706d6037adcf656bc804d85af54a5"
+  },
+  {
+    "path": "reference/products/deep/data/markets-data.json",
+    "bytes": 119146,
+    "sha256": "2a848293788dc720e9e3c2d384e6d28509ec8b52f8a2be87107d4827c3c30b45"
+  },
+  {
+    "path": "reference/products/deep/data/refresh-market-volume.json",
+    "bytes": 11457,
+    "sha256": "b63a8adf365232f49f6f67facc7c01f535ba53a1a5b287df38744f6d0856a73a"
+  },
+  {
+    "path": "reference/products/deep/data/leaderboard-1m.json",
+    "bytes": 7784,
+    "sha256": "b0cc54fd3cd8c2438d37159b514fe6b46c1b1b60597a8482599a1a3dea6dba86"
+  },
+  {
+    "path": "reference/products/deep/data/get-redeemable.json",
+    "bytes": 245,
+    "sha256": "9b6f3e1e8af001185971c758e53788a46e34c354c66d2ec8dff9a8298be86bb7"
+  },
+  {
+    "path": "reference/products/deep/data/leaderboard-1w.json",
+    "bytes": 5597,
+    "sha256": "712ca176829ffda8c29e919228a3d1478b9a46a0a27b646f33bcd1c9fbfc913d"
+  },
+  {
+    "path": "reference/products/deep/data/INDEX.md",
+    "bytes": 699,
+    "sha256": "148204f1644be0d50034f2b5f7228ee3485db4ed713d435676d81057ae9e3e33"
+  },
+  {
+    "path": "reference/products/deep/data/leaderboard-1d.json",
+    "bytes": 4430,
+    "sha256": "b184978b2c76c5189e0827566470a79ab216093c68469d5311da11e5e19955a6"
+  },
+  {
+    "path": "reference/products/deep/data/rows.json",
+    "bytes": 25122,
+    "sha256": "d4fe7c9d556506172bd31c8407e76c23b30a11ad3f1ac9e4d5ba2003b38d34fd"
+  },
+  {
+    "path": "reference/products/deep/data/contests/octant.json",
+    "bytes": 13294,
+    "sha256": "e19fc13620f71c1be40c76c9d1a7d1d111c93d665546a117b930bb0fdd76c3a5"
+  },
+  {
+    "path": "reference/products/deep/data/contests/round2-l1.json",
+    "bytes": 69921,
+    "sha256": "8ed9ca1565e1cdf157da0b45528008b63fd358d1c265365a0dccfab17504074c"
+  },
+  {
+    "path": "reference/products/deep/data/contests/zcash.json",
+    "bytes": 113706,
+    "sha256": "eaf6cdf1593ff0e26a5f148abbc480b09ef8573c99ad0c6c28720e5333a6ef6a"
+  },
+  {
+    "path": "reference/products/deep/data/contests/zcash-nu7.json",
+    "bytes": 18674,
+    "sha256": "a60c8fd68ac49cdb289655e58f8c1b8eac8dd1e3a39ea0412fef79e220b35e18"
+  }
+]

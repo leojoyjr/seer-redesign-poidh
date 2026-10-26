@@ -1,0 +1,101 @@
+[
+  {
+    "id": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+    "name": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+    "kind": "Person",
+    "address": "0xb5a6a9c6d779e7dd7815f94ae2ccfb153a21801c",
+    "derived": false,
+    "description": "Market creator recorded in the saved market response.",
+    "avatarColorSeed": "57ffb4f3"
+  },
+  {
+    "id": "0xaa36deb402ccf0fee2aa09974552154a9564ae20",
+    "name": "0xaa36deb402ccf0fee2aa09974552154a9564ae20",
+    "kind": "Person",
+    "address": "0xaa36deb402ccf0fee2aa09974552154a9564ae20",
+    "derived": false,
+    "description": "Market creator recorded in the saved market response.",
+    "avatarColorSeed": "5991daac"
+  },
+  {
+    "id": "0xcf989b69aba2ede83fa11baf9bfc3a426a1326ce",
+    "name": "0xcf989b69aba2ede83fa11baf9bfc3a426a1326ce",
+    "kind": "Person",
+    "address": "0xcf989b69aba2ede83fa11baf9bfc3a426a1326ce",
+    "derived": false,
+    "description": "Market creator recorded in the saved market response.",
+    "avatarColorSeed": "bdccf6b6"
+  },
+  {
+    "id": "0xbddf948569dd3f53ba3561bb4633ddc0fad38ece",
+    "name": "0xbddf948569dd3f53ba3561bb4633ddc0fad38ece",
+    "kind": "Person",
+    "address": "0xbddf948569dd3f53ba3561bb4633ddc0fad38ece",
+    "derived": false,
+    "description": "Market creator recorded in the saved market response.",
+    "avatarColorSeed": "7ec3ee0b"
+  },
+  {
+    "id": "0x85b2b25bcb79a4945c1d7ad5e773f4af5b7167c3",
+    "name": "0x85b2b25bcb79a4945c1d7ad5e773f4af5b7167c3",
+    "kind": "Person",
+    "address": "0x85b2b25bcb79a4945c1d7ad5e773f4af5b7167c3",
+    "derived": false,
+    "description": "Market creator recorded in the saved market response.",
+    "avatarColorSeed": "6fb6877c"
+  },
+  {
+    "id": "0xaab097ead5c2db1ca7b1e5034224a2118edabe36",
+    "name": "Kleros DAO",
+    "kind": "DAO",
+    "address": "0xaab097ead5c2db1ca7b1e5034224a2118edabe36",
+    "derived": false,
+    "description": "Governance organization named in the captured Futarchy registry.",
+    "avatarColorSeed": "6bc6f460"
+  },
+  {
+    "id": "0xe27f436c4ca24944bda49d18020aec44cc769396",
+    "name": "Ethereum",
+    "kind": "DAO",
+    "address": "0xe27f436c4ca24944bda49d18020aec44cc769396",
+    "derived": false,
+    "description": "Governance organization named in the captured Futarchy registry.",
+    "avatarColorSeed": "7458b75d"
+  },
+  {
+    "id": "0x3fd2e8e71f75eed4b5c507706c413e33e0661bbf",
+    "name": "Gnosis DAO",
+    "kind": "DAO",
+    "address": "0x3fd2e8e71f75eed4b5c507706c413e33e0661bbf",
+    "derived": false,
+    "description": "Governance organization named in the captured Futarchy registry.",
+    "avatarColorSeed": "dff42ebb"
+  },
+  {
+    "id": "deep-round3",
+    "name": "Deep · Round 3 organizer",
+    "kind": "Sponsor/Funder",
+    "address": null,
+    "derived": true,
+    "description": "Context derived from the product; the source does not identify an individual requester.",
+    "avatarColorSeed": "9358efcf"
+  },
+  {
+    "id": "seer",
+    "name": "Seer",
+    "kind": "Seer team",
+    "address": "0x4edca105188a0783ab3a6f09c50567d1e3f8591d",
+    "derived": true,
+    "description": "Context derived from the product; the source does not identify an individual requester.",
+    "avatarColorSeed": "bc1227ae"
+  },
+  {
+    "id": "risk-exposure",
+    "name": "Exposure assessor (not identified)",
+    "kind": "Protocol/Treasury",
+    "address": null,
+    "derived": true,
+    "description": "Context derived from the product; the source does not identify an individual requester.",
+    "avatarColorSeed": "b8157ee3"
+  }
+]
