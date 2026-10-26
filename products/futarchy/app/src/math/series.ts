@@ -14,7 +14,7 @@ export interface Series {
 }
 export const defaultParams: SeriesParams = {
   t0: -14, fork: -8, now: 0, T: 6.62, dt: 1 / 12,
-  spot: 2432.83, sigma: 0.55, mu: 0, kappa: 3, theta: presets[0], eta: 0.004,
+  spot: 2432.83, sigma: 0.035, mu: 0, kappa: 3, theta: presets[0], eta: 0.0004,
 };
 /** Daily timeline; annualised GBM uses dt/365. Scale spot to S(now),
  * and condition OU history on g(now)=theta with its exponential covariance bridge. */
