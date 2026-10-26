@@ -1,0 +1,89 @@
+/* Search overlays sit outside all hero clipping and stacking contexts. */
+body,button,input,select,textarea{font-family:'Inter Tight',sans-serif!important}
+.suggestion-portal{position:fixed!important;inset:auto;z-index:10000!important;margin:0!important;background:var(--s1);color:var(--text);border:1px solid var(--hair);box-shadow:var(--shadow);border-radius:16px;padding:8px!important;overflow:auto;overscroll-behavior:contain;box-sizing:border-box}
+.suggestion-portal[hidden]{display:none!important}
+.suggestion-portal h3{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:12px}
+.suggestion-portal a,#inner-command-results a{display:flex;align-items:center;gap:12px;min-width:0;min-height:48px;padding:10px 12px;text-decoration:none;border-radius:8px;font-size:14px;color:var(--text)}
+.suggestion-portal a:hover,.suggestion-portal a[aria-selected=true],#inner-command-results a:hover,#inner-command-results a[aria-selected=true]{background:var(--s3)}
+.suggestion-title{display:block;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.suggestion-product{font-size:11px;padding:4px 7px;border:1px solid var(--hair);border-radius:6px;color:var(--lilac);flex:none}
+.suggestion-quote{font-size:12px;flex:none;min-width:45px;text-align:right}
+mark{background:var(--s3);color:var(--lilac)}
+.suggestions-open .hero-suggestions{visibility:hidden}
+#dialog.command-dialog{overflow:hidden;max-height:calc(100dvh - 32px)}
+#inner-command-results{overflow-y:auto;max-height: min(52dvh,420px);overscroll-behavior:contain}
+.market-command{width:210px;min-width:0;background:var(--s2);border:1px solid var(--hair);border-radius:10px;color:var(--text);padding:10px 14px;font-size:13px;cursor:text}
+.question-flight{position:fixed;z-index:11000;pointer-events:none;line-height:1.15;letter-spacing:-.025em;overflow:hidden;transform-origin:top left}
+.command-flight{background:var(--s2);border:1px solid var(--violet);border-radius:14px;padding:12px}
+.market-page .trade-ticket{display:block!important;visibility:visible!important;opacity:1;overflow:auto;max-height:calc(100dvh - 100px);position:sticky;align-self:start}
+.ticket-outcomes{border:0;padding:0;margin:20px 0;display:grid;gap:6px;min-width:0}
+.ticket-outcomes legend{font-size:12px;color:var(--muted);margin-bottom:10px}
+.ticket-outcomes button{display:flex;justify-content:space-between;gap:12px;text-align:left;padding:10px;background:var(--s2);border:1px solid var(--hair);border-radius:8px;color:var(--text);min-width:0}
+.ticket-outcomes button span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ticket-outcomes button[aria-pressed=true]{border-color:var(--violet);background:var(--s3)}
+#quote-form{display:grid;gap:16px;min-width:0}
+#quote-form label{margin:0;display:grid;gap:8px;font-size:13px;color:var(--muted)}
+.amount-stepper{display:flex;background:var(--s2);border-radius:12px;overflow:hidden;align-items:center}
+.amount-stepper input{min-width:0;width:100%;border:0!important;margin:0!important;background:transparent;font-size:28px;color:var(--text);padding:12px!important}
+.amount-stepper button{border:0;background:transparent;color:var(--text);width:40px;min-height:44px;flex:none}
+.quote-result dl{display:grid;grid-template-columns:1fr auto;gap:10px;font-size:13px}
+.quote-result dd{margin:0;text-align:right;color:var(--text)}
+.quote-result dt,.quote-result small{color:var(--muted)}
+.quote-result small{font-size:11px;line-height:1.5;display:block}
+.payout-rail{height:4px;background:var(--s2);margin:16px 0;border-radius:4px;overflow:hidden}
+.payout-rail i{display:block;height:100%;background:var(--violet)}
+.sample-confirmation{padding:16px 0;border-block:1px solid var(--hair);font-size:13px;color:var(--lilac)}
+.sample-confirmation[hidden]{display:none}
+.sample-confirmation p{font-size:12px}.sample-submit:disabled{opacity:.5}
+.trade-ticket .ticket-help{display:block;font-size:13px;margin-top:20px}
+.mobile-ticket-trigger,.mobile-ticket-close{display:none!important}
+@media(max-width:800px){.market-command{width:130px}.market-page .market-body{display:flex;flex-direction:column}.market-page .trade-ticket{position:relative!important;inset:auto!important;width:100%;max-height:none!important;transform:none!important;margin-top:24px;padding:24px;box-sizing:border-box;z-index:auto!important}.market-page{padding-bottom:40px!important}.market-main{width:100%;min-width:0}.suggestion-portal a{gap:6px;font-size:13px}.suggestion-product{font-size:10px}.market-page .ticket-content{display:block}.detail-lenses{display:none}}
+
+@media(max-width:800px){.market-page .trade-ticket{order:0;box-shadow:none}.market-page .mobile-ticket-trigger,.market-page .mobile-ticket-close{display:none!important}}
+/* Keep command rows on one line even when inner.css loads asynchronously. */
+#dialog #inner-command-results a{gap:8px;min-width:0}
+#dialog #inner-command-results a>.suggestion-title{display:block;min-width:0;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#dialog #inner-command-results a>.suggestion-product{display:block;flex:none;white-space:nowrap}
+.d4-hero .sample-questions{display:flex;gap:8px;align-items:center;margin-top:16px;max-width:100%;min-width:0}
+.d4-hero .sample-questions>span{font-size:12px;color:var(--muted);flex:none}
+.d4-hero .sample-questions a{display:block;min-width:0;max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1px solid var(--hair);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted);text-decoration:none}
+.d4-hero .sample-questions a:hover{background:var(--s3);color:var(--text)}
+@media(max-width:600px){.d4-hero .sample-questions a{max-width:100px}}
+#dialog #inner-command-results a:focus-visible,.suggestion-portal a:focus-visible,.trade-ticket button:focus-visible,.trade-ticket input:focus-visible,.trade-ticket select:focus-visible{outline:2px solid var(--lilac);outline-offset:2px}
+
+/* A5: one left gutter for the sub-bar, hero, index and secondary routes. */
+:root{--d-content:1680px;--d-gutter:var(--d-pad);--d-cap-ink:var(--d-text);--d-cap-scrim:color-mix(in srgb,var(--d-bg) 92%,transparent)}
+.is-embedded{--d-gutter:40px}
+.d4-nav-in{max-width:none;padding-inline:var(--d-gutter)}
+.d4-hero-in,.d4-wrap{box-sizing:border-box;width:100%;max-width:calc(var(--d-content) + 2 * var(--d-gutter));margin-left:0;margin-right:auto;padding-inline:var(--d-gutter)}
+.d4-hero{min-height:clamp(560px,65vh,720px)!important}
+.d4-hero-copy{max-width:clamp(680px,53vw,1120px)}
+.d4-hero h1{font-size:clamp(48px,4.6vw,104px)!important}
+.d4-sub{max-width:clamp(540px,39vw,780px)}
+.d4-art-wrap{width:64%;max-width:none;opacity:1}
+.d4-cap{color:var(--d-cap-ink);opacity:1;background:var(--d-cap-scrim);border-color:var(--d-hair);padding:14px 18px;text-shadow:none;right:var(--d-gutter)}
+.d4-hero-actions{display:flex;gap:12px;align-items:stretch;margin-top:26px;max-width:100%}
+.d4-hero-actions .d4-search.big{flex:1;min-width:0;max-width:none;height:56px;border-radius:999px;margin:0}
+.d4-hero-actions .d4-search label{min-width:0}
+.d4-hero-create{display:inline-flex;align-items:center;justify-content:center;gap:10px;flex:none;height:56px;padding:0 22px;border-radius:999px;background:var(--d-violet);color:white;font-size:15px;font-weight:600;border:1px solid color-mix(in srgb,var(--d-violet),white 18%);box-shadow:inset 0 1px 0 #ffffff40;transition:transform .2s,box-shadow .2s}
+.d4-hero-create>span{font-size:22px;font-weight:400;line-height:1}
+.d4-hero-create:hover{color:white;transform:translateY(-2px);box-shadow:inset 0 1px 0 #ffffff40,0 10px 28px color-mix(in srgb,var(--d-violet) 30%,transparent)}
+.d4-hero-create svg,.d4-hero-how svg{transition:transform .2s}
+.d4-hero-create:hover svg,.d4-hero-how:hover svg{transform:translateX(3px)}
+.d4-hero-create:active{transform:translateY(1px) scale(.98)}
+.d4-hero-create:focus-visible{outline:2px solid var(--d-lilac);outline-offset:4px}
+.d4-hero-how{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:10px;font-size:14px;color:var(--d-text2)}
+.d4-product-ticker{display:flex;flex-wrap:wrap;gap:0;margin-top:30px;padding-top:20px;border-top:1px solid var(--d-hair);width:fit-content;max-width:100%}
+.d4-product-ticker a{display:flex;align-items:baseline;gap:8px;padding:4px 20px;border-right:1px solid var(--d-hair);font-size:13px;color:var(--d-text2)}
+.d4-product-ticker a:first-child{padding-left:0}.d4-product-ticker a:last-child{border:0;padding-right:0}
+.d4-product-ticker strong{font-size:18px;font-weight:600;color:var(--d-text);font-variant-numeric:tabular-nums}.d4-product-ticker small{font-size:11px;color:var(--d-text2)}
+#main>.inner-page{box-sizing:border-box;width:calc(100% - 2 * var(--d-gutter));max-width:var(--d-content);margin-left:var(--d-gutter);margin-right:auto;padding-block:56px 120px}
+#main .inner-page :is(.community-heading,.hub-heading,.entity-heading){max-width:none;margin-bottom:40px;display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap}
+#main .inner-page :is(.community-heading,.hub-heading,.entity-heading) h1{font-size:clamp(38px,3.6vw,64px)}
+#main .inner-page :is(.community-heading,.hub-heading,.entity-heading) p{font-size:17px;margin-top:16px}
+@media(max-width:1100px){.d4-hero-copy{max-width:700px}.d4-art-wrap{opacity:.5}.d4-product-ticker a{padding-inline:12px}}
+@media(max-width:820px){.is-embedded{--d-gutter:16px}.d4-hero-in{padding-bottom:32px!important}.d4-hero-copy{max-width:none}.d4-hero{display:flex;flex-direction:column;min-height:0!important}.d4-art-wrap{height:260px;opacity:1}.d4-cap{top:16px}.d4-sub{max-width:60ch}.d4-product-ticker{row-gap:12px}.d4-product-ticker a{padding-inline:12px}.d4-product-ticker a:first-child{padding-left:0}#main>.inner-page{padding-block:40px 120px}}
+@media(max-width:560px){.d4-hero-actions{flex-direction:column}.d4-hero-actions .d4-search.big{flex:auto;width:100%}.d4-hero-create{width:100%}.d4-hero h1{font-size:44px!important}.d4-product-ticker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}.d4-product-ticker a{padding:4px 8px;gap:5px;flex-wrap:wrap}.d4-product-ticker a:nth-child(3){border:0}.d4-product-ticker a:nth-child(4){padding-left:0}.d4-product-ticker a span{width:100%}.d4-hero .sample-questions{flex-wrap:wrap}.d4-hero .sample-questions a{max-width:calc(50% - 20px)}}
+@media(prefers-reduced-motion:reduce){.d4-hero-create,.d4-hero-create svg,.d4-hero-how svg{transition:none;transform:none}}
+#main .inner-page .community-heading{display:block}
+#main .inner-page .entity-heading{justify-content:flex-start;align-items:center;flex-wrap:nowrap}

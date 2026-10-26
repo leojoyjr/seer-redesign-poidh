@@ -29,7 +29,7 @@
 .inner-page .muted{color:var(--muted,#A8A8B3)}
 .inner-page code,#dialog code{font-size:12px;line-height:1.7;overflow-wrap:anywhere}
 .inner-page pre,#dialog pre{font-size:13px;line-height:1.8;border:0;border-radius:var(--r1,12px);background:var(--s1,#1A1A1E);color:var(--text,#EDEDF2);padding:24px;overflow:auto;max-width:100%;white-space:pre;tab-size:2}
-.inner-page input,.inner-page select,.inner-page textarea,#dialog input,#signal-feed select{width:100%;font:inherit;font-size:15px;min-height:48px;background:var(--s1,#1A1A1E);color:var(--text,#EDEDF2);border:1px solid var(--hair,rgba(237,237,242,.08));border-radius:var(--r1,12px);padding:12px 16px;caret-color:var(--lilac,#B9A8FF);accent-color:var(--violet,#7A3CFF);color-scheme:dark}
+.inner-page input,.inner-page select,.inner-page textarea,#dialog input,#signal-feed select{width:100%;font:inherit;font-size:15px;min-height:48px;background:var(--s1,#1A1A1E);color:var(--text,#EDEDF2);border:1px solid var(--hair,rgba(237,237,242,.08));border-radius:var(--r1,12px);padding:12px 16px;caret-color:var(--lilac,#B9A8FF);accent-color:var(--violet,#7A3CFF);color-scheme:inherit}
 [data-theme=light] .inner-page input,[data-theme=light] .inner-page select,[data-theme=light] .inner-page textarea,[data-theme=light] #dialog input{color-scheme:light}
 .inner-page input::placeholder,.inner-page textarea::placeholder{color:var(--muted,#A8A8B3);opacity:1}
 .inner-page textarea{resize:vertical;min-height:112px}
@@ -555,3 +555,5 @@
 .market-asker-badge{position:absolute;right:2px;bottom:2px;z-index:1;width:20px;height:20px;border-radius:6px;box-shadow:0 2px 6px rgba(16,16,19,.2)}
 .inner-page .market-asker-badge .inner-avatar,.market-asker-badge .inner-avatar{width:20px;height:20px;border-radius:6px;font-size:9px;border:0}
 .ticket-product>.inner-avatar{width:20px;height:20px;border-radius:6px;font-size:10px;margin-right:12px;border:0}
+
+#quote-form input[type=search]{font-size:14px}.ticket-outcomes>div{display:grid;gap:8px}.ticket-outcomes button{min-width:0}.ticket-outcomes button span{overflow-wrap:anywhere}.ticket-outcomes button b{flex-shrink:0}

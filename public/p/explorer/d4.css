@@ -1,6 +1,6 @@
 /* v4 — exact design on the Electric Foundation kit */
-:root{--d-bg:#101013;--d-card:#1A1A1E;--d-card2:#202026;--d-nested:#1F1F24;--d-text:#EDEDF2;--d-text2:#A8A8B3;--d-muted:#67676F;--d-violet:#7A3CFF;--d-lilac:#B9A8FF;--d-btn2:#241E33;--d-btn2t:#9C6FF2;--d-hair:rgba(237,237,242,.08);--d-wrap:1280px;--d-pad:clamp(20px,4vw,56px);--d-ease:cubic-bezier(.16,1,.3,1);--bg:var(--d-bg);--text:var(--d-text)}
-[data-theme=light]{--d-bg:#F7F7F9;--d-card:#FFFFFF;--d-card2:#F3F2F8;--d-nested:#F0F0F3;--d-text:#17171C;--d-text2:#5C5C66;--d-muted:#8E8E99;--d-btn2:#EFE9FC;--d-btn2t:#6C2BD9;--d-hair:rgba(23,23,28,.10);--d-lilac:#6C2BD9}
+:root{--d-bg:#101013;--d-card:#1A1A1E;--d-card2:#202026;--d-nested:#1F1F24;--d-text:#EDEDF2;--d-text2:#A8A8B3;--d-muted:var(--muted);--d-violet:#7A3CFF;--d-lilac:#B9A8FF;--d-btn2:#241E33;--d-btn2t:var(--lilac);--d-hair:rgba(237,237,242,.08);--d-wrap:1280px;--d-pad:clamp(20px,4vw,56px);--d-ease:cubic-bezier(.16,1,.3,1);--bg:var(--d-bg);--text:var(--d-text)}
+[data-theme=light]{--d-bg:#F7F7F9;--d-card:#FFFFFF;--d-card2:#F3F2F8;--d-nested:#F0F0F3;--d-text:#17171C;--d-text2:#5C5C66;--d-muted:var(--muted);--d-btn2:#EFE9FC;--d-btn2t:#6C2BD9;--d-hair:rgba(23,23,28,.10);--d-lilac:#6C2BD9}
 html body{background:var(--d-bg)!important;color:var(--d-text);font-family:'Inter Tight',system-ui,sans-serif}
 #main{max-width:none!important;padding:0!important;overflow:visible!important}
 /* top nav */
@@ -81,7 +81,7 @@ html body{background:var(--d-bg)!important;color:var(--d-text);font-family:'Inte
 .d4-big strong{font-size:38px;line-height:1;letter-spacing:-.04em;font-weight:600}
 .d4-big em{font-style:normal;font-size:13px}
 .d4-bl{font-size:12px;color:var(--d-text2)}
-.up{color:#3DDC97}.down{color:#FF6B81}.muted{color:var(--d-muted)}
+.up{color:var(--up)}.down{color:var(--down)}.muted{color:var(--d-muted)}
 .d4-chart{height:46px}.d4-chart svg{width:100%;height:100%}
 .d4-tile footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;border-top:1px solid var(--d-hair);font-size:13px;color:var(--d-text2)}
 .d4-trade{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:var(--d-violet);color:#fff;font-weight:600}
@@ -165,3 +165,18 @@ html:not([data-depth=pro]) .d4-table .pro{display:none}
 .is-embedded .d4-links{gap:4px}
 .is-embedded .d4-links>a,.is-embedded .d4-menu-btn{padding:0 12px;font-size:13px}
 @media(max-width:820px){.is-embedded .d4-nav-in{padding:0 16px}}
+
+/* Faces share a grid cell: every face contributes to one constant card height. */
+.d4-flip{position:relative;min-width:0;perspective:1000px}
+.d4-faces{display:grid;height:100%}
+.d4-face{grid-area:1/1;min-width:0;opacity:0;transform:rotateY(-7deg) translateX(8px);pointer-events:none;transition:transform 500ms var(--d-ease),opacity 500ms;backface-visibility:hidden}
+.d4-face.is-current{opacity:1;transform:none;pointer-events:auto;z-index:1}
+.d4-face>.d4-tile{height:100%;box-sizing:border-box}
+.d4-pager{position:absolute;bottom:3px;left:50%;transform:translateX(-50%);display:flex;z-index:2}
+.d4-pager button{display:grid;place-items:center;width:22px;height:20px;min-height:0;padding:0;border:0;background:transparent;cursor:pointer}
+.d4-pager i{width:5px;height:5px;border-radius:50%;background:var(--d-text2);opacity:.45}
+.d4-pager [aria-pressed=true] i{background:var(--d-lilac);opacity:1}
+@media(prefers-reduced-motion:reduce){.d4-face{transform:none!important;transition:opacity 150ms!important}}
+
+@keyframes a4-content-in{from{opacity:0}to{opacity:1}}
+#main>.d4,#main>.inner-page,.ix-body>:not(.ix-skeleton){animation:a4-content-in 180ms ease-out}

@@ -13,8 +13,8 @@ export function quote(m,index,amount,side='buy'){
  // A default probability is not a tradable token quote. Never substitute one for the other.
  const raw=m.pricing.kind==='risk'?(m.history||[]).filter(p=>Number.isFinite(p.values?.[0])).at(-1)?.values[0]:o.p;
  if(!Number.isFinite(raw)||raw<=0)return {error:'No usable saved token quote. Open the product for a current quote.'};
- const sell=side==='sell';
- return {name:o.name,p:raw,avg:raw,get:sell?a*raw:a/raw,impact:null,maxWin:probability&&!sell?a/raw:null,pay:a,sell,indicative:true,routed:!probability};
+ const sell=side==='sell',impact=Math.min(.03,a/Math.max(10000,Number(m.liquidity)||10000)*.05),avg=raw*(1+(sell?-impact:impact)),shares=sell?a:a/avg;
+ return {name:o.name,p:raw,avg,shares,get:sell?a*avg:shares,impact,maxWin:shares,profit:sell?a*(avg-raw):shares-a,pay:a,sell,indicative:true};
 }
 export function csv(m){const cell=v=>'"'+String(v??'').replace(/"/g,'""')+'"';return [['market_id','product','chain','outcome','quote','unit','state','compiled_at'],...m.pricing.outcomes.map(o=>[m.id,m.product,m.chain,o.name,o.p,m.pricing.quoteUnit||m.pricing.headline.unit,m.state,m.compiledAt])].map(r=>r.map(cell).join(',')).join('\r\n')}
 export const explorer=m=>({100:'https://gnosisscan.io',10:'https://optimistic.etherscan.io',1:'https://etherscan.io',8453:'https://basescan.org'}[m.chainId]);

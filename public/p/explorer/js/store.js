@@ -1,6 +1,8 @@
 export const products={seer:{name:'Seer',who:'Anyone with a question',description:'Forecast events and compare possible answers.',url:'/explorer?v=2#/'},futarchy:{name:'Futarchy',who:'DAOs weighing a proposal',description:'Compare prices if a proposal passes or fails. Voters keep the final say.',url:'/futarchy'},deep:{name:'Deep',who:'Research round organizers',description:'Forecast original work and dependencies in open-source repositories.',url:'/deep'},opportunity:{name:'Opportunity',who:'Sponsors choosing submissions',description:'Use market forecasts to shortlist entries. Sponsors choose the winner.',url:'/opportunity'},risk:{name:'Risk',who:'People assessing exposure',description:'Compare estimated yearly default risk before allocating capital.',url:'/risk'}};
 export let ledger=[];
-export async function load(){const r=await fetch(new URL('../data/ledger.json',import.meta.url));if(!r.ok)throw Error('Market data could not load');ledger=await r.json();return ledger}
+let pending;
+export function load(){return pending ||= fetch(new URL('../data/ledger.json',import.meta.url)).then(r=>{if(!r.ok)throw Error('Market data could not load');return r.json()}).then(data=>{ledger=data;return ledger}).catch(error=>{pending=null;throw error})}
+
 export const money=(n,unit='USD')=>n==null?'Not supplied':(unit==='USD'?'$':'')+Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(n)+(unit&&unit!=='USD'?' '+unit:'');
 export const short=n=>n?.startsWith('0x')?n.slice(0,6)+'…'+n.slice(-4):n;
 export const date=t=>t?new Date(t*1000).toLocaleDateString('en',{month:'short',day:'numeric',year:'numeric'}):'Date not supplied';
