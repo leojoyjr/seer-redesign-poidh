@@ -129,6 +129,18 @@ export function ProductShell({ product }: { product: ProductId }) {
     if (walletOpen) firstWalletAction.current?.focus();
   }, [walletOpen]);
 
+  // reveal as soon as the product has rendered, not after every image has downloaded (iframe "load")
+  useEffect(() => {
+    const started = Date.now();
+    const timer = window.setInterval(() => {
+      const doc = iframe.current?.contentDocument;
+      const rendered = !!doc && doc.readyState !== 'loading' && (doc.body?.innerText.length ?? 0) > 200;
+      if (rendered && runAdapter()) { setReadyProduct(product); window.clearInterval(timer); }
+      else if (Date.now() - started > 1500) { setReadyProduct(product); window.clearInterval(timer); }
+    }, 120);
+    return () => window.clearInterval(timer);
+  }, [product, frameSrc]); // eslint-disable-line react-hooks/exhaustive-deps
+
   const onFrameLoad = () => {
     adapterTimers.current.forEach(window.clearTimeout);
     const adapt = () => { if (runAdapter()) setReadyProduct(product); };
